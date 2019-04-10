@@ -1465,6 +1465,7 @@ section
     font-size: 24px;
     font-weight: bold;
     color: #000000;
+    margin-top: 0;
 }
 .topiks .topik .panel b {
     color: #000000;
@@ -2070,9 +2071,10 @@ border-right: 1px solid #1f39be;
     {
         display: block;
         float: none;
-
+        margin: 0 auto;
         width: 100%;
-    }.team .container-team .box-team_video .img-video
+    }
+    .team .container-team .box-team_video .img-video
     {
         position: relative;
         right: 40px;;
@@ -2251,6 +2253,9 @@ border-right: 1px solid #1f39be;
     {
         height: 1900px;
     }
+    .team .container-team .box-team_video .img-video{
+        right: 0;
+        }
 }@media only screen and (max-width:495px)
 {
     body header .top-line .container-top-line
