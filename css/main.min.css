@@ -1418,7 +1418,7 @@ section
     font-size: 22px;
 } .topiks .topik .box-topik-text .topik-title
 {
-    font-size: 20px;
+    font-size: 18px;
 
     margin-top: 5px;
 } .topiks .topik .box-topik-text .topik-title span
@@ -2442,6 +2442,7 @@ border-right: 1px solid #1f39be;
     .conforu .container-conforu .conforu-plan .invest-block4
     {
         font-size: 13px;
+
 
         margin-top: 45px;
     }.tostudy
