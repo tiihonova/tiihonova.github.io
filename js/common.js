@@ -57,7 +57,9 @@ $('.slider').slick({
   infinite: true,
   speed: 300,
   fade: true,
-  cssEase: 'linear'
+  cssEase: 'linear',
+  prevArrow:'<img class="slick-prev pull-left" src="img/back.png" />',
+  nextArrow:'<img class="slick-next pull-right"  src="img/right-arrow.png" />'
 });
 
 $('.slider2').slick({
@@ -65,9 +67,10 @@ $('.slider2').slick({
   speed: 300,
   fade: true,
   cssEase: 'linear',
-  arrows: false,
   autoplay: true,
   autoplaySpeed: 1300,
+  prevArrow:'<img class="slick-prev pull-left" src="img/back.png" />',
+  nextArrow:'<img class="slick-next pull-right"  src="img/right-arrow.png" />'
 });
 
 

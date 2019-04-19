@@ -148,7 +148,7 @@ body
 				right: 50px
 			.close-project
 				height: 25px
-				width: 85px
+				width: 105px
 				position: absolute
 				top: 50px
 				left: 50px
@@ -301,8 +301,8 @@ body
 					padding-left: 53.1%
 					text-decoration: none
 				.lang-line
-					width: 17px
-					margin-left: 19.1px
+					width: 24px
+					margin-left: 29px
 					margin-top: -4px
 					border: 1px solid #8b8e97
 
@@ -944,33 +944,31 @@ body
 		width: 100%
 		height: 600px
 
+.film-wrap
+	overflow-x: hidden
+	overflow-y: scroll
 
-// .photo-gallery-more	
-// 	height: 1500px
-// 	display: flex
-// 	flex-wrap: wrap
-// 	.photo
-// 		width: 20%
-// 		background-position: center
-// 		background-repeat: no-repeat
-// 		&:hover
-// 			img
-// 				display: block
-// 			.shadow
-// 				opacity: .5
-// 		img
-// 			position: absolute
-// 			margin-top: 170px
-// 			margin-left: 8.3%
-// 			display: none
-// 			z-index: 10
-// 			cursor: pointer
-// 		.shadow
-// 			width: 100%
-// 			height: 100%
-// 			background-color: #000
-// 			transition: opacity .8s ease
-// 			opacity: 0
+	height: 80%
 
+.film-wrap::-webkit-scrollbar
+  width: 8px
+  height: 16px
+
+.film-wrap::-webkit-scrollbar-thumb
+  background-color: #e0a643
+
+.film-wrap::-webkit-scrollbar-button
+  display: none
+  width: 0
+  height: 0
+
+.film-wrap::-webkit-scrollbar-track-piece
+  background-color: #444
+
+.film-wrap::-webkit-scrollbar-corner
+  background-color: #444
+
+.slick-prev, .slick-next
+	z-index: 2000
 
 @import "media" 
