@@ -1,0 +1,984 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+$slider-length: 4
+$radioBtn-size: 12px
+$btn-color: #ccc
+$active-color: #333
+//---------------------------------------------------
+
+*, *:before, *:after 
+	box-sizing: border-box
+
+html,body 
+	height: 100%
+
+.button
+    display: inline-block
+    border: none
+    color: #fff
+    text-decoration: none
+    background-color: $accent
+    padding: 15px 45px
+    font-size: 16px
+    border-radius: 2px
+    text-align: center
+    position: relative
+    outline: none
+    border: 1px solid #000
+    transition: background-color .35s ease
+    &:focus, &:hover
+        text-decoration: none
+        color: #fff
+    &:active
+        background-color: darken($accent, 5%)
+
+@mixin opacity($opacity)
+	opacity: $opacity / 100
+	filter: alpha(opacity=$opacity)
+
+.preloader
+	position: fixed
+	top: 0
+	bottom: 0
+	right: 0
+	left: 0
+	z-index: 100
+	background-color: $dark
+	.pulse
+		position: relative
+		left: 50%
+		top: 50vh
+		margin: 
+			left: -40px
+			top: -40px
+		&::before, &::after
+			content: ''	
+			border: 5px solid $light
+			width: 80px
+			height: 80px
+			border-radius: 500px
+			position: absolute
+		&::before
+			animation: pulse-outer .8s ease-in infinite
+		&::after
+			animation: pulse-inner .8s linear infinite
+
+@keyframes pulse-outer
+	0%
+		@include opacity(100)
+	50%
+		@include opacity(50)
+	100%
+		@include opacity(0)
+
+@keyframes pulse-inner
+	0%
+		@include opacity(0)
+		transform: scale(0)
+	100%
+		@include opacity(100)
+		transform: scale(1)
+
+
+header, section
+	position: relative
+
+
+body 
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+	.site-header
+		height: 100vh
+		.projects-list
+			display: none
+		.projects-list-active
+			display: block
+			position: absolute
+			right: 0
+			top: 0
+			height: 100vh
+			width: 50%
+			z-index: 10
+			background-color: #171717
+			padding: 
+				top: 100px
+				left: 50px
+				right: 50px
+			.close-project
+				height: 25px
+				width: 105px
+				position: absolute
+				top: 50px
+				left: 50px
+				display: inline-block
+				span
+					text-transform: uppercase
+					font-size: 14px
+					font-weight: bold
+					color: #fff
+					letter-spacing: 2.5px
+					float: right
+					display: inline-block
+					margin-top: 4px
+			.film
+				width: 635px
+				height: 415px
+				position: relative
+				margin-top: 110px
+				&:first-child
+					margin-top: 0
+				.poster
+					position: absolute
+					top: 0
+					left: 0
+				.about-film
+					position: absolute
+					right: 0
+					top: 0
+					width: 340px
+					padding:
+						top: 10px
+						left: 70px
+					.button-film
+						display: inline-block
+						background-color: transparent
+						border: 1px solid #fff
+						padding: 5px 43px
+						text-transform: uppercase
+						font-size: 15px
+						color: #fff
+						margin: 0
+						cursor: pointer
+
+					.title-film
+						text-transform: uppercase
+						color: #fff
+						font-weight: bold
+						font-size: 24px
+						letter-spacing: 3.3px
+						margin-top: 40px
+						margin-bottom: 20px
+					.release-film
+						text-transform: uppercase
+						color: #8b8e97
+						font-size: 13.2px
+						letter-spacing: 1.3px
+						span
+							color: #fff
+							font-size: 13.4px
+					.role-film
+						text-transform: uppercase
+						color: #8b8e97
+						font-size: 13.2px
+						letter-spacing: 1.3px
+						margin-top: 25px
+						span
+							color: #fff
+							font-size: 13.4px
+					.film_maker-film
+						text-transform: uppercase
+						color: #8b8e97
+						font-size: 13.2px
+						letter-spacing: 1.3px
+						margin-top: 27px
+						span
+							color: #fff
+							font-size: 13.4px
+					.film-link
+						margin-top: 45px
+						a
+							text-decoration: none
+							color: #b9a091
+							.fa-link
+								margin-right: 10px
+								font-size: 13px
+
+							
+
+		.photo-face
+			background-repeat: no-repeat
+			width: 50%
+			height: 100vh
+			position: absolute
+			background-size: cover
+			background-position: 50% 20%
+			left: 0
+			top: 0
+		.logo
+			padding: 0
+			font-family: AgencyFB
+			font-size: 22px
+			text-transform: uppercase
+			color: #fff
+			letter-spacing: 3.3px
+			position: absolute
+			top: 41px
+			left: 7.25%
+			display: inline-block
+			cursor: pointer
+		.projects
+			height: 25px
+			width: 117px
+			position: absolute
+			top: 45px
+			left: 52.25%
+			display: inline-block
+			span
+				text-transform: uppercase
+				font-size: 13px
+				font-weight: bold
+				letter-spacing: 2.5px
+				float: right
+				color: #0d0d0d
+				display: inline-block
+				margin-top: 5px
+		.anchors
+			position: absolute
+			left: 64.99%
+			top: 30px
+			padding: 0
+			white-space: nowrap
+			li
+				list-style-type: none
+				display: inline
+				padding-left: 10%
+				&:first-child
+					padding-left: 0
+					a
+						color: lighten(#000, 50%)
+				a
+					font-family: roboto
+					font-size: 13px
+					color: #000
+					text-transform: uppercase
+					letter-spacing: 1.2px
+					text-decoration: none
+					&:hover
+						color: lighten(#000, 50%)
+					
+		.language
+			position: absolute
+			right: 2.8%
+			top: 30px
+			padding: 0
+			li
+				display: inline-block
+				list-style-type: none
+				&:first-child
+					a
+						color: lighten(#000, 50%)
+						text-decoration: none
+				a
+					font-size: 13px
+					color: #000
+					padding-left: 53.1%
+					text-decoration: none
+				.lang-line
+					width: 24px
+					margin-left: 29px
+					margin-top: -4px
+					border: 1px solid #8b8e97
+
+
+  // background-color: rgb(139, 142, 151)
+  // width: 17px
+  // height: 1px
+
+
+
+		.header-soc
+			position: absolute
+			bottom: 55px
+			left: 3.7%
+			list-style-type: none
+			padding: 0
+			margin: 0
+			li
+				display: inline-block
+				&:last-child
+					margin-left: 18px
+				a
+					color: #353741
+					font-size: 14px
+					display: block
+					background-color: #fff
+					height: 35px
+					width: 35px
+					text-align: center
+					border-radius: 10em
+					line-height: 38px
+					transition: background-color .25s ease
+					text-decoration: none
+					&:hover
+						background-color: darken(#fff, 20%)
+						color: darken(#353741, 60%)
+		.header-content
+			position: absolute
+			left: 59.3%
+			top: 161px
+			width: 600px
+			height: 534px
+			.line-top
+				height: 5px
+				width: 75px
+				background-color: #000
+			.h1
+				font-size: 55px
+				font-family: AvenirNextCyr
+				font-weight: 300
+				line-height: 60px
+				letter-spacing: -0.5px
+				color: #0d0d0d
+				span
+					font-weight: bold
+			.line-left
+				height: 75px
+				width: 5px
+				margin-top: 50px
+				margin-left: 22.8%
+				background-color: #000
+			.content-p1
+				margin-left: 30.9%
+				margin-top: -82px
+				line-height: 1.9
+				font-size: 16px
+				letter-spacing: -0.1px
+			.content-p2
+				margin-left: 30.9%
+				margin-top: 20px
+				letter-spacing: -0.1px
+				color: #8c8f98
+			.button
+				margin-top: 36px
+				padding: 11px 38px
+				margin-left: 30.9%
+				img
+					margin-right: 7px
+		.bottom-line-header
+			position: absolute
+			right: 0
+			bottom: 0
+			width: 50%
+			height: 150px
+			.button-down
+				color: #353741
+				float: right
+				margin-top: 59px
+				margin-right: 5.6%
+				font-size: 14px
+				display: block
+				background-color: #fff
+				height: 35px
+				width: 35px
+				text-align: center
+				border: 1px solid rgb(213, 213, 213)
+				border-radius: 10em
+				line-height: 38px
+				transition: background-color .25s ease
+				text-decoration: none
+
+.button-down2
+	color: #353741
+	display: none
+	float: right
+	margin-top: 850px
+	margin-right: 4%
+	font-size: 14px
+	background-color: #fff
+	height: 35px
+	width: 35px
+	text-align: center
+	border: 1px solid rgb(213, 213, 213)
+	border-radius: 10em
+	line-height: 38px
+	transition: background-color .25s ease
+	text-decoration: none
+
+
+.infoabout
+	.wrapper-biography
+		margin: 0 auto 
+		width: 78.7%
+		height: 835px
+		padding: 
+			left: 0.8%
+			top: 130px
+			bottom: 130px
+		.biography
+			width: 25%
+			height: 100%
+			float: left
+			&-headline
+				font-family: AvenirNextCyr
+				font-size: 26px
+				font-weight: 600
+				margin-top: 49px
+				margin-bottom: 35px
+				color: #0d0d0d
+			&-top-text
+				font-size: 15px
+				line-height: 1.867
+				letter-spacing: -0.1px
+				color: rgb(125, 128, 136)
+			&-text
+				font-size: 15px
+				line-height: 1.867
+				letter-spacing: 0.1px
+				margin-top: 27px
+				color: rgb(125, 128, 136)
+		.education
+			width: 31%
+			height: 100%
+			float: left
+			margin-left: 5.5%
+			&-headline
+				font-family: AvenirNextCyr
+				font-size: 26px
+				font-weight: 600
+				margin-top: 49px
+				margin-bottom: 35px
+				color: #0d0d0d
+			&-text
+				font-size: 15px
+				line-height: 1.867
+				letter-spacing: -0.1px
+				color: rgb(125, 128, 136)
+				width: 360px
+			table
+				display: block
+				tr
+					td
+						font-size: 15px
+						width: 400px
+						font-weight: 500
+						padding-left: 6%
+						padding-top: 10px
+						&:first-child
+							padding-left: 0
+			.headline2
+				font-family: AvenirNextCyr
+				font-size: 26px
+				font-weight: 600
+				margin-top: 39px
+				margin-bottom: 35px
+			.button-b, .button-w
+				padding: 10px 20px
+				width: 190px
+				margin-left: 0.9%
+				img
+					margin-right: 8%
+			.button-w
+				margin-left: 9%
+				background-color: #000
+				border: 1px solid #000
+				color: #fff
+
+		.infoabout_photo
+			float: right
+			width: 28.4%
+			height: 100%
+			background-size: cover
+			display: inline-block
+			background-position: 40% 50%
+			background-repeat: no-repeat
+
+.photo-disable
+	width: 20%
+	height: 384px
+	background-position: center
+	background-repeat: no-repeat
+	img
+		position: absolute
+		margin-top: 170px
+		margin-left: 8.3%
+		display: none
+		z-index: 10
+		cursor: pointer
+	.shadow
+		width: 100%
+		height: 100%
+		background-color: #000
+		transition: opacity .8s ease
+		opacity: 0
+	&:hover
+		img
+			display: none
+		.shadow
+			display: none
+
+.photo-gallery
+	height: auto
+	display: flex
+	flex-wrap: wrap
+	.photo
+		width: 20%
+		height: 384px
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover
+		&:hover
+			img
+				display: block
+			.shadow
+				opacity: .5
+		img
+			position: absolute
+			margin-top: 170px
+			margin-left: 8.3%
+			display: none
+			z-index: 10
+			cursor: pointer
+		.shadow
+			width: 100%
+			height: 100%
+			background-color: #000
+			transition: opacity .8s ease
+			opacity: 0
+
+.photo-none-30
+	display: none
+
+.buttons-photo
+	width: 426px
+	margin: 70px auto
+	.button-f
+		padding: 10px 30px
+		margin-left: 22px
+		width: 200px
+		&:first-child
+			margin-left: 0
+		&-d
+			background-color: #fff
+			border: 1px solid #000
+			color: #000
+
+		&-s
+			img
+				margin-right: 9px
+.contacts
+	z-index: 1
+	.wrapper-contacts
+		margin: 130px auto
+		width: 77.6%
+		height: 885px
+		border: 1px solid #000
+		background-color: #1d1d1d
+		padding: 35px 150px
+		.contacts-headline
+			color: rgb(255, 255, 255)
+			font-size: 55px
+			font-family: AvenirNextCyr
+		.contacts-headline-under
+			line-height: 1.778
+			font-size: 18px
+			color: rgb(139, 142, 151)
+		.contacts-line
+			background-color: #b9a091
+			width: 80px
+			height: 6px
+			margin-top: 40px
+		.contacts-phone_number
+			font-size: 15px
+			color: rgb(139, 142, 151)
+			letter-spacing: 1.5px
+			margin-top: 35px
+			span
+				// margin-left: 65px
+				display: inline-block
+				text-transform: uppercase
+		form
+			width: 100%
+			height: 45%
+			.contacts-name
+				width: 43.5%
+				margin-top: 62px
+				background-color: transparent
+				border: none
+				border-bottom: 1px solid #b9a091
+				padding: 7px 3px
+				display: inline-block
+				outline: none
+				color: #fff
+				&::placeholder
+					color: #8b8e97
+					font-size: 14px
+			.contacts-email
+				width: 43.5%
+				float: right
+				background-color: transparent
+				border: none
+				border-bottom: 1px solid #b9a091
+				padding: 7px 3px
+				display: inline-block
+				outline: none
+				float: right
+				color: #fff
+				&::placeholder
+					color: #8b8e97
+					font-size: 14px
+			.form-button
+				border: 1px solid #b9a091
+				background-color: transparent
+				padding: 9px 30px
+				width: 180px
+				margin-top: 50px
+				margin-left: auto
+				margin-right: auto
+				display: block
+				&:hover
+					color: #000
+					background-color: #b9a091
+			.contacts-message
+				width: 100%
+				margin-top: 92px
+				background-color: transparent
+				border: none
+				border-bottom: 1px solid #b9a091
+				padding: 7px 3px
+				display: block
+				outline: none
+				color: #fff
+				&::placeholder
+					color: #8b8e97
+					font-size: 14px
+			.before-name
+				position: absolute
+				top: 471px
+			.before-email
+				position: absolute
+				top: 472px
+				right: 736px
+
+.box-contacts-name::before
+	content: "Name"
+	display: block
+	color: #8b8e97
+	z-index: 50
+	position: relative
+	top: 61px
+	font-size: 13px
+	text-transform: uppercase
+
+.box-contacts-email::before
+	content: "Email"
+	display: block
+	margin-left: 56.5%
+	margin-top: -66px
+	color: #8b8e97
+	z-index: 50
+	font-size: 13px
+	text-transform: uppercase
+
+.box-contacts-message::before
+	content: "Message"
+	display: block
+	color: #8b8e97
+	z-index: 50
+	position: relative
+	top: 92px
+	font-size: 13px
+	text-transform: uppercase
+
+
+
+.site-footer
+	background-color: #0d0d0d
+	height: 860px
+	position: relative
+	bottom: 845px
+	.logo
+		padding: 0
+		font-family: AgencyFB
+		font-size: 22px
+		text-transform: uppercase
+		color: #fff
+		letter-spacing: 3.3px
+		position: absolute
+		display: inline-block
+		position: absolute
+		transform: rotate(270deg)
+		left: -0.7%
+		bottom: 245px
+	.footer-soc	
+		position: absolute
+		bottom: 55px
+		right: 11.1%
+		list-style-type: none
+		padding: 0
+		margin: 0
+		li
+			display: inline-block
+			&:last-child
+				margin-left: 18px
+			a
+				color: #353741
+				font-size: 14px
+				display: block
+				background-color: #fff
+				height: 35px
+				width: 35px
+				text-align: center
+				border-radius: 10em
+				line-height: 38px
+				transition: background-color .25s ease
+				text-decoration: none
+				&:hover
+					background-color: darken(#fff, 20%)
+					color: darken(#353741, 60%)
+	.footer-text
+		font-size: 15px
+		position: absolute
+		bottom: 55px
+		left: 11.1%
+		color: #8b8e97
+
+.video-header
+	position: absolute
+	width: 100%
+	height: 100%
+	display: none
+	iframe
+		margin: 10% auto
+		display: block
+		border: 20px solid $dark
+		box-shadow: 0 0 9999px 9999px rgba(0,0,0, 0.7)
+	.close
+		position: absolute
+		top: 10px
+		right: 20px
+		font-size: 32px
+		color: #000
+		background-color: #fff
+		border-radius: 500px
+		height: 30px
+		width: 30px
+		text-decoration: none
+		.fas
+			display: block
+			margin-top: -1px
+			margin-left: -1px
+
+.video-header-block
+	display: block
+
+
+.big-container
+  position: absolute
+  width: 100%
+  display: none
+	
+
+.big-container-block
+	display: block
+
+.container
+  position: relative
+  top: 110px
+  width: 500px
+  height: 500px
+  box-shadow: 0 0 9999px 9999px rgba(0,0,0, 0.8)
+  z-index: 1000
+  padding: 0
+
+.slick-slider .slick-track
+	margin: 0
+
+.slider-photo
+	img
+		width: 500px
+		height: 500px
+
+.close-slider
+	position: absolute
+	top: 10px
+	right: 20px
+	font-size: 27px
+	color: #000
+	background-color: #fff
+	border-radius: 500px
+	height: 22px
+	width: 22px
+	text-decoration: none
+	cursor: pointer
+	&:hover, &:active, &:focus
+		color: #000
+		text-decoration: none
+	.fas
+		display: block
+		margin-top: -1px
+		margin-left: -2px
+
+.container:nth-child(2)
+  pointer-events: none
+
+.mob-photo
+	display: none
+	width: 100%
+	height: 900px
+	background-repeat: no-repeat
+	background-size: cover
+
+.mob2-photo
+	display: none
+	width: 100%
+	height: 400px
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: top
+
+.education-2
+	display: none
+	width: 100%
+	height: 400px
+	padding-top: 50px
+	clear: both
+	content: ''
+	&-headline
+		font-family: AvenirNextCyr
+		font-size: 45px
+		font-weight: 600
+		margin-top: 49px
+		margin-bottom: 35px
+		color: #0d0d0d
+	&-text
+		font-size: 24px
+		line-height: 1.867
+		letter-spacing: -0.1px
+		color: rgb(125, 128, 136)
+	.education-boxs
+		width: 100%
+		text-align: center
+		.education1, .education2, .education3
+			margin-left: 40px
+			width: 250px
+			p
+				font-size: 24px
+				font-weight: 500
+				padding-top: 10px
+		.education1
+			float: left
+		.education2
+			float: left
+		.education3
+			float: left
+
+	.headline2
+		font-family: AvenirNextCyr
+		font-size: 45px
+		font-weight: 600
+		padding-top: 50px
+		margin-bottom: 50px
+		clear: both
+		content: ''
+	.button-box
+		text-align: center
+		.button-b, .button-w
+			padding: 10px 20px
+			width: 30%
+			margin-left: 0.9%
+			text-align: center
+			img
+				margin-right: 8%
+		.button-w
+			margin-left: 9%
+			background-color: #000
+			border: 1px solid #000
+			color: #fff
+
+
+.big-container2
+  position: absolute
+  width: 100%
+  display: none
+
+
+.container2
+  margin: 0 auto
+  top: 110px
+  width: 65%	
+  height: 600px
+  z-index: 1000
+  padding: 0
+
+.slick-slider .slick-track
+	margin: 0
+
+.slider-photo2
+	img
+		width: 100%
+		height: 600px
+
+.film-wrap
+	overflow-x: hidden
+	overflow-y: scroll
+
+	height: 80%
+
+.film-wrap::-webkit-scrollbar
+  width: 8px
+  height: 16px
+
+.film-wrap::-webkit-scrollbar-thumb
+  background-color: #b9a091
+
+.film-wrap::-webkit-scrollbar-button
+  display: none
+  width: 0
+  height: 0
+
+.film-wrap::-webkit-scrollbar-track-piece
+  background-color: #444
+
+.film-wrap::-webkit-scrollbar-corner
+  background-color: #444
+
+.slick-prev, .slick-next
+	z-index: 2000
+
+.button-roll
+	display: none
+
+.button-roll-block
+	display: inline-block
+	margin-left: 0
+	padding: 10px 30px
+
+@import "media" 

@@ -1,0 +1,579 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1900px)
+	body .site-header .bottom-line-header
+		display: none
+	.button-down2
+		display: none
+
+@media only screen and (max-width : 1800px)
+	.infoabout .wrapper-biography .education table tr td
+		font-size: 13px
+
+	.infoabout 
+		.wrapper-biography 
+			.education 
+				.button-w
+					margin-left: 0
+					display: block
+					margin-top: 20px
+				.button-b
+					display: block
+					margin-left: 0
+
+	body .site-header .header-content 
+		top: 220px
+	
+
+
+@media only screen and (max-width : 1700px)
+
+	body .site-header .anchors
+		left: 62%
+
+	.photo-gallery 
+		height: auto
+		.photo-none
+			display: none
+		.photo, .photo-disable
+			width: 33.3%
+			height: 570px
+			background-size: cover
+			img
+				margin-top: 250px
+				margin-left: 15.5%
+
+
+
+
+
+
+
+@media only screen and (max-width : 1600px)
+	
+	body .site-header .anchors
+		display: none
+
+	body .site-header .header-content
+		top: 200px
+		left: 55%
+
+	body .site-header .projects
+		left: 55%
+
+@media only screen and (max-width : 1500px)
+	body .site-header .projects-list-active
+		width: 60%
+
+@media only screen and (max-width : 1400px)
+	body 
+		.site-header
+			.projects
+				left: 50%
+			.photo-face
+				width: 45%
+				background-position: center 0
+			.header-content
+				left: 50%
+			.bottom-line-header
+				width: 55%
+
+	.infoabout 
+		.wrapper-biography
+			width: 87%
+ 		.education 
+ 			table 
+ 				tr 
+ 					td
+						padding-left: 5%
+
+
+@media only screen and (max-width : 1300px)
+	
+	body 
+		.site-header
+			.header-content
+				left: 45%
+			.projects
+				left: 45%
+			.photo-face
+				width: 40%
+
+	body .site-header .projects-list-active
+		width: 70%
+
+	.infoabout 
+		.wrapper-biography
+			width: 80%
+			height: 1750px
+			.education
+				display: none
+			.biography
+				width: 42%
+				height: 700px
+				.biography-headline
+					font-size: 45px
+					margin-top: 0
+					line-height: 1
+				.biography-text
+					font-size: 21px
+					margin-top: 120px
+			.infoabout_photo
+				width: 50%
+				height: 700px
+
+	.education-2
+		display: block
+
+	.site-footer .logo
+		display: none
+
+	.photo-gallery 
+		.photo, .photo-disable
+			width: 33.3%
+			height: 470px
+			img
+				margin-top: 200px
+				margin-left: 15.5%
+  
+  .photo
+
+@media only screen and (max-width : 1200px)
+
+	body .site-header .header-content .line-top
+		display: none
+
+	body .site-header .header-content .line-left
+		display: none
+
+	body .site-header .header-content 
+		.content-p1
+			margin-top: 0
+			margin-left: 0
+		.content-p2
+			margin-left: 0
+
+	body .site-header .header-content .button
+		margin-left: 0
+	
+	body .site-header .header-content
+		width: 500px
+		top: 200px
+		left: 50%
+
+	body .site-header .projects
+		left: 43%
+
+	body .site-header .header-content .h1
+		font-size: 46px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 1100px)
+
+	body .site-header .photo-face
+		width: 45%
+	
+	body .site-header .projects
+		left: 48%
+
+	body .site-header .header-content
+		left: 48%
+
+	.education-boxs, .education-2-headline,  .education-2-text
+		display: none
+
+	.infoabout 
+		.wrapper-biography
+			width: 90%
+			height: 1200px
+
+	.education-2
+		padding-top: 0
+
+
+	body .site-header .projects-list-active
+		width: 75%
+
+
+
+@media only screen and (max-width : 992px)
+
+	body 
+		top: -16px
+		.site-header .header-content
+			margin: 0 auto
+			padding-top: 25px
+			position: static
+			width: 75%
+			text-align: center
+
+	body .site-header .projects-list-active
+		width: 100%
+
+	body .site-header .projects
+		left: 4%
+		top: 20px
+
+	body .site-header .language
+		right: 4%
+		top: 20px
+		margin: 0
+
+	body .site-header 
+		.header-soc 
+			left: 8%
+			bottom: 25px
+			li 
+				a
+					background-color: $accent
+					color: #fff
+		
+
+	body .site-header .photo-face
+		display: none
+
+	.mob-photo
+		display: block
+		background-position: top
+		margin-top: 40px
+
+	body .site-header .logo
+		display: none
+
+	body .site-header .anchors
+		display: block
+		position: static
+		padding-top: 21px
+		text-align: center
+		li
+			padding-left: 40px
+
+	.contacts .wrapper-contacts
+		padding: 35px 50px
+
+	.video-header
+		top: 0
+
+	.photo-gallery 
+		height: auto
+		.photo-none
+			// display: block
+		.photo, .photo-disable
+			width: 50%
+			height: 400px
+			img
+				margin-left: 23%
+				margin-top: 175px
+
+
+@media only screen and (max-width : 900px)
+	
+	.infoabout .wrapper-biography 
+		height: 1550px
+		padding-top: 60px
+		.biography
+			float: none
+			width: 100%
+			height: 420px
+			.biography-text
+				margin-top: 50px
+		.infoabout_photo
+			float: none
+			width: 115%
+			margin-left: -9%
+
+	.education-2 .headline2
+		margin-top: 0
+
+
+@media only screen and (max-width : 768px)
+
+	body .site-header .anchors li
+		padding-left: 17px
+
+	body .site-header .projects-list-active .film 
+		height: 900px
+		width: 288px
+		margin-left: auto
+		margin-right: auto
+		.about-film
+			padding: 0
+			left: 0
+			top: 500px
+
+	
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 720px)
+
+	body 
+		top: 0
+		.site-header .header-soc
+			display: none
+
+	body .site-header .anchors 
+		display: none
+
+	body .site-header .header-content
+		padding-top: 80px
+
+	.infoabout .wrapper-biography 
+		height: 1625px
+		.biography
+			height: 520px
+
+	.contacts .wrapper-contacts .contacts-phone_number span
+		display: block
+		margin-left: 0
+		margin-top: 20px
+
+	.contacts .wrapper-contacts .contacts-headline-under
+		font-size: 16px
+
+	.video-header iframe
+		border-width: 10px
+		width: 80%
+		margin-top: 120px
+
+	.education-2 .button-box .button-b, .education-2 .button-box .button-w
+		width: 40%
+
+@media only screen and (max-width : 650px)
+
+	body .site-header .header-content
+		.h1
+			font-size: 45px
+
+	.education-2 .button-box .button-b, .education-2 .button-box .button-w
+		width: 40%
+
+	.contacts .wrapper-contacts 
+		height: 900px
+
+	.infoabout .wrapper-biography
+		height: 1600px
+
+	.photo-gallery 
+		height: 600px
+		margin-bottom: 0
+		.photo, .photo-disable
+			display: none
+
+	.big-container
+		display: none
+
+	.big-container2
+		display: block
+
+	.container2
+		width: 100%
+
+	.buttons-photo 
+		text-align: center
+		margin-bottom: 0
+		margin-top: 70px
+		margin-bottom: -70px
+		width: 	auto
+		.button-f-s
+			display: none
+		.button-f
+			margin: 0
+			
+
+
+
+@media only screen and (max-width : 630px)
+	body .site-header .header-content
+		.h1
+			font-size: 42px
+
+@media only screen and (max-width : 600px)
+	
+	body .site-header .header-content
+		.h1
+			font-size: 40px
+
+	.mob-photo
+		display: none
+
+	.mob2-photo
+		display: block
+		height: 450px	
+		background-position: center
+	
+
+@media only screen and (max-width : 560px)
+
+	body .site-header .header-content .content-p2
+		display: none
+
+	body .site-header .header-content
+		.h1
+			line-height: 1.3
+
+	.infoabout .wrapper-biography 
+		height: 1720px
+		.biography
+			height: 580px
+		.education-2 .headline2
+			margin-top: 0
+
+	.education-2 .button-box .button-b, .education-2 .button-box .button-w
+		display: block
+		margin: 0 auto
+		width: 250px
+
+	.education-2 .button-box .button-w
+		margin-top: 30px
+
+	.contacts .wrapper-contacts 
+		width: 100%
+		height: 1000px
+
+	.contacts .wrapper-contacts form .contacts-email
+		float: none
+		display: block
+		width: 100%
+
+	.box-contacts-email::before
+		margin-left: 0
+		margin-top: 40px
+
+	.contacts .wrapper-contacts form .contacts-message
+		margin-top: 0px
+
+	.box-contacts-message::before
+		margin-top: 40px
+		top: 0
+
+	.contacts .wrapper-contacts form .contacts-name
+		width: 100%
+		
+	.contacts .wrapper-contacts .contacts-headline
+		margin-top: 20px
+		margin-bottom: 20px
+
+	.site-footer .footer-text
+		font-size: 12px
+		left: 6%
+
+	.site-footer .footer-soc
+		right: 6%
+
+	.container2
+		width: 100%
+		height: 520px
+	.slider-photo2
+		img
+			width: 100%
+			height: 520px
+
+	.photo-gallery 
+		height: 500px
+
+
+
+@media only screen and (max-width : 453px)
+
+	.container2
+		height: 400px
+	.slider-photo2
+		img
+			height: 400px
+
+	.buttons-photo 
+		margin-top: 0px
+
+	.photo-gallery
+		height: 460px
+
+	.infoabout .wrapper-biography 
+		height: 1800px
+		.biography
+			height: 650px
+
+	body .site-header .projects-list-active
+		padding: 
+			left: 20px
+			right: 20px
+
+@media only screen and (max-width : 410px)
+
+	body .site-header .header-content
+		.h1
+			font-size: 36px
+
+	.infoabout .wrapper-biography 
+		.biography
+			.biography-text
+				font-size: 20px
+
+	.site-footer .footer-text
+		font-size: 8px
+
+	.container2
+		height: 400px
+	.slider-photo2
+		img
+			height: 400px
+
+	.buttons-photo 
+		margin-bottom: -90px
+
+	.photo-gallery
+		height: 450px
+
+@media only screen and (max-width : 380px)
+	body .site-header .header-content
+		.h1
+			font-size: 31px
+
+	.infoabout .wrapper-biography 
+		.biography
+			height: 640px
+			.biography-text
+				font-size: 19px
+
+	.container2
+		height: 350px
+	.slider-photo2
+		img
+			height: 350px
+
+	.photo-gallery
+		height: 390px
+
+	body .site-header .projects-list-active
+		padding: 
+			right: 15px
+
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
