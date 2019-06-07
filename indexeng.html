@@ -13,9 +13,9 @@
 
 	<meta property="og:image" content="path/to/image.jpg">
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/favicon.ico">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 	<!-- Chrome, Firefox OS and Opera -->
@@ -32,112 +32,144 @@
 <body>
 
 	<!-- Фон при открытии сайта -->
-	<!-- <div class="preloader">
+	<div class="preloader">
 		<div class="pulse"></div>
-	</div> -->
+	</div>
 		
-	<header style="background-image: url(img/top-bg.png)">
+	<img class="header-bg" src="img/top-bg.png" alt="">
 
-		<img class="play-video" src="img/button-play.png" alt="">
+	<header>
 
 		<div class="video-header">
 
 			<iframe width="60%" height="60%" src="https://www.youtube.com/embed/82UfkA7edaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
 			<a href="#" class="close"><i class="fas fa-times-circle"></i></a>
 		</div>
+
+		<div class="container">
 
 		<a href="#" class="logo"><img src="img/logo.png" alt=""></a>
 
 		<ul class="language">
-			<li><a href="indexeng.html" class="active_language">ENG</a></li>
-			<li><a href="index.html">RUS</a> </li>
+			<li><a href="indexeng.html" class="active_language">EN</a></li>
+			<li><a href="index.html">RUS</a></li>
 		</ul>
 
 		<div class="header-text">
-			<p>“Vanderego” – is a funny FMV game with a <br> touching simulator at its core.</p> 
+			<p><span>“Vanderego”</span> – is a funny FMV game with a touching <br> simulator at its core.</p> 
 			
-			<p>Full  version of a game “Vanderego – Summer Adventures” <br> is currently being developed. <br> Free demo is available for download.</p>
+			<p>Full  version of a game “Vanderego – Summer Adventures” <br> is currently being developed. <span>Free demo is available for <br>download.</span></p>
+
+			<a href="#" class="app_store"><img src="img/app-store.png" alt=""></a>
+
+			<a href="#" class="play_market"><img src="img/play-market.png" alt=""></a>
+
+			<div class="header-phone" style="background-image: url(img/phone.png) ">
+				<img class="button-play" src="img/btn-play.png" alt="">
+			</div>
+
 		</div>
 
-		<a href="#" class="button app_store"><i class="fab fa-apple"></i>App Store</a>
 
-		<a href="#" class="button play_market"><i class="fab fa-google-play"></i>Google Play</a>
+
+	</div>
 		
 	</header>
 
 	<section class="full_version">
 
-		<iframe class="mob-video" width="100%" height="100%" src="https://www.youtube.com/embed/82UfkA7edaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="container">
 
-		<p class="title_full_version">Release version features</p>
-		<div class="container-icons">
-			<div class="box-icons">
-				<img src="img/types.png" alt="Иконка девушки">
-				<p class="icon-text">Different types of girls with strong touch response</p>
+			<p class="title_full_version">Release version features</p>
+			<p class="under-title_full_version">
+				Find out what awaits you in the full version of the game, you will be amazed <br>our uniqueness!
+			</p>
+			<div class="container-icons">
+				<div class="box-icons">
+					<img class="img-static" src="img/woman.png" alt="Иконка девушки">
+					<img class="img-hover" src="img/woman-h.png" alt="Иконка девушки">
+					<p class="icon-text">Different types of girls with strong touch response</p>
+				</div>
+				<div class="box-icons">
+					<img class="img-static" src="img/tools.png" alt="Иконка инструментов">
+					<img class="img-hover" src="img/tools-h.png" alt="Иконка инструментов">
+					<p class="icon-text">Wide choice of touching tools and techniques</p>
+				</div>
+				<div class="box-icons">
+					<img class="img-static" src="img/camera.png" alt="Иконка камеры">
+					<img class="img-hover" src="img/camera-h.png" alt="Иконка камеры">
+					<p class="icon-text">Multiple camera shooting, high quality footage</p>
+				</div>
+				<div class="box-icons">
+					<img class="img-static" src="img/photos.png" alt="Иконка папки">
+					<img class="img-hover" src="img/photos-h.png" alt="Иконка папки">
+					<p class="icon-text">Varied photo and video content about girls</p>
+				</div>
 			</div>
-			<div class="box-icons">
-				<img src="img/tools.png" alt="Иконка инструментов">
-				<p class="icon-text">Wide choice of touching tools and techniques</p>
-			</div>
-			<div class="box-icons">
-				<img src="img/survey.png" alt="Иконка камеры">
-				<p class="icon-text">Multiple camera shooting, high quality footage</p>
-			</div>
-			<div class="box-icons">
-				<img src="img/content.png" alt="Иконка папки">
-				<p class="icon-text">Varied photo and video content about girls</p>
-			</div>
+
+			<p class="completion">The development of the <span>full version of the game</span> and <span>the rules of the game</span> can be found in the <span>BLOG</span>.</p>
+
 		</div>
+
 	</section>
 
 
 	<section class="instagram">
-		
-		<p class="title_blog"><img src="img/instagram.png" alt="">Instagram</p>
+		<div class="container">
+			<p class="title_blog">Instagram Blog</p>
+		</div>
 
-		<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/61f6aead97ec51758edf5b72c038cc19.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+		<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/61f6aead97ec51758edf5b72c038cc19.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
-	</section>
+	</section> 
 
 	<section class="contacts">
 
-		<div class="container-contacts">
+		<div class="container">	
+
+		<div class="container-contacts" style="height: 263px">
 			
 			<p class="title_contacts">Contacts</p>
 
-			<p>If you have any suggestions about “Vanderego” project, please contact us:<span>vanderego@gmail.com</span></p>
+			<p>If you have any suggestions about “Vanderego” project, please contact us: <span> vanderego@gmail.com</span></p>
 
 		</div>
 		
 		<div class="container-donates">
 			
-			<p class="title-donates">Support project</p>
+			<p class="title_donates">Support the project</p>
 			
 			<div class="contaiter-paypal">
 
 				<img src="img/paypal_icon.png" alt="">
-				<a href="https://www.paypal.me/selfirony" class="paypal-donate">Donate Now</a>
+				<a href="https://www.paypal.me/selfirony" class="donate" target="_blank"><img src="img/1.png" alt=""></a>
 
 			</div>
 
 			<div class="contaiter-yandex">
 			
-				<img src="img/yandex_donate.png" alt="">
-				<iframe src="https://money.yandex.ru/quickpay/button-widget?targets=%D0%A1%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83%20%D0%B8%D0%B3%D1%80%D1%8B&default-sum=99&button-text=11&any-card-payment-type=on&button-size=m&button-color=orange&successURL=&quickpay=small&account=410019254609261&" width="184" height="36" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+				<img src="img/yandex_icon.png" alt="">
+
+				<iframe class="donate" src="https://money.yandex.ru/quickpay/button-widget?targets=%D0%A1%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B0%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83%20%D0%B8%D0%B3%D1%80%D1%8B&default-sum=99&button-text=11&any-card-payment-type=on&button-size=m&button-color=orange&successURL=&quickpay=small&account=410019254609261&" width="211" height="43" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
 
 			</div>
+
+		</div>
 
 		</div>
 
 	</section>
 
 	<footer>
+		<div class="container">
+			<span>Van Der Ego © 2019</span>
 			<ul class="footer-soc">
-				<li><a href="https://www.instagram.com/ourfirstgame/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-				<li><a href="https://twitter.com/ourfirstgame2" target="_blank"><i class="fab fa-twitter"></i></a></li>
-				<li>Van Der Ego © 2019</li>
+				<li><a href="https://www.instagram.com/ourfirstgame/"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://twitter.com/ourfirstgame2"><i class="fab fa-twitter"></i></a></li>
 			</ul>
+		</div>
 	</footer>
 
 <link rel="stylesheet" href="css/main.min.css">
