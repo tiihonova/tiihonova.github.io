@@ -9,6 +9,13 @@
 	.questions-s .box_questions-form{
 		width: 100%;
 	}
+
+	.is_home header .header-composition .statistic .box:nth-child(2){
+		margin-left: 40px;
+	}
+.is_home header .header-composition .statistic .box:nth-child(3) {
+
+	margin-left: 30px;	
 }
 
 @media screen and (max-width: 992px){
@@ -101,8 +108,7 @@
 	margin-left: 46px;
 }
 
-.is_home header .header-composition .statistic{
-	display: none;	
+
 }
 
 /* Portrait tablets and small desktops */
