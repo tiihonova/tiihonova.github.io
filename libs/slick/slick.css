@@ -86,6 +86,12 @@
     padding: 0 5px;
     outline: 0;
 }
+.photo-slider .slick-slide {
+    margin: 0 15px;
+  }
+.photo-slider .slick-list {
+    margin: 0 -15px;
+  }
 .reviews .slick-slide {
     transform: scale(.95);
     -webkit-transition: .4s ease;
