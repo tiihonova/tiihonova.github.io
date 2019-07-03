@@ -835,7 +835,7 @@
 	}
 	.is_home header .top-line .logo {
 		width: 100px;
-		height: auto;
+		height: 50px;
 	}
 	.is_home header .top-line_info p:nth-child(3) {
 		margin: 0;
@@ -1503,6 +1503,7 @@ margin-bottom: 0px;
 	.is_home header .top-line .logo {
 		margin-top: 0;
 		width: 60px;
+		height: 30px;
 }
 	.top-line{
 		display: -webkit-flex;
