@@ -835,6 +835,7 @@
 	}
 	.is_home header .top-line .logo {
 		width: 100px;
+		height: auto;
 	}
 	.is_home header .top-line_info p:nth-child(3) {
 		margin: 0;
@@ -1588,4 +1589,9 @@ margin-bottom: 0px;
 .video_our-services .container-tooths .tab_content.active ul.info_service li:last-child span{
 	font-size: 8px;
 }
+
+.changes-s .selection p span{
+	font-size: 13px;
+}
+
 }
