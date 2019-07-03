@@ -3364,6 +3364,10 @@ margin-left: 50px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, .15)
 }
 
+.solve_problems .row .solve_problem-4 .wrapper-solve .wrapper-solve_content, .solve_problems .row .solve_problem-6 .wrapper-solve .wrapper-solve_content{
+	height: 110px;
+}
+
 .questions-s .box_questions-form .top_questions-form {
 	background-color: #21c0f8;
 	padding: 20px 52px;
