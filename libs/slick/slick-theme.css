@@ -107,18 +107,23 @@
 {
     color: #21c0f8;
 }
+.photo-slider .slick-prev:before, .photo-slider .slick-next:before {
+    content: '';
+    font-family: 'FontAwesome';
+    font-size: 40px;
+}
 [dir='rtl'] .slick-prev
 {
     right: -25px;
     left: auto;
 }
-.slick-prev:before
+.photo-slider .slick-prev:before
 {
-    content: 'â†';
+    content: '\f104';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: 'â†’';
+    content: 'f104';
 }
 
 .slick-next
@@ -130,13 +135,13 @@
     right: auto;
     left: -25px;
 }
-.slick-next:before
+.photo-slider .slick-next:before
 {
-    content: 'â†’';
+    content: '\f105';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: 'â†';
+    content: 'f105';
 }
 
 /* Dots */

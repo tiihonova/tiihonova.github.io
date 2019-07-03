@@ -3139,6 +3139,10 @@ margin-left: 50px;
 	margin: 0
 }
 
+.chief_doctor .chief_doctor-composition .advantages-chief_doctor:nth-child(6) img{
+		left: -8px;
+	}
+
 .changes-s .under_title-changes {
 	text-align: center;
 	font-size: 18px;
@@ -3746,7 +3750,6 @@ footer .rights {
 
 footer .confidentiality {
 	color: #333;
-	text-decoration: underline;
 }
 
 footer .rights {
@@ -3788,6 +3791,7 @@ footer ul li a img {
 }
 
 .example {
+	height:auto!important;
 	padding: 100px 0;
 }
 
