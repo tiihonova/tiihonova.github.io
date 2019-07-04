@@ -1489,6 +1489,23 @@ margin-bottom: 0px;
 	padding: 20px;
 }
 
+.prices-s .box_prices-pop, .video_our-services .box_services-wrap, .offer .box_offer, .chief_doctor .box_chief_doctor{
+	width: 90%;
+	margin-left: -45%;
+	top: 60%;
+}
+
+.video_our-services .box_services-wrap .services-wrap-pop, .offer .box_offer .offer-pop, .prices-s .box_prices-pop .prices-pop,.chief_doctor .box_chief_doctor .chief_doctor-pop{
+	padding: 20px;
+}
+
+.video_our-services .box_services-wrap .top_services-wrap-form .title-services-wrap-form, .offer .box_offer .top_offer-form .title-offer-form, .prices-s .box_prices-pop .top_prices-form .title-prices-form,.chief_doctor .box_chief_doctor .top_chief_doctor-form .title-chief_doctor-form{
+	font-size: 18px;
+}
+
+.video_our-services .box_services-wrap .top_services-wrap-form , .offer .box_offer .top_offer-form, .prices-s .box_prices-pop .top_prices-form,.chief_doctor .box_chief_doctor .top_chief_doctor-form {
+	padding: 20px;
+}
 
 }
 
@@ -1550,9 +1567,7 @@ margin-bottom: 0px;
 		max-width: 45%;
 		display: inline-block;
 		margin-bottom: 10px;
-		font-size: 12px;
-		padding: 10px 20px;
-	}
+		font-size: 10px;	}
 	.example-slide{
 		margin-left: 0;
 	}
@@ -1572,7 +1587,7 @@ margin-bottom: 0px;
 		text-align: left;
 	}
 	.links-wrap li{
-		font-size: 11px;
+		font-size: 10px;
 	}
 
 
