@@ -887,6 +887,8 @@
 	}
 	.video_our-services .video {
 		margin-bottom: 0;
+		padding: 0;
+		height: 250px;
 	}
 	.services-wrap {
 		margin-top: 0!important;
@@ -1420,6 +1422,8 @@ header .box_request_call-pop .request_call-pop{
 	display: block;
 	width: 100%;
 	margin-top: 20px;
+/*	height: 320px;*/
+	/*height: 280px;*/
 }
 
 .advantages_gif{
@@ -1489,22 +1493,26 @@ margin-bottom: 0px;
 	padding: 20px;
 }
 
-.prices-s .box_prices-pop, .video_our-services .box_services-wrap, .offer .box_offer, .chief_doctor .box_chief_doctor{
+.prices-s .box_prices-pop, .video_our-services .box_services-wrap, .offer .box_offer, .chief_doctor .box_chief_doctor, header .box_prices-header{
 	width: 90%;
 	margin-left: -45%;
 	top: 60%;
 }
 
-.video_our-services .box_services-wrap .services-wrap-pop, .offer .box_offer .offer-pop, .prices-s .box_prices-pop .prices-pop,.chief_doctor .box_chief_doctor .chief_doctor-pop{
+.video_our-services .box_services-wrap .services-wrap-pop, .offer .box_offer .offer-pop, .prices-s .box_prices-pop .prices-pop,.chief_doctor .box_chief_doctor .chief_doctor-pop, header .box_prices-header .prices-header-pop{
 	padding: 20px;
 }
 
-.video_our-services .box_services-wrap .top_services-wrap-form .title-services-wrap-form, .offer .box_offer .top_offer-form .title-offer-form, .prices-s .box_prices-pop .top_prices-form .title-prices-form,.chief_doctor .box_chief_doctor .top_chief_doctor-form .title-chief_doctor-form{
+.video_our-services .box_services-wrap .top_services-wrap-form .title-services-wrap-form, .offer .box_offer .top_offer-form .title-offer-form, .prices-s .box_prices-pop .top_prices-form .title-prices-form,.chief_doctor .box_chief_doctor .top_chief_doctor-form .title-chief_doctor-form, header .box_prices-header .top_prices-header-form .title-prices-header-form{
 	font-size: 18px;
 }
 
-.video_our-services .box_services-wrap .top_services-wrap-form , .offer .box_offer .top_offer-form, .prices-s .box_prices-pop .top_prices-form,.chief_doctor .box_chief_doctor .top_chief_doctor-form {
+.video_our-services .box_services-wrap .top_services-wrap-form , .offer .box_offer .top_offer-form, .prices-s .box_prices-pop .top_prices-form,.chief_doctor .box_chief_doctor .top_chief_doctor-form, header .box_prices-header .top_prices-header-form{
 	padding: 20px;
+}
+
+.video_our-services .box_services-wrap .services-wrap-pop .checkbox_text, .offer .box_offer .offer-pop .checkbox_text, .prices-s .box_prices-pop .prices-pop .checkbox_text,.chief_doctor .box_chief_doctor .chief_doctor-pop .checkbox_text,  header .box_prices-header .prices-header-pop .checkbox_text{
+	font-size: 8px;
 }
 
 }

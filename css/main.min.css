@@ -4085,6 +4085,217 @@ header .box_request_call-pop .request_call-pop .form-button {
 }
 
 
+header .box_prices-header-none {
+	display: none;
+}
+
+header .box_prices-header {
+	display: block;
+	height: 505px;
+	width: 470px;
+	position: fixed;
+	box-shadow: 0 0 9999px 9999px rgba(0,0,0,.7);
+	top: 50%;
+	left: 50%;
+	margin-left: -235px;
+	margin-top: -292.5px;
+	background-color: #fff;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	z-index: 10000;
+}
+
+header .box_prices-header .close-form {
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 100px;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 25px;
+	height: 25px;
+	line-height: 22px;
+	text-align: center;
+}
+
+header .box_prices-header .close-form:hover{
+	color: #21c0f8;
+	border: 1px solid #21c0f8;
+	background-color: #fff;
+	cursor: pointer;
+	line-height: 24px;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+
+}
+
+header .box_prices-header .close-form .fas{
+	margin-left: 1px;
+}
+
+header .box_prices-header .top_prices-header-form {
+	background-color: #21c0f8;
+	padding: 20px 30px;
+	-webkit-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	text-align: center
+}
+
+header .box_prices-header .top_prices-header-form .title-prices-header-form {
+	font-size: 24px;
+	line-height: 28px;
+	color: #fff;
+	font-weight: 500;
+	margin: 0
+}
+
+header .box_prices-header .top_prices-header-form .under_prices-header-form {
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 5px
+}
+
+header .box_prices-header .prices-header-pop {
+	padding: 40px 60px
+}
+
+header .box_prices-header .prices-header-pop input {
+	cursor: pointer
+}
+
+header .box_prices-header .prices-header-pop .name_input,
+header .box_prices-header .prices-header-pop .phone_input,
+header .box_prices-header .prices-header-pop .question_input {
+	outline: 0;
+	display: block;
+	width: 100%;
+	padding: 15px 0;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #bdbdbd;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s
+}
+
+header .box_prices-header .prices-header-pop .name_input:focus,
+header .box_prices-header .prices-header-pop .name_input:hover,
+header .box_prices-header .prices-header-pop .phone_input:focus,
+header .box_prices-header .prices-header-pop .phone_input:hover,
+header .box_prices-header .prices-header-pop .question_input:focus,
+header .box_prices-header .prices-header-pop .question_input:hover {
+	border-bottom: 1px solid #21c0f8
+}
+
+header .box_prices-header .prices-header-pop .box-name_input:before {
+	content: "Ваше имя:";
+	display: block;
+	color: #4f4f4f;
+	letter-spacing: .05em;
+	line-height: 14px;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase
+}
+
+header .box_prices-header .prices-header-pop .box-phone_input {
+	margin-top: 20px
+}
+
+header .box_prices-header .prices-header-pop .box-phone_input:before {
+	content: "Ваш телефон:";
+	display: block;
+	color: #4f4f4f;
+	letter-spacing: .05em;
+	line-height: 14px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500
+}
+
+header .box_prices-header .prices-header-pop .box-question_input {
+	margin-top: 20px
+}
+
+header .box_prices-header .prices-header-pop .box-question_input:before {
+	content: "Ваш вопрос:";
+	display: block;
+	color: #4f4f4f;
+	letter-spacing: .05em;
+	line-height: 14px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 500
+}
+
+header .box_prices-header .prices-header-pop .checkbox_input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	position: relative;
+	bottom: 10px;
+	height: 15px;
+	width: 15px;
+	-webkit-transition: all .15s ease-out 0s;
+	-o-transition: all .15s ease-out 0s;
+	transition: all .15s ease-out 0s;
+	background: 0 0;
+	border: none;
+	border: 1px solid #21c0f8;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 11px;
+	outline: 0
+}
+
+header .box_prices-header .prices-header-pop .checkbox_input:checked::before {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	content: '✔';
+	display: inline-block;
+	font-size: 24px;
+	color: #21c0f8;
+	text-align: center;
+	line-height: 5px
+}
+
+header .box_prices-header .prices-header-pop .checkbox_input:checked::after {
+	-webkit-animation: click-wave .65s;
+	animation: click-wave .65s;
+	background: #21c0f8;
+	content: '';
+	display: block;
+	position: relative;
+	z-index: 100
+}
+
+header .box_prices-header .prices-header-pop .checkbox_text {
+	opacity: .7;
+	color: #828282;
+	letter-spacing: .05em;
+	font-size: 12px;
+	line-height: 14px;
+	display: inline-block;
+	margin: 0
+}
+
+header .box_prices-header .prices-header-pop .checkbox_text span {
+	text-decoration: underline
+}
+
+header .box_prices-header .prices-header-pop .form-button {
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	padding: 22px 15px
+}
+
+
 
 
 
