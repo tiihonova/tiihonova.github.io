@@ -1511,7 +1511,7 @@ margin-bottom: 0px;
 
 @media screen and (max-width: 460px) {
 	.is_home header {
-		min-height: 700px;
+		min-height: 500px;
 	}
 
 	header .box_request_call-pop .request_call-pop .checkbox_text{
