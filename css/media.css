@@ -1560,6 +1560,10 @@ header .box_request_call-pop{
 	padding-bottom: 40px;
 }
 
+	.reviews .under_title-changes{
+		display: none;
+	}
+
 }
 
 @media screen and (max-width: 423px) {
