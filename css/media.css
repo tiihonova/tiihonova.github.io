@@ -1556,6 +1556,10 @@ header .box_request_call-pop{
 	margin-top: 20px;
 }
 
+.example{
+	padding-bottom: 40px;
+}
+
 }
 
 @media screen and (max-width: 423px) {
