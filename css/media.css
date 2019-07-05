@@ -1503,6 +1503,10 @@ margin-bottom: 0px;
 	top: 60%;
 }
 
+header .box_request_call-pop{
+	top: 50%;
+}
+
 .video_our-services .box_services-wrap .services-wrap-pop, .offer .box_offer .offer-pop, .prices-s .box_prices-pop .prices-pop,.chief_doctor .box_chief_doctor .chief_doctor-pop, header .box_prices-header .prices-header-pop{
 	padding: 20px;
 }
@@ -1521,6 +1525,35 @@ margin-bottom: 0px;
 
 .button-advantages{
 	display: block;
+}
+
+.video_our-services .title_video-block_under{
+	font-size: 14px;
+}
+
+.video_our-services .title_video-block span{
+	color: #21C0F8;
+}
+
+.reviews .under_title-changes{
+	display: none;
+}
+
+.under_title-changes-mob{
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+	color: #717171;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.is_home header .top-line{
+	border-bottom: 0.5px solid #E0E0E0;
+}
+
+.changes-s .selection p{
+	margin-top: 20px;
 }
 
 }
@@ -1638,7 +1671,7 @@ margin-bottom: 0px;
 		display: none;
 	}
 
-	.button-veneers-mob,  .button_prices {
+	.button-veneers-mob,  .button_prices, .button-advantages {
 	display: block;
 	font-size: 12px;
 	padding: 22px;
@@ -1685,7 +1718,7 @@ margin-bottom: 0px;
 	padding: 22px;
 	font-size: 12px;
 }
-.changes-s .title-changes, .reviews .title-changes{
+.changes-s .title-changes{
 	padding-left: 15px;
 }
 

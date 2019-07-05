@@ -2770,6 +2770,10 @@ margin-left: 50px;
 	display: none;
 }
 
+.under_title-changes{
+	display: none;
+}
+
 .photo-mobile {
 	display: none;
 	padding: 40px 0 80px 0;
