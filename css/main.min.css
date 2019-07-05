@@ -1664,6 +1664,10 @@ body {
 	position: absolute
 }
 
+.button-veneers-mob{
+	display: none;
+}
+
 .request_call-mob{
 	display: none;
 }
@@ -2759,6 +2763,10 @@ margin-left: 50px;
 }
 
 .chief-title {
+	display: block;
+}
+
+.example-mob{
 	display: none;
 }
 
@@ -3835,6 +3843,19 @@ img {
 
 .example-slider, .example-info {
 	width: 50%;
+}
+
+.example-slide-mob{
+	display: none;
+}
+
+.box_button-advantages{
+	padding: 0 15px;
+	margin-top: 30px;
+}
+
+.button-advantages{
+	display: none;
 }
 
 .example-info {

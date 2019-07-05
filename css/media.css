@@ -1035,6 +1035,11 @@
 		flex-direction: column;
 		padding: 0 15px;
 	}
+
+.example-mob{
+	display: block;
+}
+
 	.example .example-wrapper-w, .example .example-wrapper-m {
 		order: 2;
 	}
@@ -1068,7 +1073,7 @@
 	}
 	.links-wrap li {
 		max-width: 50%;
-		font-size: 12px;
+		font-size: 10px;
 	}
 	.links-wrap li:last-child {
 		margin-top: 0;
@@ -1346,7 +1351,7 @@
 		display: block;
 	}
 	.photo-item img {
-		max-height: 150px;
+		height: auto;   
 	}
 	.buttons-photo {
 		display: none;
@@ -1479,7 +1484,7 @@ margin-bottom: 0px;
 }
 
 .changes-s .title-changes, .reviews .title-changes{
-	padding-left: 15px;
+/*	padding-left: 15px;*/
 }
 .changes-s .under_title-changes{
 	text-align: left;
@@ -1510,11 +1515,22 @@ margin-bottom: 0px;
 	padding: 20px;
 }
 
-.video_our-services .box_services-wrap .services-wrap-pop .checkbox_text, .offer .box_offer .offer-pop .checkbox_text, .prices-s .box_prices-pop .prices-pop .checkbox_text,.chief_doctor .box_chief_doctor .chief_doctor-pop .checkbox_text,  header .box_prices-header .prices-header-pop .checkbox_text{
+/*.video_our-services .box_services-wrap .services-wrap-pop .checkbox_text, .offer .box_offer .offer-pop .checkbox_text, .prices-s .box_prices-pop .prices-pop .checkbox_text,.chief_doctor .box_chief_doctor .chief_doctor-pop .checkbox_text,  header .box_prices-header .prices-header-pop .checkbox_text{
 	font-size: 8px;
+}*/
+
+.button-advantages{
+	display: block;
 }
 
 }
+
+@media screen and (max-width: 423px) {
+	.video_our-services .box_services-wrap .services-wrap-pop .checkbox_text, .offer .box_offer .offer-pop .checkbox_text, .prices-s .box_prices-pop .prices-pop .checkbox_text,.chief_doctor .box_chief_doctor .chief_doctor-pop .checkbox_text,  header .box_prices-header .prices-header-pop .checkbox_text{
+	font-size: 10px;
+}
+}
+
 
 @media screen and (max-width: 460px) {
 	.is_home header {
@@ -1571,10 +1587,34 @@ margin-bottom: 0px;
 
 	}
 	.links-wrap li {
-		max-width: 45%;
+		width: 50%;
 		display: inline-block;
 		margin-bottom: 10px;
-		font-size: 10px;	}
+	}
+
+.example-link.active{
+	padding: 15px;
+	font-weight: 400;
+	line-height: 14px;
+	font-size: 10px;
+}
+
+.example-link{
+	padding: 15px;
+	font-weight: 400;
+	line-height: 14px;
+	font-size: 10px;
+}
+
+.example .examble-btn{
+	font-size: 12px;
+	padding: 22px;
+}
+
+.example-link.example-link-m{
+	margin-right: 0;
+}
+
 	.example-slide{
 		margin-left: 0;
 	}
@@ -1593,14 +1633,78 @@ margin-bottom: 0px;
 	.reviews .under_title-changes{
 		text-align: left;
 	}
-	.links-wrap li{
-		font-size: 10px;
+
+	.offer .container-offer_composition .container-veneer .button-veneers{
+		display: none;
 	}
 
+	.button-veneers-mob,  .button_prices {
+	display: block;
+	font-size: 12px;
+	padding: 22px;
+}
+
+.chief_doctor .video-chief_doctor .box-video{
+	height: 250px;
+}
+
+.chief_doctor .video-chief_doctor{
+	padding: 0;
+}
+
+.chief_doctor .video-chief_doctor .under_title-chief_doctor{
+	font-size: 14px;
+}
+
+.box_button-chief_doctor{
+	padding: 0px 15px;
+}
+
+.button-chief_doctor{
+	display: block;
+	padding: 22px;
+}
+.changes-s .box_consultation-form .top_consultation-form{
+	padding: 20px;
+}
+
+.changes-s .box_consultation-form .top_consultation-form .title-consultation-form, .questions-s .box_questions-form .top_questions-form .title-questions-form{
+	font-size: 22px;
+	line-height: 1.2;
+}
+
+.changes-s .box_consultation-form .top_consultation-form .under_title-consultation-form, .questions-s .box_questions-form .top_questions-form .under_title-questions-form{
+	font-size: 14px;
+}
+.changes-s .box_consultation-form .consultation-form .checkbox_text, .questions-s .box_questions-form .questions-form .checkbox_text{
+	font-size: 10px;
+}
+
+.changes-s .box_consultation-form .consultation-form .form-button, .questions-s .box_questions-form .questions-form .form-button{
+	display: block;
+	padding: 22px;
+	font-size: 12px;
+}
+.changes-s .title-changes, .reviews .title-changes{
+	padding-left: 15px;
+}
+
+.changes-s .under_title-changes{
+	font-size: 14px;
+	line-height: 18px;
+}
 
 }
 
 @media screen and (max-width: 360px) {
+
+	.video_our-services .box_services-wrap .services-wrap-pop .checkbox_text, .offer .box_offer .offer-pop .checkbox_text, .prices-s .box_prices-pop .prices-pop .checkbox_text,.chief_doctor .box_chief_doctor .chief_doctor-pop .checkbox_text,  header .box_prices-header .prices-header-pop .checkbox_text{
+	font-size: 8px;
+}
+
+	.changes-s .box_consultation-form .consultation-form .checkbox_text, .questions-s .box_questions-form .questions-form .checkbox_text{
+	font-size: 8px;
+}
 
 .video_our-services .container-tooths .tab_content.active ul.info_service{
 	width: 160px;
