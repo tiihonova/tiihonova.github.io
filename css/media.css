@@ -1619,7 +1619,7 @@ header .box_request_call-pop{
 		font-size: 16px;
 	}
 	.is_home header .header-composition {
-		top: 50px;
+		top: 100px;
 	}
 	.is_home header .header-composition .button-header, .request_call-mob {
 		font-size: 14px;
