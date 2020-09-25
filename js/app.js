@@ -124,7 +124,25 @@ $('.lavel-sliders').slick({
     ]
 });
 
-$('.photo-slides, .video-slides').slick({
+$('.photo-slides').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: false,
+    arrows: false,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                autoplay: true,
+                speed: 500,
+                dots: true,
+            }
+        }
+    ]
+
+});
+$('.video-slides').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     infinite: false,
@@ -136,12 +154,14 @@ $('.photo-slides, .video-slides').slick({
             settings: {
                 slidesToShow: 1,
                 autoplay: true,
-                speed: 500
+                speed: 500,
+                
             }
         }
     ]
 
 });
+
 
 $('[data-fancybox="gallery"]').fancybox();
 

@@ -281,6 +281,9 @@ h1+p {
 
 
 }
+.upgrade{
+   font-family: 'Conv_GothamProLight';
+}
 .price{
     font-size: 30px;
     font-family: 'Conv_GothamProBold';
