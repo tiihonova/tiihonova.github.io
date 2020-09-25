@@ -1028,6 +1028,21 @@ img[alt~=gerl] {
     -webkit-box-shadow: 0 0 20px #fcf0fc;
     box-shadow: 0 0 20px #fcf0fc
 }
+.panel_day4{
+    position: relative;
+    left: 20px;
+
+}
+.panel_day5{
+    position: relative;
+    left: 15px;
+
+}
+.panel_day6{
+    position: relative;
+    left: 40px;
+
+}
 
 .accordion .trigger #checkbox-1,
 .accordion .trigger #checkbox-2,
@@ -2176,6 +2191,10 @@ section.program{
 
 @media only screen and (max-width : 768px){
 
+   .program__tabs .panel .panel-heading a span{
+    font-size: 14px;
+}
+
     .program__title{
         font-size: 31px;
     }
@@ -2396,13 +2415,34 @@ section.program{
     .training ul li{
         font-size: 16px;
     }
+
+     .program__tabs .panel .panel-heading a span{
+        font-size: 13px;
+    }
+
+    .panel_day4{
+        left: 15px;
+    }
+
+    .panel_day6{
+        left: 35px;
+    }
+
 }
 
 @media only screen and (max-width : 480px){
 
+    
     .program__tabs .panel .panel-heading a{
         padding: 15px;
     }
+    .panel_day6{
+    left: 30px;
+
+}
+      .program__tabs .panel .panel-heading a span{
+    font-size: 11px;
+}
     
     .tab__title_2{
         margin-top: 30px;
@@ -2565,6 +2605,10 @@ section.program{
         margin-bottom: 20px
     }
 
+    .program__tabs .panel .panel-heading .daysform{
+        padding-right: 40px;
+    }
+
 }
 
 @media (min-width:380px){
@@ -2574,8 +2618,8 @@ section.program{
     margin-top: 5px;
    }
 
-   
 
+   
 
 }
 
@@ -2596,6 +2640,7 @@ section.program{
         -ms-flex: none;
         flex: none
     }
+
 }
 
 @media (min-width:768px) {
