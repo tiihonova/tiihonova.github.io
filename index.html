@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<title>Onling</title>
+		<!-- <meta name="description" content=""> -->
+
+		<meta name="viewport" content="width=device-width">
+		<meta name="format-detection" content="telephone=no">
+
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+		<link rel="preload" href="fonts/FredokaOne-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		
+		<link rel="stylesheet" href="css/styles.min.css">
+		<script defer src="js/scripts.min.js"></script>
+
+	</head>
+
+	<body class="ishome">
+
+		<div class="preloader">
+			<div class="preloader__content">Onling <div class="plug"></div></div>
+		</div>
+
+		<div class="pop-up pop-up__success mfp-hide">
+			<p class="_fredoka">Thank you!</p>
+			<p>Наш менеджер в скором времени свяжется с вами</p>
+		</div>
+
+		<form class="pop-up pop-up__free-lesson mfp-hide">
+
+			<img src="img/logo.png" alt="Site logo">
+			
+			<p class="_bold">Оставьте свои данные и мы вам позвоним <br> чтобы назначить дату бесплатного урока</p>
+
+			<input type="text" name="Имя" placeholder="Имя*" required>
+			<input type="text" name="Фамилия" placeholder="Фамилия*" required>
+			<input type="tel" name="Контактный номер" placeholder="Контактный номер*" required>
+
+			<button class="button">Готово</button>
+		</form>
+
+		<form class="pop-up pop-up__authorization mfp-hide">
+
+			<img src="img/logo.png" alt="Site logo">
+
+			<input type="email" name="Электронная почта" placeholder="Электронная почта*" required>
+			<input type="password" name="Пароль" placeholder="Пароль*" required>
+
+			<a href="registration-page.html" class="registration-link">Регистрация</a>
+
+			<a href="cabinet-main.html" class="button transition">Готово</a>
+		</form>
+
+		<div class="pop-up pop-up__test mfp-hide">
+
+			<h2 class="h2">Тест от <img src="img/logo.png" alt="Site logo"></h2>
+			<h5 class="h5">Пройдите тест для определения вашего уровня</h5>
+
+			<div class="tabs">
+
+				<ul class="tabs__caption">
+					<li class="active">Английский <input type="radio" name="Test language"></li>
+					<li>Немецкий <input type="radio" name="Test language"></li>
+					<li>Русский <input type="radio" name="Test language"></li>
+				</ul>
+
+				<div class="tabs__content test-questions active">
+
+					<!-- <div class="customScroll test-first_stage">
+
+						<div class="question-wrapper">
+
+							<p class="question">1.	He … his car in evenings</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Was…cooking/came</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Cooked/came</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Cooks/came</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">2.	You (to go) to the cinema tonight?</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Will … go</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Are… going</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Is going</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">3.	She loves … to music.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Listening</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	To listen</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	listens</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">4.	Maria plays the piano … </p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Beautifully</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Beautiful</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Beautifuly</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">5.	We need … actors for this film</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Youngly</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Younger</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Young</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">6.	Mark hit the ball … </p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Hardly</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Hard</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Harder</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">7.	The Mississippi is much …  than the Thames.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Long</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Longer</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	The longest</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">8.	John is the … of all the assistants.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Helpful</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Helpfully</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Most helpful</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">9.	Silver isn’t as … as gold.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Valuable</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	More valuable</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Most valuable</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">10.	What …. you see out of the window?</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	May</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Must</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Can</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">11.	You …. not drink while driving.s</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Can</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Must</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	may</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">12.	I don’t know where Tony is. He … be outside.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Can</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	May</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Must</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">13.	My brother’s birthday is … March.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	In </span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	On</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	At</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">14.	The train leaves Paris … 4 pm.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	In</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	On</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	At</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">15.	My friend lives in … same street as me.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	A</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	*</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	The</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">16.	Let’s have … ice-cream.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	A</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	An</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	The </span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">17.	Correct the mistakes in these sentences:  <p>There are some money in my pocket.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Are</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Some</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	In</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">18.	Correct the mistakes in these sentences:  <p>He doesn’t have nothing in his bag.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Have</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Nothing</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	In</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">19.	Translate the sentences from English into Russian.  <p>I could play chess when I was five.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Я умела играть в шахматы, когда мне было пять</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Я играла в шахматы, когда мне было пять</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Я умела играть в шахматы, когда я был пять</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">20.	Translate the sentences from Russian into English.  <p>Путешествовать на поезде обычно дешевле, чем на самолёте.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Travelling by train is more expensive than by plane</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Travelling by train is usually cheaper than by plane.</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Travelling by plane is usually cheaper than by train. </span>
+					  	</label>
+
+						</div>
+
+					</div> -->
+
+					<div class="customScroll test-second_stage">
+
+						<div class="question-wrapper">
+
+							<p class="question">1.	Your mother … when you … home yesterday? </p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Was…cooking/came</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Cooked/came</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Cooks/came</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">2.	They … , when they … visa to the USA tomorrow.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Are happy/get</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Will be happy/get</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Will be happy/gets</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">3.	I didn’t pass the exam because I … for that test</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Hadn’t prepared</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Didn’t prepare</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Hadn’t prepare</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">4.	She was sure she … him somewhere long years ago.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Had met</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Met</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Has met</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">5.	When Mary arrived at the party, most of the guests … already.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Have already left</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Left already</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Had already left</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">6.	I have little time: I ….. go. </p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Must</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	May</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Might</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">7.	You …… not …… come to this lecture. It’s optional.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Does/have to</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Do/have to</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Are/have to</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">8.	Rewrite the following sentence using Modal verbs: <p><span class="_text-underline">It’s not good idea for you to wear</span> this cloth in this cold.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	You shouldn’t wear</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	He shouldn’t wear</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	You mustn’t wear</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">9.	Rewrite the following sentence using Modal verbs: <p><span class="_text-underline">Am I allowed to sit</span> here?</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Can I sit..</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	May I sit ..</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Should I sit… </span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">10.	This book … last year.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Is written</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Was written</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Is writing</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">11.	His new car … next week.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Is fixed</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Was fixed</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Will be fixed</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">12.	 Many interesting movies always … at cinemas</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Are released</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Is released</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Release</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">13.	Who … this room … every evening by?</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Is cleaned</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Is cleaning</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Was cleaned</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">14.	Many would be out of work if that factory … down.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Closed</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Was closed</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Closes</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">15.	If you visit Oxford, you …  some old buildings.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	See</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Saw</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Will see</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">16.	I studied my last year at this school but I don’t think I … to this school if I … what it was like.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Would have come/ had known</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Would come/ knew</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Will come/know</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">17.	I’m not interested … what you think or what you want.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	To</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	On</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	In</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">18.	We might have a picnic. It depends … weather.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	To </span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	On</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	With</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">19.	Swimming is … excellent sport.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	*</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	An</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	The </span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">20.	Mike wants to watch TV … tonight.</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	*</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	A </span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	The </span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">
+								21. Choose the correct form of the verbs. 
+								<p>The world population …. rapidly. Many people in the world … and many more … from malnutrition. The population … fastest in the poorest countries where people … to have children to look after them in their old age and where many of their children … at a very young age.</p>
+							</p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a) Still increases   b) is still increasing   c) are still increasing</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a) Already starve   b) are already starving   c) have already starved </span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a) Suffer   b) is suffering   c) are suffering</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a) Is growing    b) grow       c) grew  </span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a) Needs    b) needed    c) need</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a) Died   b) are dying    c) die </span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">22.	Translate the sentences from Russian into English.	<p>Мне дают домашнее задание каждый день.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	I am given homework everyday</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	I give homework everyday</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Homework gives me everyday</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">23.	Translate the sentences from Russian into English.	<p>Если бы я был на вашем месте, я бы посоветовался с родителями.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	If I were you, I would advise my parents</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	If I were you, I would take parents’ advice</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	If I were you, I would ask parents’ advice</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">24.	Translate the sentences from English into Russian. <p> He might have read this letter.</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Он наверно прочитает это письмо.</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Он наверно прочел это письмо.</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Он может прочитать это письмо. </span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">25.	Translate the sentences from English into Russian. <p> I met him in the café, when he was working as a waiter</p></p>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>a)	Я встретила его в кафе, когда он работал официантом.</span>
+							</label>
+
+							<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>b)	Я встретила её в кафе, когда она работала официанткой.</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>c)	Я встретил её в кафе, когда я работал официантом.</span>
+					  	</label>
+
+						</div>
+
+					</div>
+
+					<button class="button">Готово</button>
+
+			  </div>
+
+				<div class="tabs__content test-questions">
+					<div class="customScroll">
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input class="active" type="radio" name="question" checked>
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+					</div>
+
+					<button class="button">Готово</button>
+
+			  </div>
+
+			  <div class="tabs__content test-questions">
+					<div class="customScroll">
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input class="active" type="radio" name="question" checked>
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+
+						<div class="question-wrapper">
+
+							<p class="question">1. How old are you?</p>
+
+			  			<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25</span>
+				  		</label>
+
+				  		<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I am 25</span>
+					  	</label>
+
+					  	<label class="question-radio">
+					  		<input type="radio" name="question">
+					  		<span>I have 25 years</span>
+					  	</label>
+
+						</div>
+					</div>
+
+					<button class="button">Готово</button>
+
+			  </div>
+
+			</div>
+
+		</div>
+
+		<header class="header _sticky">
+
+			<div class="top-line__hamburger-menu">
+
+				<div class="heading">
+					<img src="img/logo.png" alt="Site logo" class="disable-hamburger">
+					<img src="img/icons/disable_hamburger-icon.svg" alt="Close icon" class="disable-hamburger close-icon">
+				</div>
+
+				<nav class="hamburger-menu">
+					<ul class="menu">
+						<li><a href="about_us-page.html" class="disable-hamburger transition">О Нас</a></li>
+						<li>
+							<span class="courses panel-heading">Наши курсы</span>
+							<div class="courses-collapse">
+								<ul>
+									<li><a href="our_courses-page.html" class="disable-hamburger transition">Английский</a></li>
+									<li><a href="our_courses-page.html" class="disable-hamburger transition">Немецкий</a></li>
+									<li><a href="our_courses-page.html" class="disable-hamburger transition">Русский</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="news-page.html" class="disable-hamburger transition">Акции и  новости</a></li>
+						<li><a href="gallery-page.html" class="disable-hamburger transition">Галерея</a></li>
+						<li><a href="contacts-page.html" class="disable-hamburger transition">Контакты</a></li>
+						<li><a href="vacancies-page.html" class="disable-hamburger transition">Вакансии</a></li>
+					</ul>
+
+					<div class="lang-cabinet">
+						<div class="lang">
+							<div class="panel-heading">ru <img src="img/icons/arrow-lang.svg" alt="Arrow icon"></div>
+								<div class="panel-collapse">
+									<ul>
+										<li><a href="">eng</a></li>
+										<li><a href="">de</a></li>
+									</ul>
+								</div>
+						</div>
+
+						<a class="cabinet magnific-popup" href=".pop-up__authorization"><img src="img/icons/user.svg" alt="User icon"> Войти</a>
+
+					</div>
+				</nav>
+
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="top-line">
+
+							<div class="top-line__hamburger">
+								<div class="line _long"></div>
+								<div class="line _short"></div>
+								<div class="line _medium"></div>
+							</div>
+
+							<div class="top-line__logo"><img src="img/logo.png" alt="Site logo"></div>
+
+							<nav class="top-line__menu">
+								<ul>
+									<li class="active"><a class="transition" href="index.html">Главная</a><div class="underline"></div></li>
+									<li><a class="transition" href="about_us-page.html">О Нас</a><div class="underline"></div></li>
+									<li><a class="transition" href="our_courses-page.html">Наши курсы</a><div class="underline"></div></li>
+									<li><a class="transition" href="news-page.html">Акции и новости</a><div class="underline"></div></li>
+									<li><a class="transition" href="gallery-page.html">Галерея</a><div class="underline"></div></li>
+									<li><a class="transition" href="contacts-page.html">Контакты</a><div class="underline"></div></li>
+									<li><a class="transition" href="vacancies-page.html">Вакансии</a><div class="underline"></div></li>
+								</ul>
+							</nav>
+
+							<div class="top-line__lang-cabinet">
+								<div class="lang">
+									<div class="panel-heading">ru <img src="img/icons/arrow-lang.svg" alt="Arrow icon"></div>
+									<div class="panel-collapse">
+										<ul>
+											<li><a href="">eng</a></li>
+											<li><a href="">de</a></li>
+										</ul>
+								</div>
+								</div>
+								<a class="cabinet magnific-popup" href=".pop-up__authorization">Войти <img src="img/icons/user.svg" alt="User icon"></a>
+								<a class="cabinet_mobile magnific-popup" href=".pop-up__authorization"><img src="img/icons/user_mobile.svg" alt="User icon"></a>
+
+								<a class="cabinet cabinet-authorized"><img src="img/gallery/image_2.png" alt="User avatar"></a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+		<header class="header _height">
+
+			<img class="header__pattern header__pattern_left" src="img/header-pattern_left.svg" alt="Pattern" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1700" data-aos-offset="0">
+			<img class="header__pattern header__pattern_right" src="img/header-pattern_right.svg" alt="Pattern" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1700" data-aos-offset="0">
+
+			<div class="header__bg_mobile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1700" data-aos-offset="0"></div>
+
+
+			<div class="top-line__hamburger-menu">
+
+				<div class="heading">
+					<img src="img/logo.png" alt="Site logo" class="disable-hamburger">
+					<img src="img/icons/disable_hamburger-icon.svg" alt="Close icon" class="disable-hamburger close-icon">
+				</div>
+
+				<nav class="hamburger-menu">
+					<ul class="menu">
+						<li><a href="about_us-page.html" class="disable-hamburger transition">О Нас</a></li>
+						<li>
+							<span class="courses panel-heading">Наши курсы</span>
+							<div class="courses-collapse">
+								<ul>
+									<li><a href="our_courses-page.html" class="disable-hamburger transition">Английский</a></li>
+									<li><a href="our_courses-page.html" class="disable-hamburger transition">Немецкий</a></li>
+									<li><a href="our_courses-page.html" class="disable-hamburger transition">Русский</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="news-page.html" class="disable-hamburger transition">Акции и  новости</a></li>
+						<li><a href="gallery-page.html" class="disable-hamburger transition">Галерея</a></li>
+						<li><a href="contacts-page.html" class="disable-hamburger transition">Контакты</a></li>
+						<li><a href="vacancies-page.html" class="disable-hamburger transition">Вакансии</a></li>
+					</ul>
+
+					<div class="lang-cabinet">
+						<div class="lang">
+							<div class="panel-heading">ru <img src="img/icons/arrow-lang.svg" alt="Arrow icon"></div>
+								<div class="panel-collapse">
+									<ul>
+										<li><a href="">eng</a></li>
+										<li><a href="">de</a></li>
+									</ul>
+								</div>
+						</div>
+
+						<a class="cabinet magnific-popup" href=".pop-up__authorization"><img src="img/icons/user.svg" alt="User icon"> Войти</a>
+
+					</div>
+				</nav>
+
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col">
+
+						<div class="top-line" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1700">
+
+							<div class="top-line__hamburger">
+								<div class="line _long"></div>
+								<div class="line _short"></div>
+								<div class="line _medium"></div>
+							</div>
+
+							<div class="top-line__logo"><img src="img/logo.png" alt="Site logo"></div>
+
+							<nav class="top-line__menu">
+								<ul>
+									<li class="active"><a class="transition" href="index.html">Главная</a><div class="underline"></div></li>
+									<li><a class="transition" href="about_us-page.html">О Нас</a><div class="underline"></div></li>
+									<li><a class="transition" href="our_courses-page.html">Наши курсы</a><div class="underline"></div></li>
+									<li><a class="transition" href="news-page.html">Акции и новости</a><div class="underline"></div></li>
+									<li><a class="transition" href="gallery-page.html">Галерея</a><div class="underline"></div></li>
+									<li><a class="transition" href="contacts-page.html">Контакты</a><div class="underline"></div></li>
+									<li><a class="transition" href="vacancies-page.html">Вакансии</a><div class="underline"></div></li>
+								</ul>
+							</nav>
+
+							<div class="top-line__lang-cabinet">
+								<div class="lang">
+									<div class="panel-heading">ru <img src="img/icons/arrow-lang.svg" alt="Arrow icon"></div>
+									<div class="panel-collapse">
+										<ul>
+											<li><a href="">eng</a></li>
+											<li><a href="">de</a></li>
+										</ul>
+								</div>
+								</div>
+								<a class="cabinet magnific-popup" href=".pop-up__authorization">Войти <img src="img/icons/user.svg" alt="User icon"></a>
+								<a class="cabinet_mobile magnific-popup" href=".pop-up__authorization"><img src="img/icons/user_mobile.svg" alt="User icon"></a>
+
+								<a class="cabinet cabinet-authorized"><img src="img/gallery/image_2.png" alt="User avatar"></a>
+							</div>
+
+						</div>
+
+						<div class="main-screen">
+							<div class="main-screen__heading" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000" data-aos-offset="0">
+								<h1 class="h1">Onling</h1>
+								<h2 class="h2">The voice of tomorrow</h2>
+							</div>
+							<img class="main-screen__image" src="img/main-screen__man.png" alt="Man" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1700" data-aos-offset="0">
+							<nav class="main-screen__courses">
+								<ul>
+									<li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2500" data-aos-once="true" data-aos-offset="0"><a href="our_courses-page.html" class="transition">Английский</a></li>
+									<li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2750" data-aos-once="true" data-aos-offset="0"><a href="our_courses-page.html" class="transition">Немецкий</a></li>
+									<li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="3000" data-aos-once="true" data-aos-offset="0"><a href="our_courses-page.html" class="transition">Русский</a></li>
+								</ul>
+							</nav>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+		<section class="how_to_learn" id="s-how_to_learn">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2 class="h2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Как? <span class="br">изучать с <span class="_fredoka">Onling</span></span></h2>
+						<div class="how_to_learn__wrapper">
+
+							<div class="how_to_learn__box" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+								<div class="number"><img src="img/how_to_learn-corner_circle.svg" alt="Decor circle"><span>01</span></div>
+								<img src="img/icons/htl_pc-icon.svg" alt="Pc icon">
+								<p>Зарегистрируйтесь <br> на сайте</p>
+							</div>
+
+							<div class="how_to_learn__box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
+								<div class="number"><img src="img/how_to_learn-corner_circle.svg" alt="Decor circle"><span>02</span></div>
+								<img src="img/icons/htl_video-icon.svg" alt="Video icon">
+								<p>Выберите курс</p>
+							</div>
+
+							<div class="how_to_learn__box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true">
+								<div class="number"><img src="img/how_to_learn-corner_circle.svg" alt="Decor circle"><span>03</span></div>
+								<img src="img/icons/htl_checklist-icon.svg" alt="Checklist icon">
+								<p>Пройдите тестирование</p>
+							</div>
+
+							<div class="how_to_learn__box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
+								<div class="number"><img src="img/how_to_learn-corner_circle.svg" alt="Decor circle"><span>04</span></div>
+								<img src="img/icons/htl_card-icon.svg" alt="Card icon">
+								<p>Внесите оплату <br> за обучение</p>
+							</div>
+
+							<div class="how_to_learn__box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800" data-aos-once="true">
+								<div class="number"><img src="img/how_to_learn-corner_circle.svg" alt="Decor circle"><span>05</span></div>
+								<img src="img/icons/htl_graduated-icon.svg" alt="Graduated icon">
+								<p>Получайте знания <br>в удобном формате</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="pass_training" id="s-pass_training">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-xl-6 col-lg-5">
+						<img class="pass_training__image" src="img/phone.png" alt="Phone" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
+					</div>
+
+					<div class="col-xl-6 col-lg-7">
+						
+						<h2 class="h2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">Как будет <br> проходить обучение?</h2>
+
+						<div class="pass_training__stages">
+							<div class="stage" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">
+								<div class="stage__circle"><img src="img/icons/arrow-stages_pt.svg" alt="Arrow right"></div>
+								<p><img src="img/pass_training__stage.svg" alt="Stage vector">Смотрите видео</p>
+							</div>
+							<div class="stage" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400" data-aos-once="true" data-aos-offset="100">
+								<div class="stage__circle"><img src="img/icons/arrow-stages_pt.svg" alt="Arrow right"></div>
+								<p><img src="img/pass_training__stage.svg" alt="Stage vector">Выполняете  задание</p>
+							</div>
+							<div class="stage" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" data-aos-once="true" data-aos-offset="100">
+								<div class="stage__circle"><img src="img/icons/arrow-stages_pt.svg" alt="Arrow right"></div>
+								<p><img src="img/pass_training__stage.svg" alt="Stage vector">Радуетесь</p>
+							</div>
+						</div>
+
+						<p class="text" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">Обучение проходит онлайн, на удобной платформе 24/7, доступ <br> с любого устройства через Интернет.Каждый день Вам приходит <br> занятие, объясняющее одну микротему. Ваши домашние <br> задания и отвечу на все вопросы в общем Telegram чате</p>
+
+						<p class="text _light" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">Изучайте вместе с нами везде и в любое время</p>
+						<p class="text _bold" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">Cкачайте <span>наше приложения</span></p>
+						<a href="" class="button" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-offset="100">Скачать</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="testing" id="s-testing">
+
+			<img class="testing__bg _left" src="img/testing-bg_left.svg" alt="Testing background" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+			<img class="testing__bg _right" src="img/testing-bg_right.svg" alt="Testing background" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="testing__wrapper">
+							<h2 class="h2">Тестирование <br> от <span class="_fredoka">Onling <a href=".pop-up__test" class="button magnific-popup"><span>Пройти</span></a></span></h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="test_result" id="s-test_result">
+
+			<img class="test_result__bg _left" src="img/test_result-bg_left.svg" alt="Test result background" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+			<img class="test_result__bg _right" src="img/test_result-bg_right.svg" alt="Test result background" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-6 order-2 order-lg-1">
+						<div class="test_result__text-box">
+
+							<div class="test_result__questions">
+								<div class="correct">
+									<p>Правильных ответов:</p>
+									<p class="number">19</p>
+								</div>
+								<div class="not-correct">
+									<p>Неправильных ответов:</p>
+									<p class="number">94</p>
+								</div>
+							</div>
+
+							<p>Ваш уровень А2, вы свободно владеете, читаете, но не можете. Вам стоит подтянуть грамматику, обратите внимание на тему Present Perfect.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+							<a href="">Подобрать курс</a>
+
+						</div>
+					</div>
+
+					<div class="col-lg-5 offset-lg-1 order-1 order-lg-2">
+						<div class="test_result__wrapper">
+							<div class="level-result">
+								<p class="_bold">Ваш уровень:</p>
+								<p class="percent">20%</p>
+								<p class="level">Middle A2</p>
+							</div>
+							<img src="img/test_result__man_1.png" alt="Man">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="recomended_courses" id="s-recomended_courses">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2 class="h2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true"><span>Рекомендованные</span> курсы</h2>
+						<div class="recomended_courses__wrapper">
+
+							<div class="recomended_courses__box" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+								<h3 class="h3">English <br> A1-A2</h3>
+								<p>Beginner/ Elementary</p>
+								<a href="" class="button">Приобрести</a>
+							</div>
+
+							<div class="recomended_courses__box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
+								<h3 class="h3">English <br> B1</h3>
+								<p>Pre-Intermediate</p>
+								<a href="" class="button">Приобрести</a>
+							</div>
+
+							<div class="recomended_courses__box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="600" data-aos-once="true">
+								<h3 class="h3">English <br> B2</h3>
+								<p>Intermediate</p>
+								<a href="" class="button">Приобрести</a>
+							</div>
+
+							<div class="recomended_courses__box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900" data-aos-once="true">
+								<h3 class="h3">English <br> C1</h3>
+								<p>Upper-Intermediate/ <br> Advanced</p>
+								<a href="" class="button">Приобрести</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="free_lesson" id="s-free_lesson">
+
+			<img class="free_lesson__bg _left" src="img/free_lesson-bg_left.svg" alt="Testing background" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+			<img class="free_lesson__bg _right" src="img/free_lesson-bg_right.svg" alt="Testing background" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="free_lesson__wrapper">
+							<h2 class="h2">Бесплатный <span>урок</span></h2>
+							<a href=".pop-up__free-lesson" class="button magnific-popup"><span>Получить</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="news" id="s-news">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h2 class="h2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Новости</h2>
+						<div class="news__slider">
+
+							<div class="news__slide">
+								<div class="news__image"></div>
+								<div class="content">
+									<h4 class="h4">Lorem ipsum dolor sit amet</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...</p>
+									<a href="" class="button">Читать полностью</a>
+									<img class="decor-circle" src="img/news__corner-circle.svg" alt="Decor circle">
+								</div>
+							</div>
+
+							<div class="news__slide">
+								<div class="news__image"></div>
+								<div class="content">
+									<h4 class="h4">Lorem ipsum dolor sit amet</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...</p>
+									<a href="" class="button">Читать полностью</a>
+									<img class="decor-circle" src="img/news__corner-circle.svg" alt="Decor circle">
+								</div>
+							</div>
+
+							<div class="news__slide">
+								<div class="news__image"></div>
+								<div class="content">
+									<h4 class="h4">Lorem ipsum dolor sit amet</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...</p>
+									<a href="" class="button">Читать полностью</a>
+									<img class="decor-circle" src="img/news__corner-circle.svg" alt="Decor circle">
+								</div>
+							</div>
+
+							<div class="news__slide">
+								<div class="news__image"></div>
+								<div class="content">
+									<h4 class="h4">Lorem ipsum dolor sit amet</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...</p>
+									<a href="" class="button">Читать полностью</a>
+									<img class="decor-circle" src="img/news__corner-circle.svg" alt="Decor circle">
+								</div>
+							</div>
+
+						</div>
+
+						<div class="news__slider-buttons">
+							<button class="news-prev"></button>
+							<button class="news-next"></button>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer__wrapper">
+
+							<div class="footer__social">
+								<img src="img/logo.png" alt="Site logo" class="logo">
+								<div class="social-links">
+									<p class="_bold">Присоединяйтесь к нам</p>
+									<ul>
+										<li><a href=""><img src="img/icons/instagram-icon.svg" alt="Instagram"></a></li>
+										<li><a href=""><img src="img/icons/facebook-icon.svg" alt="Facebook"></a></li>
+										<li><a href=""><img src="img/icons/telegram-icon.svg" alt="Telegram"></a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="footer__menu">
+								<ul>
+									<li><a class="transition" href="about_us-page.html">О нас <span class="underline"></span></a></li>
+									<li><a class="transition" href="about_us-page.html#s-why_onling">Почему мы <span class="underline"></span></a></li>
+									<li><a class="transition" href="about_us-page.html#s-goals">Цели <span class="underline"></span></a></li>
+									<li><a class="transition" href="about_us-page.html#s-advantages">Преимущества <span class="underline"></span></a></li>
+								</ul>
+								<ul>
+									<li><a class="transition" href="our_courses-page.html">Курсы <span class="underline"></span></a></li>
+									<li><a class="transition" href="our_courses-page.html">Английский <span class="underline"></span></a></li>
+									<li><a class="transition" href="our_courses-page.html">Русский <span class="underline"></span></a></li>
+									<li><a class="transition" href="our_courses-page.html">Немецкий <span class="underline"></span></a></li>
+								</ul>
+								<ul>
+									<li><a class="transition" href="news-page.html">Новости <span class="underline"></span></a></li>
+									<li><a class="transition _bold" href="gallery-page.html">Галерея <span class="underline"></span></a></li>
+									<li><a class="transition _bold" href="vacancies-page.html">Вакансии <span class="underline"></span></a></li>
+								</ul>
+								<ul>
+									<li><a class="transition" href="contacts-page.html">Контакты</a></li>
+									<li><a href="tel:">+999 90 123 45 67</a></li>
+									<li><a class="magnific-popup" href=".pop-up__success">Адрес офиса</a></li>
+									<li><a href="">электронная почта</a></li>
+								</ul>
+							</div>
+
+							<div class="social-links_mobile">
+								<p class="_bold">Присоединяйтесь к нам</p>
+								<ul>
+									<li><a href=""><img src="img/icons/instagram-icon.svg" alt="Instagram"></a></li>
+									<li><a href=""><img src="img/icons/facebook-icon.svg" alt="Facebook"></a></li>
+									<li><a href=""><img src="img/icons/telegram-icon.svg" alt="Telegram"></a></li>
+								</ul>
+							</div>
+
+							<div class="footer__payment">
+								<p class="_bold">Оплата</p>
+								<ul>
+									<li><a href=""><img src="img/icons/payment_payme-icon.png" alt="Payme"></a></li>
+									<li><a href=""><img src="img/icons/payment_click-icon.png" alt="Click"></a></li>
+									<li><a href=""><img src="img/icons/payment_apelsin-icon.png" alt="Apelsin"></a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
