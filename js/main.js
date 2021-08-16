@@ -99,9 +99,6 @@ document.querySelectorAll('a[href^="#"').forEach(link => {
       });
   });
 
-  $(document).mouseleave(function(){
-     $('.popup__leave').show();
-});
 let popupCloseBtn = document.querySelector('.popup__leave-close');
 let popupLeave = document.querySelector('.popup__leave')
 
@@ -110,3 +107,18 @@ popupCloseBtn.onclick = function(){
 }
 
 $('.magnific-popup').magnificPopup();
+
+
+
+
+$(document).mouseleave(function(e){
+   if (e.clientY < 10) {
+       $(".popup__leave").fadeIn("fast");
+   }    
+});
+
+$(document).click(function(e) {
+   if (($(".popup__leave").is(':visible')) && (!$(e.target).closest(".popup__leave .popap__leave-body").length)) {
+       $(".popup__leave").remove();
+   }
+});

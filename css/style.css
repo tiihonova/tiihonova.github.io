@@ -163,7 +163,7 @@ body {
 }
 
 .header__bottom .header__content-title {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 120px;
   line-height: 131px;
   text-transform: uppercase;
@@ -1057,16 +1057,27 @@ body {
   content: '';
   display: block;
   position: absolute;
-  top: -25px;
+  top: -42px;
+  right: 40px;
+  background: url(../img/fircone1.webp) center no-repeat;
+  width: 72px;
+  height: 84px;
+}
+
+.popup-form::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 25px;
   right: -25px;
-  background: url(../img/fircone.webp) center no-repeat;
-  width: 124px;
-  height: 115px;
+  background: url(../img/fircone2.webp) center no-repeat;
+  width: 42px;
+  height: 55px;
 }
 
 .popup-form__title {
   font-size: 60px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 50px;
   margin-bottom: 30px;
   position: relative;
@@ -1081,27 +1092,27 @@ body {
   border: 1px solid #e8e8e8;
   border-radius: 0;
   padding: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .popup-form input::-webkit-input-placeholder {
   color: #e8e8e8;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .popup-form input:-ms-input-placeholder {
   color: #e8e8e8;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .popup-form input::-ms-input-placeholder {
   color: #e8e8e8;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .popup-form input::placeholder {
   color: #e8e8e8;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .popup-form .mfp-close {
@@ -1114,6 +1125,7 @@ body {
 
 .popup-form .order-btn {
   max-width: 100%;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 1600px) {
