@@ -581,6 +581,10 @@ body {
   font-size: 50px;
 }
 
+.manual__title br {
+  display: none;
+}
+
 .manual__text {
   font-weight: 300;
   font-size: 25px;
@@ -1158,14 +1162,24 @@ body {
             justify-content: center;
     text-align: center;
   }
+  .header__content {
+    position: relative;
+    z-index: 3;
+  }
   .header__content-img {
     margin: 0 auto;
   }
   .header__content-btn {
-    margin: 0 auto;
+    margin: 50% auto 0;
   }
   .header__bottom-img {
-    display: none;
+    width: 500px;
+    height: 470px;
+    margin-right: 0;
+    padding-bottom: 0;
+    position: absolute;
+    bottom: 20%;
+    z-index: 0;
   }
   .header__content-title {
     line-height: 100px !important;
@@ -1236,16 +1250,29 @@ body {
     display: inline-block;
     margin: 0 auto;
   }
-  .manual__photo {
-    right: -27% !important;
+  .manual__row {
+    display: block;
+    padding: 0;
+  }
+  .manual__photo-box {
+    position: relative;
+    min-height: 440px;
+    bottom: 0;
   }
   .manual__photo:first-child {
-    display: none;
+    right: 40%;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  .manual__photo:last-child {
+    right: 0;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
   }
   .manual__content {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 69%;
-            flex: 0 1 69%;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
   }
   .delivery {
     padding: 50px 0;
@@ -1290,7 +1317,25 @@ body {
     max-width: none;
   }
   .header {
-    background: url(../img/bg-text.png) right center no-repeat, url(../img/header-bg2.png) left bottom no-repeat, url(../img/header-bg.png) center/cover no-repeat, url(../img/header-bg1.png) right center/60% 100% no-repeat;
+    background: url(../img/header-bg.png) center/cover no-repeat, url(../img/header-bg1.png) bottom/200% 12% no-repeat;
+  }
+  .header__top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+  }
+  .header__top .header__logo {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .header__top .header__tel {
+    display: none;
+  }
+  .header__bottom-img {
+    width: 400px;
+    height: 400px;
+    bottom: 20%;
   }
   .header__bottom .header__content-title {
     font-size: 90px;
@@ -1301,6 +1346,9 @@ body {
   }
   .header__bottom .header__content-text {
     line-height: 30px;
+  }
+  .header__content-btn {
+    margin: 70% auto 0;
   }
   .title {
     font-size: 35px;
@@ -1334,17 +1382,20 @@ body {
   .manual {
     padding-top: 35px;
   }
-  .manual__row {
-    padding-bottom: 30px;
+  .manual__photo-box {
+    min-height: 360px;
   }
-  .manual__photo {
-    display: none;
+  .manual__photo:last-child {
+    width: 300px;
+  }
+  .manual__photo:first-child {
+    width: 200px;
   }
   .manual__content {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
-    text-align: center;
+    text-align: left;
   }
   .delivery__item {
     margin: 0 auto 30px;
@@ -1446,8 +1497,10 @@ body {
 }
 
 @media screen and (max-width: 450px) {
+  .header {
+    padding-bottom: 40px;
+  }
   .header__top {
-    padding-top: 10px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1467,19 +1520,30 @@ body {
   }
   .header__top .header__logo {
     width: 130px;
-    height: 90px;
+    height: 80px;
   }
   .header__top .header__logo-img {
     width: 80%;
-    top: -8px;
+    top: -15px;
+  }
+  .header__bottom-img {
+    width: 300px;
+    height: 300px;
+    bottom: 23%;
   }
   .header__bottom .header__content-title {
     font-size: 66px;
     line-height: 60px !important;
-    margin: 10px 0;
+    margin: 10px 0 0;
   }
   .header__bottom .header__content-text {
-    font-size: 24px;
+    font-size: 22px;
+  }
+  .header__bottom .header__content-btn {
+    margin-bottom: 50px;
+  }
+  .header__bottom .header__content {
+    margin-top: 10px;
   }
   .title {
     font-size: 25px;
@@ -1510,7 +1574,9 @@ body {
     margin: 0;
   }
   .manual__text {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    line-height: 29px;
   }
   .delivery {
     padding: 30px 0 0;
@@ -1574,5 +1640,22 @@ body {
   .footer__contacts-tel::before {
     left: 5px;
     top: -6px;
+  }
+  .manual__title {
+    font-size: 35px;
+    line-height: 35px;
+    width: 290px;
+  }
+  .manual__title br {
+    display: inline;
+  }
+  .manual__photo-box {
+    min-height: 260px;
+  }
+  .manual__photo:last-child {
+    width: 210px;
+  }
+  .manual__photo:first-child {
+    width: 150px;
   }
 }

@@ -343,6 +343,8 @@ body
    &__title
       margin-bottom: 17px
       font-size: 50px
+      br 
+         display: none
    &__text 
       font-weight: 300
       font-size: 25px
@@ -572,7 +574,6 @@ body
 
     &.mfp-removing .mfp-content
       opacity: 0
-
 .popup__leave
    display: none
    position: fixed
@@ -671,7 +672,6 @@ body
       color: #fff
       opacity: 1
       font-size: 50px
-   
 .popup-form
    background-color: #fff
    border-radius: 25px
@@ -735,12 +735,6 @@ body
 
 
 
-
-
-
-
-
-
 @media screen and ( max-width: 1600px)
    .header
       background: url(../img/header-bg-text.png) left center no-repeat, url(../img/header-bg2.png) left bottom no-repeat, url(../img/header-bg.png) center/cover no-repeat, url(../img/header-bg1.png) right center/55% 100% no-repeat
@@ -761,12 +755,21 @@ body
          justify-content: center
          text-align: center
       &__content
+         position: relative
+         z-index: 3
          &-img 
             margin: 0 auto
          &-btn 
-            margin: 0 auto
+            margin: 50% auto 0
       &__bottom-img
-         display: none
+         width: 500px
+         height: 470px
+         margin-right: 0
+         padding-bottom: 0
+         position: absolute
+         bottom: 20%
+         z-index: 0
+         
       &__content-title
          line-height: 100px!important
       .countdown
@@ -818,13 +821,23 @@ body
             display: inline-block
             margin: 0 auto    
    .manual
-      &__photo
-         right: -27%!important
+      &__row
+         display: block
+         padding: 0
+      &__photo-box 
+         position: relative
+         min-height: 440px
+         bottom: 0
+      &__photo 
          &:first-child
-            display: none
+            right: 40%
+            transform: translateX(50%)
+         &:last-child
+            right: 0
+            transform: translateX(50%)
 
       &__content
-         flex: 0 1 69%
+         flex: 0 1 auto
    .delivery
       padding: 50px 0
       &__subtitle
@@ -856,8 +869,20 @@ body
    .container
       max-width: none
    .header
-      background: url(../img/bg-text.png) right center no-repeat, url(../img/header-bg2.png) left bottom no-repeat, url(../img/header-bg.png) center/cover no-repeat, url(../img/header-bg1.png) right center/60% 100% no-repeat
+      background: url(../img/header-bg.png) center/cover no-repeat, url(../img/header-bg1.png) bottom/200% 12% no-repeat
+      &__top
+         justify-content: center
+         padding: 0
+         .header__logo
+            border-top-left-radius: 0
+            border-top-right-radius: 0
+         .header__tel
+            display: none
       &__bottom 
+         &-img
+            width: 400px
+            height: 400px
+            bottom: 20%
          .header__content-title
             font-size: 90px
             margin: 0
@@ -865,6 +890,9 @@ body
             margin-bottom: 25px
          .header__content-text
             line-height: 30px
+      &__content
+         &-btn
+            margin: 70% auto 0
    .title
       font-size: 35px
       line-height: 30px
@@ -888,13 +916,16 @@ body
             display: inline    
    .manual
       padding-top: 35px
-      &__row 
-         padding-bottom: 30px
+      &__photo-box
+         min-height: 360px
       &__photo
-         display: none  
+         &:last-child
+            width: 300px
+         &:first-child
+            width: 200px
       &__content
          flex: 0 1 auto 
-         text-align: center
+         text-align: left
    .delivery
       &__item
          margin: 0 auto 30px
@@ -972,8 +1003,8 @@ body
          
 @media screen and ( max-width: 450px)
    .header
+      padding-bottom: 40px
       &__top
-         padding-top: 10px
          align-items: center
          .header__tel-link
             font-size: 14px
@@ -987,17 +1018,25 @@ body
             line-height: 16px
          .header__logo
             width: 130px
-            height: 90px
+            height: 80px
             &-img
                width: 80%
-               top: -8px
-      &__bottom 
+               top: -15px
+      &__bottom
+         &-img
+            width: 300px
+            height: 300px
+            bottom: 23%
          .header__content-title
             font-size: 66px
             line-height: 60px!important
-            margin: 10px 0
+            margin: 10px 0 0
          .header__content-text
-            font-size: 24px
+            font-size: 22px
+         .header__content-btn
+            margin-bottom: 50px
+         .header__content
+            margin-top: 10px
    .title
       font-size: 25px
       line-height: 20px
@@ -1020,7 +1059,9 @@ body
          &-current 
             margin: 0
    .manual__text
-      margin-bottom: 10px
+      margin-bottom: 40px
+      font-size: 25px;
+      line-height: 29px
    .delivery
       padding: 30px 0 0
       background: #fff
@@ -1068,7 +1109,20 @@ body
             &::before 
                left: 5px
                top: -6px
-
+   .manual
+      &__title
+         font-size: 35px
+         line-height: 35px
+         width: 290px
+         br 
+            display: inline
+      &__photo-box
+         min-height: 260px
+      &__photo
+         &:last-child
+            width: 210px
+         &:first-child
+            width: 150px
 
 
 
