@@ -8533,6 +8533,12 @@ body.scroll_disable {
   color: #fff;
 }
 
+.p-project .project .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .p-project .project__bg {
   background-size: cover;
   background-position: center top;
@@ -8733,6 +8739,67 @@ body.scroll_disable {
   font-weight: normal;
   letter-spacing: 0.05em;
   margin-bottom: 25px;
+}
+
+.p-privacy .privacy__title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.p-privacy .privacy h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.p-privacy .privacy h1 {
+  font-size: 36px;
+  margin-bottom: 120px;
+}
+
+.p-privacy .privacy p {
+  color: #B8B4D0;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.p-privacy .privacy ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.p-privacy .privacy ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  color: #B8B4D0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-privacy .privacy ul li::before {
+  content: '\f111';
+  font-family: 'Font Awesome 5 Free';
+  color: #A100FF;
+  font-weight: 900;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.p-privacy .privacy a {
+  color: #D4D0EE;
+  font-weight: 800;
+}
+
+.p-privacy .privacy a:hover {
+  color: #fff;
 }
 
 /* Large Devices, Wide Screens */
@@ -9430,12 +9497,12 @@ body.scroll_disable {
     padding: 0 200px;
   }
   .preview__name {
-    font-size: 85px;
+    font-size: 40px;
     margin-bottom: 60px;
   }
   .preview__text {
-    font-size: 30px;
-    max-width: 660px;
+    font-size: 22px;
+    max-width: 560px;
     margin-bottom: 70px;
   }
   .preview__image {
@@ -11899,15 +11966,13 @@ body.scroll_disable {
     max-width: 100%;
   }
   .p-ads .approach__container {
-    padding: 80px 20px;
+    padding: 30px 20px;
   }
   .p-ads .approach__wrapper {
     max-width: none;
   }
   .p-ads .approach__number {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
   .p-ads .approach__text br {
     display: inline;
@@ -13505,6 +13570,67 @@ body.scroll_disable {
   .addition__caption {
     font-size: 11px;
   }
+}
+
+.p-privacy .privacy__title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.p-privacy .privacy h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.p-privacy .privacy h1 {
+  font-size: 30px;
+  margin-bottom: 120px;
+}
+
+.p-privacy .privacy p {
+  color: #B8B4D0;
+  font-size: 1px;
+  margin-bottom: 15px;
+}
+
+.p-privacy .privacy ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.p-privacy .privacy ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  color: #B8B4D0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-privacy .privacy ul li::before {
+  content: '\f111';
+  font-family: 'Font Awesome 5 Free';
+  color: #A100FF;
+  font-weight: 900;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.p-privacy .privacy a {
+  color: #D4D0EE;
+  font-weight: 800;
+}
+
+.p-privacy .privacy a:hover {
+  color: #fff;
 }
 
 /* Custom adaptation */
