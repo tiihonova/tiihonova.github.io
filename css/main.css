@@ -13612,67 +13612,58 @@ body.scroll_disable {
   .addition__caption {
     font-size: 11px;
   }
-}
-
-.p-privacy .privacy__title {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.p-privacy .privacy h2 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-.p-privacy .privacy h1 {
-  font-size: 30px;
-  margin-bottom: 120px;
-}
-
-.p-privacy .privacy p {
-  color: #B8B4D0;
-  font-size: 1px;
-  margin-bottom: 15px;
-}
-
-.p-privacy .privacy ul {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.p-privacy .privacy ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: left;
-  font-size: 16px;
-  letter-spacing: 0.05em;
-  line-height: 1.3;
-  margin-bottom: 10px;
-  color: #B8B4D0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.p-privacy .privacy ul li::before {
-  content: '\f111';
-  font-family: 'Font Awesome 5 Free';
-  color: #A100FF;
-  font-weight: 900;
-  margin-right: 10px;
-  font-size: 10px;
-}
-
-.p-privacy .privacy a {
-  color: #D4D0EE;
-  font-weight: 800;
-}
-
-.p-privacy .privacy a:hover {
-  color: #fff;
+  .privacy__title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .privacy h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .privacy h1 {
+    font-size: 30px;
+    margin-bottom: 120px;
+  }
+  .privacy p {
+    color: #B8B4D0;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .privacy ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .privacy ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    color: #B8B4D0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .privacy ul li::before {
+    content: '\f111';
+    font-family: 'Font Awesome 5 Free';
+    color: #A100FF;
+    font-weight: 900;
+    margin-right: 10px;
+    font-size: 10px;
+  }
+  .privacy a {
+    color: #D4D0EE;
+    font-weight: 800;
+  }
+  .privacy a:hover {
+    color: #fff;
+  }
 }
 
 /* Custom adaptation */
