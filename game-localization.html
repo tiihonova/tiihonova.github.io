@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
 
-    <title>PlayJoy | Game Economy & Analytics</title>
+    <title>PlayJoy | Game localization</title>
 
     <meta name="viewport" content="width=device-width" />
     <meta name="format-detection" content="telephone=no" />
@@ -15,6 +15,7 @@
       href="img/favicon.ico"
     />
 
+    <link rel="stylesheet" href="css/preloader.css" />
     <link rel="stylesheet" href="libs/aos/aos.css" />
     <link rel="stylesheet" href="libs/slick-slider/slick.css" />
     <link rel="stylesheet" href="libs/slick-slider/slick-theme.css" />
@@ -22,6 +23,7 @@
 
     <script defer src="libs/jquery.min.js"></script>
 
+    <script defer src="js/preloader.js"></script>
     <script defer src="libs/aos/aos.js"></script>
     <script defer src="libs/slick-slider/slick.min.js"></script>
 
@@ -35,7 +37,7 @@
     ></script>
   </head>
 
-  <body class="isnohome p-economy">
+  <body class="isnohome p-localization">
     <header class="header" id="header" data-aos="fade-down">
       <div class="container">
         <div class="row">
@@ -66,17 +68,19 @@
                   <div class="dropdown__body">
                     <div class="flex-wrapper">
                       <div class="dropdown__col">
-                        <a href="porting.html">Game Porting</a>
+                        <a href="game-porting.html">Game Porting</a>
                         <a href="co-development.html">Co-Development</a>
-                        <a href="full-cycle.html">Full-cycle development</a>
-                        <a href="playable-ads.html">HTML5 Playable Ads</a>
+                        <a href="full-cycle-development.html"
+                          >Full-cycle development</a
+                        >
+                        <a href="html5-playable-ads.html">HTML5 Playable Ads</a>
                       </div>
 
                       <div class="dropdown__col">
                         <a href="game-design.html">Game Design</a>
                         <a href="level-design.html">Level Design</a>
-                        <a href="localization.html">Game Localization</a>
-                        <a href="economy.html">Game Economy</a>
+                        <a href="game-localization.html">Game Localization</a>
+                        <a href="game-economy.html">Game Economy</a>
                       </div>
 
                       <div class="dropdown__back-btn button">Back to menu</div>
@@ -90,16 +94,16 @@
                 <a href="projects.html">Projects</a>
               </nav>
 
-              <a href=".s-form" class="header__button button link-move">
-                Contact Us
-              </a>
+              <a href=".s-form" class="header__button button link-move"
+                >Contact Us</a
+              >
 
               <div class="header__social-links">
-                <a href="#">
+                <a href="https://www.facebook.com/playjoystudios">
                   <img src="img/icons/facebook.svg" alt="Facebook" />
                   <span>Facebook</span>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/playjoy-studios">
                   <img src="img/icons/linkedin.svg" alt="LinkedIn" />
                   <span>LinkedIN</span>
                 </a>
@@ -111,9 +115,9 @@
               </div>
             </div>
 
-            <a href=".s-form" class="header__mail link-move">
-              <img src="img/icons/header__mail.svg" alt="Mail" />
-            </a>
+            <a href=".s-form" class="header__mail link-move"
+              ><img src="img/icons/header__mail.svg" alt="Mail"
+            /></a>
           </div>
         </div>
       </div>
@@ -149,17 +153,19 @@
                   <div class="dropdown__body">
                     <div class="flex-wrapper">
                       <div class="dropdown__col">
-                        <a href="porting.html">Game Porting</a>
+                        <a href="game-porting.html">Game Porting</a>
                         <a href="co-development.html">Co-Development</a>
-                        <a href="full-cycle.html">Full-cycle development</a>
-                        <a href="playable-ads.html">HTML5 Playable Ads</a>
+                        <a href="full-cycle-development.html"
+                          >Full-cycle development</a
+                        >
+                        <a href="html5-playable-ads.html">HTML5 Playable Ads</a>
                       </div>
 
                       <div class="dropdown__col">
                         <a href="game-design.html">Game Design</a>
                         <a href="level-design.html">Level Design</a>
-                        <a href="localization.html">Game Localization</a>
-                        <a href="economy.html">Game Economy</a>
+                        <a href="game-localization.html">Game Localization</a>
+                        <a href="game-economy.html">Game Economy</a>
                       </div>
 
                       <div class="dropdown__back-btn button">Back to menu</div>
@@ -173,16 +179,16 @@
                 <a href="projects.html">Projects</a>
               </nav>
 
-              <a href=".s-form" class="header__button button link-move">
-                Contact Us
-              </a>
+              <a href=".s-form" class="header__button button link-move"
+                >Contact Us</a
+              >
 
               <div class="header__social-links">
-                <a href="#">
+                <a href="https://www.facebook.com/playjoystudios">
                   <img src="img/icons/facebook.svg" alt="Facebook" />
                   <span>Facebook</span>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/playjoy-studios">
                   <img src="img/icons/linkedin.svg" alt="LinkedIn" />
                   <span>LinkedIN</span>
                 </a>
@@ -194,9 +200,9 @@
               </div>
             </div>
 
-            <a href=".s-form" class="header__mail link-move">
-              <img src="img/icons/header__mail.svg" alt="Mail" />
-            </a>
+            <a href=".s-form" class="header__mail link-move"
+              ><img src="img/icons/header__mail.svg" alt="Mail"
+            /></a>
           </div>
         </div>
       </div>
@@ -211,14 +217,12 @@
               data-aos="fade-down"
               data-aos-delay="200"
             >
-              Game Economy &
-              <br />
-              Analytics
+              game localization
             </h1>
 
             <div class="main__image_mobile">
               <img
-                src="img/economy/main-economy.png"
+                src="img/localization/main.png"
                 alt="Main image"
                 data-aos="zoom-in"
                 data-aos-delay="300"
@@ -226,14 +230,12 @@
             </div>
 
             <p class="main__text" data-aos="fade-down" data-aos-delay="400">
-              Creating a reliable and well-thought economy system is often
-              crucial behind any given game’s success. Thanks to vast experience
-              across multiple genres of experts in PlayJoy Studios and our
-              approaches that include thorough analysis of the game and the
-              player's life cycle, our game economy designers can create a
-              sustainable and well-balanced economy system that is also fun for
-              players from the start that will later be instrumental in
-              achieving desired KPIs.
+              Localizing your game is an integral part of achieving success on
+              new markets. We provide various localization services for
+              publishers and developers for mobile, desktop, browser and console
+              games for more than 15 languages. Taking a few steps to adapt your
+              game for another language and culture can go a long way and
+              suddenly grow your audience by millions.
             </p>
 
             <div
@@ -241,16 +243,16 @@
               data-aos="fade-down"
               data-aos-delay="600"
             >
-              <a href=".s-form" class="button link-move">
-                <span>Contact Us</span>
-              </a>
+              <a href=".s-form" class="button link-move"
+                ><span>Contact Us</span></a
+              >
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="main__image">
               <img
-                src="img/economy/main-economy.png"
+                src="img/localization/main.png"
                 alt="Main image"
                 data-aos="zoom-in"
                 data-aos-delay="300"
@@ -261,313 +263,302 @@
       </div>
     </section>
 
-    <section class="blocks">
+    <section class="image-list">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2 class="h2 blocks__title _mobile" data-aos="fade-up">
-              Why outsource Game Economy
-              <span>Design & analytics</span>
-              ?
-            </h2>
-
-            <div class="blocks__container">
-              <div class="blocks__box" data-aos="fade-up">
-                <span class="blocks__number">01</span>
-                <div class="blocks__img">
-                  <img src="img/economy/blocks__icon_1.svg" alt="Icon" />
-                </div>
-
-                <h4 class="h4">
-                  Mitigate
-                  <br />
-                  risks
-                </h4>
-
-                <p class="blocks__text">
-                  By involving game economy designers and analysts when creating
-                  a game, you can get a sustainable and well-balanced economy
-                  system from the start to increase the chances of achieving
-                  desired KPIs.
-                </p>
-              </div>
-
-              <div class="blocks__box" data-aos="fade-up" data-aos-delay="100">
-                <span class="blocks__number">02</span>
-                <div class="blocks__img">
-                  <img src="img/economy/blocks__icon_2.svg" alt="Icon" />
-                </div>
-
-                <h4 class="h4">
-                  Plan
-                  <br />
-                  ahead
-                </h4>
-
-                <p class="blocks__text">
-                  With the help of our specialists you can get forecasts for
-                  potential budgets for live-ops spendings, UA campaigns, KPI
-                  benchmarks and revenue predictions.
-                </p>
-              </div>
-
-              <div class="blocks__box" data-aos="fade-up" data-aos-delay="200">
-                <span class="blocks__number">03</span>
-                <div class="blocks__img">
-                  <img src="img/economy/blocks__icon_3.svg" alt="Icon" />
-                </div>
-
-                <h4 class="h4">Growth and improvement</h4>
-
-                <p class="blocks__text">
-                  Get an audit of your game to identify potential problems and
-                  growth points. Use a data-driven approach to plan balance
-                  tuning, economy adjustments and new features in the game.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="approach">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 approach__title" data-aos="fade-up">how we work?</h2>
-
-            <div class="approach__container" data-aos="fade-up">
-              <span class="approach__number _left">01</span>
-
-              <img
-                class="approach__image"
-                src="img/economy/dev-stage.png"
-                alt="Image"
-              />
-
-              <div class="approach__wrapper">
-                <h3 class="h3 approach__heading">
-                  <span>DEVELOPMENT STAGE</span>
-                </h3>
-
-                <p class="approach__text">
-                  Mitigate risks by involving game economy and analytics
-                  specialists during pre-production and production stages by
-                  creating predictions for player progression, calibrating
-                  difficulty, setting balanced rewards and currency sinks,
-                  identifying optimal price-points, identifying potential risks
-                  points for player churn. Plan ahead during pre-production by
-                  getting forecasts for potential production and live-ops
-                  budgets, UA campaigns, KPI benchmarks and revenue predictions.
-                </p>
-
-                <div class="approach__box" data-aos="fade-right">
-                  <h4 class="h4 approach__caption">
-                    Key tasks and documentation:
-                  </h4>
-
-                  <ul class="approach__list">
-                    <li>Balance spreadsheets</li>
-                    <li>Player’s progression</li>
-                    <li>Difficulty curve</li>
-                    <li>Prices recommendations on in‑app purchases</li>
-                    <li>Revenue prediction</li>
-                    <li>Risks prognosis</li>
-                    <li>Building a game economy</li>
-                    <li>
-                      Creating events for data tracking to answer business
-                      questions
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="approach__container" data-aos="fade-up">
-              <span class="approach__number _right">02</span>
-
-              <div class="approach__wrapper">
-                <h3 class="h3 approach__heading">
-                  <span>LIVE-OPS STAGE</span>
-                </h3>
-
-                <p class="approach__text">
-                  Improve KPIs during live-ops stage by monitoring and analyzing
-                  data to identify growth goals, points for improvements, polish
-                  and adapt the economy system and other aspects of the game.
-                  Constant involvement of game analysts is recommended to
-                  improve the game’s metrics, create a balance in the game when
-                  it’s a win-win for both you and your player.
-                </p>
-
-                <div class="approach__box" data-aos="fade-right">
-                  <h4 class="h4 approach__caption">Key areas we focus on:</h4>
-
-                  <ul class="approach__list">
-                    <li>Fixing retention bottlenecks and churn points</li>
-                    <li>Live-ops data analysis, KPI tracking</li>
-                    <li>Building analytical dashboard</li>
-                    <li>Suggesting monetization features and improvements</li>
-                    <li>
-                      Designing time limited events aimed to increase metrics
-                    </li>
-                    <li>KPIs improvement consulting</li>
-                  </ul>
-                </div>
-              </div>
-
-              <img
-                class="approach__image"
-                src="img/economy/live-stage.png"
-                alt="Image"
-              />
-            </div>
-
-            <a href=".s-form" class="button approach__button_mobile link-move">
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="approach-cols">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 approach-cols__title" data-aos="fade-up">
-              Economy design
-              <span>process</span>
+            <h2 class="h2 image-list__title" data-aos="fade-up">
+              <span>why</span> order <br />
+              game localization?
             </h2>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div class="approach-cols__container" data-aos="fade-right">
-              <h3 class="h3 approach-cols__heading">
-                <div class="approach-cols__number_mobile">01</div>
-              </h3>
-              <div class="approach-cols__list">
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">01</div>
-                  <p class="approach-cols__text">
-                    Review economy, balance and pricing documentation
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">02</div>
-                  <p class="approach-cols__text">
-                    Review existing data and dashboards
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">03</div>
-                  <p class="approach-cols__text">
-                    Identify KPIs that could be potentially improved
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">04</div>
-                  <p class="approach-cols__text">
-                    Analyze existing data, create new dashboards
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">05</div>
-                  <p class="approach-cols__text">
-                    Identify weak points and potential growth areas
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">06</div>
-                  <p class="approach-cols__text">
-                    Propose data-driven changes for the game
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">07</div>
-                  <p class="approach-cols__text">
-                    Implement suggested changes in the build
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 approach-cols__image">
+        <div class="row _flex-center">
+          <div class="col-lg-5">
             <img
-              src="img/co/approach__image.svg"
+              src="img/localization/image-list__image.png"
+              data-aos="zoom-in"
+            />
+
+            <div class="image-list__location" data-aos="fade-up">
+              <img src="img/icons/location.png" alt="Image" />
+              <p>
+                We’ll help you pick optimal localization regions for your game,
+                native speakers will translate your game taking into account the
+                linguistic and subtle cultural differences and nuances of
+                various countries.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 offset-lg-1">
+            <h4 class="h4 image-list__heading">
+              Quality localization will improve your game by:
+            </h4>
+
+            <div class="image-list__list" data-aos="fade-right">
+              <div class="image-list__item">
+                <div class="image-list__number">01</div>
+                <p class="image-list__text">Growing your audience</p>
+              </div>
+
+              <div class="image-list__item">
+                <div class="image-list__number">02</div>
+                <p class="image-list__text">improving player retention</p>
+              </div>
+
+              <div class="image-list__item">
+                <div class="image-list__number">03</div>
+                <p class="image-list__text">
+                  getting featured on the app stores
+                </p>
+              </div>
+
+              <div class="image-list__item">
+                <div class="image-list__number">04</div>
+                <p class="image-list__text">
+                  increasing player lifetime value (LTV)
+                </p>
+              </div>
+
+              <div class="image-list__item">
+                <div class="image-list__number">05</div>
+                <p class="image-list__text">
+                  optimizing marketplace search rankings
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="localization-solutions">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="h2 localization-solutions__title" data-aos="fade-up">
+              game localization <span>solutions</span>
+            </h2>
+
+            <div class="localization-solutions__container">
+              <div class="localization-solutions__box" data-aos="fade-up">
+                <div class="localization-solutions__image">
+                  <img
+                    src="img/localization/solutions/image_1.png"
+                    alt="Image"
+                  />
+                </div>
+
+                <p class="localization-solutions__text">
+                  game localization for <br />
+                  mobile and consoles
+                </p>
+              </div>
+
+              <div class="localization-solutions__box" data-aos="fade-up">
+                <div class="localization-solutions__image">
+                  <img
+                    src="img/localization/solutions/image_2.png"
+                    alt="Image"
+                  />
+                </div>
+
+                <p class="localization-solutions__text">
+                  localization testing for <br />
+                  iOS and Android apps.
+                </p>
+              </div>
+
+              <div class="localization-solutions__box" data-aos="fade-up">
+                <div class="localization-solutions__image">
+                  <img
+                    src="img/localization/solutions/image_3.png"
+                    alt="Image"
+                  />
+                </div>
+
+                <p class="localization-solutions__text">
+                  professional voice-over <br />
+                  services for games and videos.
+                </p>
+              </div>
+
+              <div class="localization-solutions__box" data-aos="fade-up">
+                <div class="localization-solutions__image">
+                  <img
+                    src="img/localization/solutions/image_4.png"
+                    alt="Image"
+                  />
+                </div>
+
+                <p class="localization-solutions__text">
+                  Marketing text creation <br />
+                  and translation.
+                </p>
+              </div>
+
+              <div class="localization-solutions__box" data-aos="fade-up">
+                <div class="localization-solutions__image">
+                  <img
+                    src="img/localization/solutions/image_5.png"
+                    alt="Image"
+                  />
+                </div>
+                <p class="localization-solutions__text">
+                  translation for all the accompanying <br />
+                  elements of your application
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="addition">
+      <div class="container">
+        <div class="row _flex-center">
+          <div class="col-lg-6 addition__image">
+            <img
+              src="img/localization/addition__image.png"
               alt="Image"
-              data-aos="fade-right"
-              data-aos-delay="200"
+              data-aos="zoom-in"
             />
           </div>
 
-          <div class="col-lg-4">
-            <div
-              class="approach-cols__container"
-              data-aos="fade-right"
-              data-aos-delay="400"
+          <div class="col-lg-6">
+            <p class="addition__title" data-aos="fade-down">
+              Moreover, we offer separate translation and <br />
+              adaptation services for mobile applications:
+            </p>
+
+            <div class="addition__container" data-aos="fade-up">
+              <div class="addition__box">
+                <h6 class="h6 addition__caption">
+                  App interface <br />
+                  localization
+                </h6>
+
+                <span class="addition__number">01</span>
+              </div>
+              <div class="addition__box">
+                <h6 class="h6 addition__caption">
+                  LQA, Translation, <br />
+                  Proofreading
+                </h6>
+
+                <span class="addition__number">02</span>
+              </div>
+              <div class="addition__box _wider">
+                <h6 class="h6 addition__caption">
+                  Accompanying text localization <br />
+                  (descriptions, manuals, references)
+                </h6>
+
+                <span class="addition__number">03</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work-process">
+      <div class="container">
+        <div class="row _flex-center">
+          <div class="col-lg-5" data-aos="fade-right">
+            <h2 class="h2 work-process__title"><span>how</span> we work</h2>
+
+            <h4 class="h4 work-process__subtitle">
+              We are ready to handle localization of any level of complexity,
+              taking into account all the nuances and the gameplay itself. Our
+              developers can help to implement new localization into your
+              existing game, while experienced LQA specialists will make sure
+              all languages are properly supported.
+            </h4>
+
+            <a href=".s-form" class="button work-process__button link-move"
+              >Contact Us</a
             >
-              <h3 class="h3 approach-cols__heading">
-                <div class="approach-cols__number_mobile">02</div>
-              </h3>
+          </div>
 
-              <div class="approach-cols__list">
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">08</div>
-                  <p class="approach-cols__text">
-                    Set up new analytics or extra events to track
-                  </p>
-                </div>
+          <div class="col-lg-6 offset-lg-1 work-process__image">
+            <img
+              src="img/localization/work-process__image.png"
+              alt="Image"
+              data-aos="zoom-in"
+            />
+          </div>
+        </div>
 
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">09</div>
-                  <p class="approach-cols__text">
-                    Set up A/B testing rules if needed
-                  </p>
-                </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="work-process__container">
+              <div class="work-process__box" data-aos="zoom-in">
+                <div class="work-process__number">01</div>
+                <img
+                  src="img/localization/how_we_work/icon_1.svg"
+                  alt="Icon"
+                  class="work-process__icon"
+                />
+                <h4 class="h4 work-process__heading">Internationalization</h4>
+                <p class="work-process__text">
+                  We take into account the peculiarities of the <br />
+                  country and mentality to provide authentic <br />
+                  experience and make sure that there will be <br />
+                  no controversial topics in the game.
+                </p>
+              </div>
 
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">10</div>
-                  <p class="approach-cols__text">
-                    Ensure proper collection of data
-                  </p>
-                </div>
+              <div class="work-process__box" data-aos="zoom-in">
+                <div class="work-process__number">02</div>
+                <img
+                  src="img/localization/how_we_work/icon_2.svg"
+                  alt="Icon"
+                  class="work-process__icon"
+                />
+                <h4 class="h4 work-process__heading">Linguistic Team</h4>
+                <p class="work-process__text">
+                  We work only with professionals who are ready to <br />
+                  plunge into the world of the game in order to convey <br />
+                  its essence as accurately as possible. Our goal is for <br />
+                  players from any country to experience the game <br />
+                  as if it was created specifically for them.
+                </p>
+              </div>
 
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">11</div>
-                  <p class="approach-cols__text">
-                    Check statistical significance
-                  </p>
-                </div>
+              <div class="work-process__box" data-aos="zoom-in">
+                <div class="work-process__number">03</div>
+                <img
+                  src="img/localization/how_we_work/icon_3.svg"
+                  alt="Icon"
+                  class="work-process__icon"
+                />
+                <h4 class="h4 work-process__heading">Integration Team</h4>
+                <p class="work-process__text">
+                  Our team of game developers and designers work in <br />
+                  close collaboration with linguists to integrate new <br />
+                  translations and adapt the game to new languages <br />
+                  and regions, reworking art content if needed.
+                </p>
+              </div>
 
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">12</div>
-                  <p class="approach-cols__text">
-                    Identify and filter out anomalies
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">13</div>
-                  <p class="approach-cols__text">
-                    Analyze data, determine the results of the changes
-                  </p>
-                </div>
-
-                <div class="approach-cols__box">
-                  <div class="approach-cols__number">14</div>
-                  <p class="approach-cols__text">
-                    Adjust and set goals and KPIs for the next iteration.
-                  </p>
-                </div>
+              <div class="work-process__box" data-aos="zoom-in">
+                <div class="work-process__number">04</div>
+                <img
+                  src="img/localization/how_we_work/icon_4.svg"
+                  alt="Icon"
+                  class="work-process__icon"
+                />
+                <h4 class="h4 work-process__heading">Localization Testing</h4>
+                <p class="work-process__text">
+                  We thoroughly test the game to make sure that <br />
+                  everything is displayed correctly and the game <br />
+                  makes perfect sense,plays great and conveys the <br />
+                  intended experience across all languages.
+                </p>
               </div>
             </div>
           </div>
@@ -584,30 +575,6 @@
               <span>projects</span>
             </h2>
             <div class="preview__slider" data-aos="fade-up">
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">
-                    Away: Journey To The Unexpected
-                  </h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided mobile adaptation this fun and
-                    original game. AWAY: Journey to the Unexpected is a colorful
-                    first person adventure game that combines action,
-                    RPG-elements and rogue-lite elements.
-                  </p>
-                  <a href="project.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_1/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-
               <div class="preview__slide">
                 <div class="preview__wrapper">
                   <h4 class="preview__category">
@@ -630,6 +597,55 @@
                   class="preview__image"
                 />
               </div>
+              <div class="preview__slide">
+                <div class="preview__wrapper">
+                  <h4 class="preview__category">localization</h4>
+                  <h3 class="h3 preview__name">
+                    CRYPTO: AGAINST <br />ALL ODDS
+                  </h3>
+                  <p class="preview__text">
+                    Crypto: Against all odds is a cypherpunk interactive
+                    fiction, where PlayJoy Studios provided Russian localization
+                    and LQA.
+                  </p>
+                  <a
+                    href="crypto-against-all-odds.html"
+                    class="button preview__button"
+                    >See Project</a
+                  >
+                </div>
+
+                <img
+                  src="img/works/project_7/main__page_recent.png"
+                  alt="Game preview"
+                  class="preview__image"
+                />
+              </div>
+              <div class="preview__slide">
+                <div class="preview__wrapper">
+                  <h4 class="preview__category">turnkey porting</h4>
+                  <h3 class="h3 preview__name">
+                    Away: Journey To The Unexpected
+                  </h3>
+                  <p class="preview__text">
+                    PlayJoy Studios provided mobile adaptation this fun and
+                    original game. AWAY: Journey to the Unexpected is a colorful
+                    first person adventure game that combines action,
+                    RPG-elements and rogue-lite elements.
+                  </p>
+                  <a
+                    href="away-journey-to-the-unexpected.html"
+                    class="button preview__button"
+                    >See Project</a
+                  >
+                </div>
+
+                <img
+                  src="img/works/project_1/main__page_recent.png"
+                  alt="Game preview"
+                  class="preview__image"
+                />
+              </div>
 
               <div class="preview__slide">
                 <div class="preview__wrapper">
@@ -641,7 +657,7 @@
                     of Syrian refugee Nour and her husband Majd, as Nour
                     undertakes a perilous journey to safety in Europe.
                   </p>
-                  <a href="project-3.html" class="button preview__button"
+                  <a href="bury-me-my-love.html" class="button preview__button"
                     >See Project</a
                   >
                 </div>
@@ -663,7 +679,7 @@
                     all framed in an art style inspired by classic Naval Oil
                     Paintings.
                   </p>
-                  <a href="project-4.html" class="button preview__button"
+                  <a href="abandon-ship.html" class="button preview__button"
                     >See Project</a
                   >
                 </div>
@@ -683,7 +699,7 @@
                     for Plug-in-Digital from concept to soft launch, including
                     live-ops support.
                   </p>
-                  <a href="project-5.html" class="button preview__button"
+                  <a href="panda-swap.html" class="button preview__button"
                     >See Project</a
                   >
                 </div>
@@ -702,7 +718,7 @@
                     PlayJoy Studios developed Playable Ads for Plug-in-Digital
                     for this fun and relaxing game about medieval castle siege.
                   </p>
-                  <a href="project-6.html" class="button preview__button"
+                  <a href="siege-castles.html" class="button preview__button"
                     >See Project</a
                   >
                 </div>
@@ -713,28 +729,7 @@
                   class="preview__image"
                 />
               </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">localization</h4>
-                  <h3 class="h3 preview__name">
-                    CRYPTO: AGAINST <br />ALL ODDS
-                  </h3>
-                  <p class="preview__text">
-                    Crypto: Against all odds is a cypherpunk interactive
-                    fiction, where PlayJoy Studios provided Russian localization
-                    and LQA.
-                  </p>
-                  <a href="project-7.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
 
-                <img
-                  src="img/works/project_7/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
               <div class="preview__slide">
                 <div class="preview__wrapper">
                   <h4 class="preview__category">turnkey porting</h4>
@@ -746,13 +741,38 @@
                     turn-based strategy game about futuristic global cold war
                     from the award-winning creators of Out There.
                   </p>
-                  <a href="project-8.html" class="button preview__button"
+                  <a
+                    href="sigma-theory-global-cold-war.html"
+                    class="button preview__button"
                     >See Project</a
                   >
                 </div>
 
                 <img
                   src="img/works/project_8/main__image_recent.png"
+                  alt="Game preview"
+                  class="preview__image"
+                />
+              </div>
+              <div class="preview__slide">
+                <div class="preview__wrapper">
+                  <h4 class="preview__category">co-development</h4>
+                  <h3 class="h3 preview__name">ZOMBIE NIGHT <br />TERROR</h3>
+                  <p class="preview__text">
+                    Zombie Night Terror is spooky strategy action game with
+                    puzzle elements, horror setting and pixel-art, where PlayJoy
+                    Studios provided co-development and ads integration
+                    services.
+                  </p>
+                  <a
+                    href="zombie-night-terror.html"
+                    class="button preview__button"
+                    >See Project</a
+                  >
+                </div>
+
+                <img
+                  src="../img/works/project_9/main__image_recent.png"
                   alt="Game preview"
                   class="preview__image"
                 />
@@ -774,16 +794,18 @@
             <div class="other__container" data-aos="fade-up">
               <div class="other__box">
                 <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Game Porting</h4>
+                  <h4 class="h4 h4 other__heading">
+                    Full-cycle <br />
+                    Development
+                  </h4>
                   <a
-                    href="porting.html"
+                    href="full-cycle-development.html"
                     class="button other__button _transparent"
+                    >More Details</a
                   >
-                    More Details
-                  </a>
                 </div>
                 <div class="other__icon">
-                  <img src="img/other/icon_7.png" alt="icon" />
+                  <img src="img/other/icon_1.svg" alt="icon" />
                 </div>
               </div>
 
@@ -793,9 +815,8 @@
                   <a
                     href="co-development.html"
                     class="button other__button _transparent"
+                    >More Details</a
                   >
-                    More Details
-                  </a>
                 </div>
                 <div class="other__icon">
                   <img src="img/other/icon_2.png" alt="icon" />
@@ -806,14 +827,27 @@
                 <div class="other__wrapper">
                   <h4 class="h4 h4 other__heading">Playable Ads</h4>
                   <a
-                    href="playable-ads.html"
+                    href="html5-playable-ads.html"
                     class="button other__button _transparent"
+                    >More Details</a
                   >
-                    More Details
-                  </a>
                 </div>
                 <div class="other__icon">
                   <img src="img/other/icon_3.svg" alt="icon" />
+                </div>
+              </div>
+
+              <div class="other__box">
+                <div class="other__wrapper">
+                  <h4 class="h4 h4 other__heading">Game Porting</h4>
+                  <a
+                    href="game-porting.html"
+                    class="button other__button _transparent"
+                    >More Details</a
+                  >
+                </div>
+                <div class="other__icon">
+                  <img src="img/other/icon_7.png" alt="icon" />
                 </div>
               </div>
 
@@ -823,9 +857,8 @@
                   <a
                     href="game-design.html"
                     class="button other__button _transparent"
+                    >More Details</a
                   >
-                    More Details
-                  </a>
                 </div>
                 <div class="other__icon">
                   <img src="img/other/icon_4.png" alt="icon" />
@@ -834,32 +867,12 @@
 
               <div class="other__box">
                 <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Level Design</h4>
+                  <h4 class="h4 h4 other__heading">Game Localization</h4>
                   <a
-                    href="level-design.html"
+                    href="game-localization.html"
                     class="button other__button _transparent"
+                    >More Details</a
                   >
-                    More Details
-                  </a>
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_5.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">
-                    Game
-                    <br />
-                    Localization
-                  </h4>
-                  <a
-                    href="localization.html"
-                    class="button other__button _transparent"
-                  >
-                    More Details
-                  </a>
                 </div>
                 <div class="other__icon">
                   <img src="img/other/icon_6.png" alt="icon" />
@@ -877,10 +890,8 @@
           <div class="col-12 s-form_flex">
             <div class="s-form__wrap" data-aos="fade-right">
               <h2 class="h2 s-form__title">
-                let's talk about
-                <br />
-                <span>your</span>
-                project
+                let's talk about <br />
+                <span>your</span> project
               </h2>
 
               <h6 class="h6 s-form__subtitle">
@@ -954,17 +965,17 @@
         <div class="row">
           <div class="col-12 footer_flex">
             <div class="footer__wrap">
-              <a href="index.html" class="footer__logo">
-                <img src="img/logo.svg" alt="PlayJoy" />
-              </a>
+              <a href="index.html" class="footer__logo"
+                ><img src="img/logo.svg" alt="PlayJoy"
+              /></a>
 
               <div class="footer__mail">
                 <img class="mail__img" src="img/footer__mail.png" alt="Mail" />
                 <div class="mail__text">
                   <h6 class="h6">E-mail:</h6>
-                  <a href="mailto:contact@playjoystudios.com">
-                    contact@playjoystudios.com
-                  </a>
+                  <a href="mailto:contact@playjoystudios.com"
+                    >contact@playjoystudios.com</a
+                  >
                 </div>
               </div>
             </div>
@@ -973,41 +984,41 @@
               <!-- <div class="menu__col">
                 <a href="#" class="h5 menu__heading">Projects</a>
 
-                <a href="porting.html" class="menu__link">Game Porting</a>
+                <a href="game-porting.html" class="menu__link">Game Porting </a>
                 <a href="co-development.html" class="menu__link"
                   >Co-Development</a
                 >
-                <a href="full-cycle.html" class="menu__link">
-                  Full-Cycle Development
-                </a>
-                <a href="playable-ads.html" class="menu__link">
-                  HTML5 Playable Ads
-                </a>
+                <a href="full-cycle-development.html" class="menu__link"
+                  >Full-Cycle Development</a
+                >
+                <a href="html5-playable-ads.html" class="menu__link"
+                  >HTML5 Playable Ads</a
+                >
                 <a href="level-design.html" class="menu__link">Level Design</a>
-                <a href="localization.html" class="menu__link">
-                  Game Localization
-                </a>
+                <a href="game-localization.html" class="menu__link"
+                  >Game Localization</a
+                >
               </div> -->
 
               <div class="menu__col">
                 <a href="services.html" class="h5 menu__heading">Services</a>
 
-                <a href="porting.html" class="menu__link">Game Porting</a>
+                <a href="game-porting.html" class="menu__link">Game Porting </a>
                 <a href="co-development.html" class="menu__link"
                   >Co-Development</a
                 >
-                <a href="full-cycle.html" class="menu__link">
-                  Full-Cycle Development
-                </a>
-                <a href="playable-ads.html" class="menu__link">
-                  HTML5 Playable Ads
-                </a>
+                <a href="full-cycle-development.html" class="menu__link"
+                  >Full-Cycle Development</a
+                >
+                <a href="html5-playable-ads.html" class="menu__link"
+                  >HTML5 Playable Ads</a
+                >
                 <a href="game-design.html" class="menu__link">Game Design</a>
                 <a href="level-design.html" class="menu__link">Level Design</a>
-                <a href="localization.html" class="menu__link">
-                  Game Localization
-                </a>
-                <a href="economy.html" class="menu__link">Game Economy</a>
+                <a href="game-localization.html" class="menu__link"
+                  >Game Localization</a
+                >
+                <a href="game-economy.html" class="menu__link">Game Economy</a>
               </div>
 
               <div class="menu__col">
@@ -1015,9 +1026,7 @@
 
                 <a href="about-us.html" class="menu__link">About us</a>
                 <a href="join-us.html" class="menu__link">Join us</a>
-                <a href="join-us.html#s-positions" class="menu__link">
-                  Open positions
-                </a>
+                <a href="projects.html" class="menu__link"> Projects </a>
                 <a href="privacy-policy.html" class="menu__link" target="_blank"
                   >Privacy Policy</a
                 >
@@ -1025,13 +1034,13 @@
                 <div class="footer__social-links">
                   <h5 class="h5 social-links__heading">Follow us:</h5>
 
-                  <a href="#" class="social-links__link">
-                    <img src="img/icons/facebook.svg" alt="Facebook" />
-                  </a>
+                  <a href="#" class="social-links__link"
+                    ><img src="img/icons/facebook.svg" alt="Facebook"
+                  /></a>
 
-                  <a href="#" class="social-links__link">
-                    <img src="img/icons/linkedin.svg" alt="LinkedIn" />
-                  </a>
+                  <a href="#" class="social-links__link"
+                    ><img src="img/icons/linkedin.svg" alt="LinkedIn"
+                  /></a>
                 </div>
               </div>
             </nav>
@@ -1040,7 +1049,7 @@
           <div class="col-12 footer_bottom">
             <p class="footer__copyrights">
               &#169; 2021. PlayJoy. All rights reserved
-              <span>Privacy Policy</span>
+              <span> Privacy Policy</span>
             </p>
 
             <button class="footer__to-top">

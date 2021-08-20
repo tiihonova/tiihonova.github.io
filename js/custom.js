@@ -68,6 +68,7 @@ jQuery(function () {
       infinite: false,
       slidesToShow: 1,
       slidesToScroll: 1,
+      dots: true,
       arrows: false,
       variableWidth: true,
       speed: 700,
