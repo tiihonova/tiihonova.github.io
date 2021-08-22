@@ -8603,11 +8603,24 @@ body.scroll_disable {
   margin-top: 150px;
 }
 
+.p-project .project__content_large {
+  display: none;
+}
+
+.p-project .project__content._stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .p-project .project__box {
   background: linear-gradient(242.19deg, rgba(88, 21, 134, 0.8) -17.05%, rgba(110, 0, 255, 0) 174.31%);
   -webkit-box-shadow: 0px 66px 133px #3D0B5C;
           box-shadow: 0px 66px 133px #3D0B5C;
-  width: calc(50% - 10px);
+  width: 100%;
   padding: 80px;
   border-radius: 10px;
 }
@@ -8628,18 +8641,30 @@ body.scroll_disable {
           align-items: flex-start;
 }
 
+.p-project .project__box._flex-var {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .p-project .project__features-description {
-  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  justify-content-flex-flow: row wrap;
+}
+
+.p-project .project__features-description._full-height {
+  height: 100%;
 }
 
 .p-project .project__heading {
@@ -8658,6 +8683,20 @@ body.scroll_disable {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.p-project .project__flex-box._flex-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.p-project .project__flex-box._flex-start .project__list {
+  margin-right: 120px;
+}
+
+.p-project .project__flex-box._flex-start .project__list:last-child {
+  margin-right: 0;
 }
 
 .p-project .project__list {
@@ -8696,6 +8735,10 @@ body.scroll_disable {
 
 .p-project .project__inner .project__flex-box > *:last-child {
   margin-right: 0;
+}
+
+.p-project .project__inner._tech-var {
+  margin-left: 200px;
 }
 
 .p-economy .blocks__text {
@@ -11100,6 +11143,7 @@ body.scroll_disable {
   }
   .p-project .project__box {
     padding: 20px;
+    margin-top: 30px;
   }
   .p-project .project__features-description {
     margin-bottom: 30px;
