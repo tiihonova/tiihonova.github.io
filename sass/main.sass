@@ -2605,16 +2605,10 @@ body
 				display: none
 		&__content
 			margin-top: 150px
-			&_large
-				display: none
-			&._stretch
-				align-items: stretch
-				display: flex
-
 		&__box
 			background: linear-gradient(242.19deg, rgba(88, 21, 134, 0.8) -17.05%, rgba(110, 0, 255, 0) 174.31%)
 			box-shadow: 0px 66px 133px #3D0B5C
-			width: 100%
+			width: calc(50% - 10px)
 			padding: 80px
 			border-radius: 10px
 			&._full
@@ -2623,19 +2617,14 @@ body
 				display: flex
 				justify-content: space-between
 				align-items: flex-start
-			&._flex-var
+			&._flex-start
 				display: flex
-				align-items: flex-start
 				justify-content: flex-start
-		
-		
 		&__features-description
+			margin-bottom: 40px
 			display: flex
 			justify-content: space-between
-		  flex-flow: row wrap
-			&._full-height
-				height: 100%
-
+			flex-flow: row wrap
 		&__heading
 			margin-bottom: 40px
 			text-transform: uppercase
@@ -2646,12 +2635,6 @@ body
 		&__flex-box
 			display: flex
 			justify-content: space-between
-			&._flex-start
-				justify-content: flex-start
-				.project__list
-					margin-right: 120px
-					&:last-child
-						margin-right: 0
 		&__list
 			max-width: calc(50% - 10)
 			li
@@ -2675,10 +2658,9 @@ body
 					margin-right: 60px
 					&:last-child
 						margin-right: 0
-			&._tech-var
-				margin-left: 200px
 		
 		
+
 
 
 
