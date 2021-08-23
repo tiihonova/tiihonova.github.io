@@ -13330,10 +13330,10 @@ body.scroll_disable {
     line-height: 1.3;
   }
   .header_sticky .header__logo {
-    width: 90px;
+    width: 140px;
   }
   .header__logo {
-    width: 90px;
+    width: 140px;
   }
   .main_flex {
     height: calc(100vh - 70px);
