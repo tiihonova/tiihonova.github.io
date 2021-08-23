@@ -13706,6 +13706,9 @@ body.scroll_disable {
   .privacy a:hover {
     color: #fff;
   }
+  .p-project .project__image {
+    display: block;
+  }
 }
 
 /* Custom adaptation */
