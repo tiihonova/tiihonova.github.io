@@ -1,1278 +1,1333 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-
-    <title>PlayJoy | Full-cycle development</title>
-
-    <meta name="viewport" content="width=device-width" />
-    <meta name="format-detection" content="telephone=no" />
-
-    <link
-      rel="icon"
-      type="image/x-icon"
-      sizes="192x192"
-      href="img/favicon.ico"
-    />
-
-    <link rel="stylesheet" href="css/preloader.css" />
-    <link rel="stylesheet" href="libs/aos/aos.css" />
-    <link rel="stylesheet" href="libs/slick-slider/slick.css" />
-    <link rel="stylesheet" href="libs/slick-slider/slick-theme.css" />
-    <link rel="stylesheet" href="css/main.css" />
-
-    <script defer src="libs/jquery.min.js"></script>
-
-    <script defer src="js/preloader.js"></script>
-    <script defer src="libs/aos/aos.js"></script>
-    <script defer src="libs/slick-slider/slick.min.js"></script>
-
-    <script defer src="js/custom.js"></script>
-
-    <script
-      async
-      defer
-      src="https://kit.fontawesome.com/55e0136003.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-
-  <body class="isnohome p-full-cycle">
-    <header class="header" id="header" data-aos="fade-down">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 header_flex">
-            <div class="header__hamburger">
-              <div class="line"></div>
-              <div class="line _short"></div>
-              <div class="line"></div>
-            </div>
-
-            <a href="index.html" class="header__logo">
-              <img src="img/logo.svg" alt="PlayJoy" />
-            </a>
-
-            <div class="header__sidebar-plug"></div>
-
-            <div class="header__sidebar">
-              <div class="header__sidebar-close">
-                <img src="img/icons/sidebar__close.svg" alt="X" />
-              </div>
-
-              <nav class="header__menu">
-                <div class="header__dropdown">
-                  <div class="dropdown__heading">
-                    <span>Services List</span>
-                    <i class="fas fa-chevron-down"></i>
-                  </div>
-                  <div class="dropdown__body">
-                    <div class="flex-wrapper">
-                      <div class="dropdown__col">
-                        <a href="game-porting.html">Game Porting</a>
-                        <a href="co-development.html">Co-Development</a>
-                        <a href="full-cycle-development.html"
-                          >Full-cycle development</a
-                        >
-                        <a href="html5-playable-ads.html">HTML5 Playable Ads</a>
-                      </div>
-
-                      <div class="dropdown__col">
-                        <a href="game-design.html">Game Design</a>
-                        <a href="level-design.html">Level Design</a>
-                        <a href="game-localization.html">Game Localization</a>
-                        <a href="game-economy.html">Game Economy</a>
-                      </div>
-
-                      <div class="dropdown__back-btn button">Back to menu</div>
-                    </div>
-                  </div>
-                </div>
-
-                <a href="services.html">Services</a>
-                <a href="about-us.html">About Us</a>
-                <a href="join-us.html">Join Us</a>
-                <a href="projects.html">Projects</a>
-              </nav>
-
-              <a href=".s-form" class="header__button button link-move"
-                >Contact Us</a
-              >
-
-              <div class="header__social-links">
-                <a
-                  href="https://www.facebook.com/playjoystudios"
-                  target="_blank"
-                >
-                  <img src="img/icons/facebook.svg" alt="Facebook" />
-                  <span>Facebook</span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/playjoy-studios"
-                  target="_blank"
-                >
-                  <img src="img/icons/linkedin.svg" alt="LinkedIn" />
-                  <span>LinkedIN</span>
-                </a>
-
-                <a href="#" class="_wide">
-                  <img src="img/icons/mail.svg" alt="Mail" />
-                  <span>contact@playjoystudios.com</span>
-                </a>
-              </div>
-            </div>
-
-            <a href=".s-form" class="header__mail link-move"
-              ><img src="img/icons/header__mail.svg" alt="Mail"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <header class="header header_sticky">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 header_flex">
-            <div class="header__hamburger">
-              <div class="line"></div>
-              <div class="line _short"></div>
-              <div class="line"></div>
-            </div>
-
-            <a href="index.html" class="header__logo">
-              <img src="img/logo.svg" alt="PlayJoy" />
-            </a>
-
-            <div class="header__sidebar-plug"></div>
-
-            <div class="header__sidebar">
-              <div class="header__sidebar-close">
-                <img src="img/icons/sidebar__close.svg" alt="X" />
-              </div>
-
-              <nav class="header__menu">
-                <div class="header__dropdown">
-                  <div class="dropdown__heading">
-                    <span>Services List</span>
-                    <i class="fas fa-chevron-down"></i>
-                  </div>
-                  <div class="dropdown__body">
-                    <div class="flex-wrapper">
-                      <div class="dropdown__col">
-                        <a href="game-porting.html">Game Porting</a>
-                        <a href="co-development.html">Co-Development</a>
-                        <a href="full-cycle-development.html"
-                          >Full-cycle development</a
-                        >
-                        <a href="html5-playable-ads.html">HTML5 Playable Ads</a>
-                      </div>
-
-                      <div class="dropdown__col">
-                        <a href="game-design.html">Game Design</a>
-                        <a href="level-design.html">Level Design</a>
-                        <a href="game-localization.html">Game Localization</a>
-                        <a href="game-economy.html">Game Economy</a>
-                      </div>
-
-                      <div class="dropdown__back-btn button">Back to menu</div>
-                    </div>
-                  </div>
-                </div>
-
-                <a href="services.html">Services</a>
-                <a href="about-us.html">About Us</a>
-                <a href="join-us.html">Join Us</a>
-                <a href="projects.html">Projects</a>
-              </nav>
-
-              <a href=".s-form" class="header__button button link-move"
-                >Contact Us</a
-              >
-
-              <div class="header__social-links">
-                <a
-                  href="https://www.facebook.com/playjoystudios"
-                  target="_blank"
-                >
-                  <img src="img/icons/facebook.svg" alt="Facebook" />
-                  <span>Facebook</span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/playjoy-studios"
-                  target="_blank"
-                >
-                  <img src="img/icons/linkedin.svg" alt="LinkedIn" />
-                  <span>LinkedIN</span>
-                </a>
-
-                <a href="#" class="_wide">
-                  <img src="img/icons/mail.svg" alt="Mail" />
-                  <span>contact@playjoystudios.com</span>
-                </a>
-              </div>
-            </div>
-
-            <a href=".s-form" class="header__mail link-move"
-              ><img src="img/icons/header__mail.svg" alt="Mail"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="main">
-      <div class="container">
-        <div class="row flex_center">
-          <div class="col-lg-6">
-            <h1
-              class="h1 main__title"
-              data-aos="fade-down"
-              data-aos-delay="200"
-            >
-              full-cycle <br />
-              development
-            </h1>
-
-            <div class="main__image_mobile">
-              <img
-                src="img/full-cycle/main.png"
-                alt="Main image"
-                data-aos="zoom-in"
-                data-aos-delay="300"
-              />
-            </div>
-
-            <p class="main__text" data-aos="fade-down" data-aos-delay="400">
-              We are ready to turn your amazing idea or existing IP into a game.
-              Our team of passionate and highly-motivated professionals is ready
-              to bring all your ideas and desires to life. With our full-cycle
-              development services, we can handle all aspects of development,
-              lead your project through all stages up to its successful release
-              and further support.
-            </p>
-
-            <div
-              class="main__buttons"
-              data-aos="fade-down"
-              data-aos-delay="600"
-            >
-              <a href=".s-form" class="button link-move"
-                ><span>Contact Us</span></a
-              >
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="main__image">
-              <img
-                src="img/full-cycle/main.png"
-                alt="Main image"
-                data-aos="zoom-in"
-                data-aos-delay="300"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="blocks">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 blocks__title" data-aos="fade-up">
-              <span>Reasons</span> to outsource <br />
-              full-cycle development
-            </h2>
-
-            <div class="blocks__container">
-              <div class="blocks__box" data-aos="fade-up">
-                <span class="blocks__number">01</span>
-                <div class="blocks__img">
-                  <img src="img/full-cycle/blocks__icon_1.svg" alt="Icon" />
-                </div>
-
-                <h4 class="h4">
-                  Reduce Time To <br />
-                  Market & Risks
-                </h4>
-
-                <p class="blocks__text">
-                  Produce more games and shorten the time to market for your
-                  next hit game. From game design to post-release support, our
-                  experts use their creativity and extensive experience to make
-                  your dream game come true. Our team’s product mindset and
-                  Agile process will help to implement your project fully and on
-                  time and decrease administrative & overhead costs.
-                </p>
-              </div>
-
-              <div class="blocks__box" data-aos="fade-up" data-aos-delay="100">
-                <span class="blocks__number">02</span>
-                <div class="blocks__img">
-                  <img src="img/full-cycle/blocks__icon_2.svg" alt="Icon" />
-                </div>
-
-                <h4 class="h4">
-                  Efficient Result- <br />
-                  Oriented Team
-                </h4>
-
-                <p class="blocks__text">
-                  Outsourcing gives you immediate access to our top-level Game
-                  Development experts who don’t need additional training. Our
-                  team has the expertise to do it quickly and efficiently. We
-                  are focused on delivering the projects on time and providing
-                  great quality, to build a long-term cooperation with our
-                  partners.
-                </p>
-              </div>
-
-              <div class="blocks__box" data-aos="fade-up" data-aos-delay="200">
-                <span class="blocks__number">03</span>
-                <div class="blocks__img">
-                  <img src="img/full-cycle/blocks__icon_3.svg" alt="Icon" />
-                </div>
-
-                <h4 class="h4">
-                  creative approach <br />
-                  & versatility
-                </h4>
-
-                <p class="blocks__text">
-                  Our specialists are very committed to their work and approach
-                  each project with exceptional involvement, innovative ideas
-                  and creativity. Our product expertise includes experience with
-                  multiple tech stacks, development approaches, game design,
-                  economy and level design expertise which makes our team
-                  diverse and well rounded.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="approach">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 approach__title" data-aos="fade-up">
-              how we approach ip?
-            </h2>
-
-            <div class="approach__container" data-aos="fade-up">
-              <span class="approach__number _left">01</span>
-
-              <img
-                class="approach__image"
-                src="img/full-cycle/approach__image_1.png"
-                alt="Image"
-              />
-
-              <div class="approach__wrapper">
-                <h3 class="h3 approach__heading">
-                  Creating <span>new</span> ip
-                </h3>
-
-                <p class="approach__text">
-                  We can develop an idea from scratch or help you shape your
-                  idea into complete game design based on directions and
-                  information that you’ll provide. After we are aligned on the
-                  vision for the game, we’ll move on to pre-production to focus
-                  on creating detailed GDD & TDDs, art direction process and
-                  outlining tech requirements, code architecture. The developed
-                  IP will belong to you, and we can start the production stage
-                  to make your dream game become reality.
-                </p>
-
-                <a href=".s-form" class="button approach__button link-move"
-                  >Contact Us</a
-                >
-              </div>
-            </div>
-
-            <div class="approach__container" data-aos="fade-up">
-              <span class="approach__number _right">02</span>
-
-              <div class="approach__wrapper">
-                <h3 class="h3 approach__heading">
-                  working with <br />
-                  <span>existing </span> ip
-                </h3>
-
-                <p class="approach__text">
-                  Our team has good experience of working with external IPs. We
-                  always use a careful approach and we research the IP’s
-                  history, brand books, source materials to be well versed in
-                  its specifics and respect both IP holders and fans. When
-                  creating new content, we always cooperate closely with IP
-                  holders to receive pre-approvals and make sure that we stay
-                  within boundaries and are keeping the game faithful to the IP.
-                </p>
-
-                <a href=".s-form" class="button approach__button link-move"
-                  >Contact Us</a
-                >
-              </div>
-
-              <img
-                class="approach__image"
-                src="img/full-cycle/approach__image_2.png"
-                alt="Image"
-              />
-            </div>
-
-            <a href=".s-form" class="button approach__button_mobile link-move"
-              >Contact Us</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="expertise">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 expertise__title" data-aos="fade-up">
-              team product <span>expertise</span>
-            </h2>
-
-            <div class="expertise__container">
-              <div class="expertise__wrapper" data-aos="fade-right">
-                <h3 class="h3 expertise__heading">We are a team</h3>
-
-                <p class="expertise__text _restrictions">
-                  of experienced game development professionals who have
-                  accumulated a respectable portfolio of both studio projects
-                  and personal projects we worked on as members of notorious
-                  game development companies in the past.
-                </p>
-
-                <div class="expertise__image_mobile">
-                  <img
-                    src="img/full-cycle/expertise__image_1.svg"
-                    alt="Image"
-                  />
-                </div>
-
-                <a href="about-us.html" class="button expertise__button"
-                  >More About Us</a
-                >
-              </div>
-              <div class="expertise__image">
-                <img
-                  src="img/full-cycle/expertise__image_1.svg"
-                  alt="Image"
-                  data-aos="zoom-in"
-                />
-              </div>
-            </div>
-
-            <div class="expertise__container">
-              <div class="expertise__image">
-                <img
-                  src="img/full-cycle/expertise__image_2.svg"
-                  alt="Image"
-                  data-aos="zoom-in"
-                />
-              </div>
-
-              <div class="expertise__wrapper" data-aos="fade-right">
-                <h3 class="h3 expertise__heading">Each member of our team</h3>
-
-                <p class="expertise__text">
-                  is constantly developing in the field and monitors all changes
-                  in the game industry market. We firmly believe that the
-                  combination of expertise and fresh, non-standard, innovative
-                  ideas makes our team extremely strong and competitive. We are
-                  always ready to share our experience, knowledge and ideas in
-                  order to create your product with high quality and contribute
-                  to its further development.
-                </p>
-
-                <div class="expertise__image_mobile">
-                  <img
-                    src="img/full-cycle/expertise__image_2.svg"
-                    alt="Image"
-                  />
-                </div>
-
-                <a href=".s-form" class="button expertise__button link-move"
-                  >Contact Us</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tech" id="s-tech">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <h2 class="h2 tech__title" data-aos="fade-down">Technologies</h2>
-
-            <div class="tech__text" data-aos="fade-down">
-              Members of our team have 5-10+ years of experience in the game
-              development environment behind them, always improving their skills
-              and working with the latest technologies, therefore we provide our
-              services at the highest level.
-            </div>
-
-            <div class="tech__container" data-aos="fade-up">
-              <div class="tech__box">
-                <img src="img/technologies/logo_1.svg" alt="Logo" />
-                <p class="tech__caption">C#</p>
-              </div>
-
-              <div class="tech__box">
-                <img src="img/technologies/logo_2.svg" alt="Logo" />
-                <p class="tech__caption">Python</p>
-              </div>
-
-              <div class="tech__box">
-                <img src="img/technologies/logo_3.svg" alt="Logo" />
-                <p class="tech__caption">Unity</p>
-              </div>
-
-              <div class="tech__box">
-                <img src="img/technologies/logo_4.svg" alt="Logo" />
-                <p class="tech__caption">Unreal Engine</p>
-              </div>
-
-              <div class="tech__box">
-                <img src="img/technologies/logo_5.svg" alt="Logo" />
-                <p class="tech__caption">C ++</p>
-              </div>
-              <div class="tech__box">
-                <img src="img/technologies/logo_6.svg" alt="Logo" />
-                <p class="tech__caption">Objective C</p>
-              </div>
-
-              <div class="tech__box">
-                <img src="img/technologies/logo_7.svg" alt="Logo" />
-                <p class="tech__caption">HTML5</p>
-              </div>
-              <div class="tech__box">
-                <img src="img/technologies/logo_8.svg" alt="Logo" />
-                <p class="tech__caption">JavaScript</p>
-              </div>
-              <div class="tech__box">
-                <img src="img/technologies/logo_9.svg" alt="Logo" />
-                <p class="tech__caption">Cocos 2dx</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7 tech__image">
-            <img
-              src="img/technologies/block__image.png"
-              alt="Image"
-              data-aos="zoom-in"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="platforms">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 platforms__image">
-            <img
-              src="img/platforms/block__image.png"
-              alt="Image"
-              data-aos="zoom-in"
-            />
-          </div>
-
-          <div class="col-lg-5 offset-lg-1">
-            <h2 class="h2 platforms__title" data-aos="fade-down">platforms</h2>
-
-            <div class="platforms__container" data-aos="fade-up">
-              <div class="platforms__box">
-                <img src="img/platforms/logo_1.svg" alt="Logo" />
-                <p class="platforms__caption">iOS</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/platforms/logo_2.svg" alt="Logo" />
-                <p class="platforms__caption">Android</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/platforms/logo_3.svg" alt="Logo" />
-                <p class="platforms__caption">PC</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/platforms/logo_4.svg" alt="Logo" />
-                <p class="platforms__caption">PlayStation</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/platforms/logo_5.svg" alt="Logo" />
-                <p class="platforms__caption">Xbox</p>
-              </div>
-              <div class="platforms__box">
-                <img src="img/platforms/logo_6.svg" alt="Logo" />
-                <p class="platforms__caption">Nintendo Switch</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/platforms/logo_7.svg" alt="Logo" />
-                <p class="platforms__caption">VR/AR</p>
-              </div>
-              <div class="platforms__box">
-                <img src="img/platforms/logo_8.svg" alt="Logo" />
-                <p class="platforms__caption">Apple Arcade</p>
-              </div>
-              <div class="platforms__box">
-                <img src="img/platforms/logo_9.svg" alt="Logo" />
-                <p class="platforms__caption">Smart TV</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="roadmap">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 roadmap__title" data-aos="fade-up">
-              product <span>roadmap</span>
-            </h2>
-
-            <div class="roadmap__container">
-              <img
-                class="roadmap__line_center"
-                src="img/services/roadmap/line_center.svg"
-                alt="Line"
-              />
-
-              <div class="roadmap__row">
-                <img
-                  src="img/services/roadmap/image_1.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">planning</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Establish the game’s genre</li>
-                    <li>Define main design direction</li>
-                    <li>Identity core audience</li>
-                    <li>Create high-level game identity</li>
-                    <li>Highlight main player motivations</li>
-                    <li>Create game vision document</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="roadmap__row">
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">pre-production</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Identify genre’s top games</li>
-                    <li>Research competitors</li>
-                    <li>Analyze market niche</li>
-                    <li>Evaluate idea’s viability</li>
-                    <li>Establish competitors’ flaws</li>
-                    <li>Find possible improvements</li>
-                  </ul>
-                </div>
-
-                <img
-                  src="img/services/roadmap/image_2.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-              </div>
-
-              <div class="roadmap__row">
-                <img
-                  src="img/services/roadmap/image_3.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">production</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Adjust the idea based on research</li>
-                    <li>Select setting and story direction</li>
-                    <li>Establish core loop</li>
-                    <li>Create game mechanics</li>
-                    <li>Identify unique selling points</li>
-                    <li>Prepare GDD draft or pitch</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="roadmap__row">
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">alpha</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Create Game Design Document</li>
-                    <li>Establish art direction</li>
-                    <li>Create UI\UX wireframes</li>
-                    <li>Plan and estimate production</li>
-                    <li>Prototype new mechanics</li>
-                    <li>Evaluate possible design risks</li>
-                  </ul>
-                </div>
-
-                <img
-                  src="img/services/roadmap/image_4.png"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-              </div>
-
-              <div class="roadmap__row">
-                <img
-                  src="img/services/roadmap/image_5.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">beta</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Update documentation</li>
-                    <li>Create Technical Design Docs</li>
-                    <li>Support production team</li>
-                    <li>Playtest early playable builds</li>
-                    <li>Game balance and economy</li>
-                    <li>Compose texts for the game</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="roadmap__row">
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">submission</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Game is fully optimized</li>
-                    <li>Size optimizations if needed</li>
-                    <li>All critical bugs are fixed</li>
-                    <li>Build submitted for platform review</li>
-                    <li>Compliance-related fixes if needed</li>
-                  </ul>
-                </div>
-
-                <img
-                  src="img/services/roadmap/image_6.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-              </div>
-
-              <div class="roadmap__row">
-                <img
-                  src="img/services/roadmap/image_7.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">pre-lunch</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Playtest and adjust balance</li>
-                    <li>Assist with bug fixing</li>
-                    <li>Help promote of the game</li>
-                    <li>User feedback analysis</li>
-                    <li>Analyze game KPIs</li>
-                    <li>Polish and improve the game</li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="roadmap__row">
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">lunch</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Plan updates</li>
-                    <li>Create new content</li>
-                    <li>Add new features</li>
-                    <li>Game balance patches</li>
-                    <li>Seasonal events</li>
-                    <li>Live-ops activities</li>
-                  </ul>
-                </div>
-
-                <img
-                  src="img/services/roadmap/image_8.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-              </div>
-
-              <div class="roadmap__row">
-                <img
-                  src="img/services/roadmap/image_9.svg"
-                  alt="Image"
-                  class="roadmap__image"
-                  data-aos="zoom-in"
-                />
-
-                <div class="roadmap__box" data-aos="fade-right">
-                  <h4 class="h4 roadmap__heading">post-production</h4>
-
-                  <ul class="roadmap__list roadmap__dropdown">
-                    <li>Plan updates</li>
-                    <li>Create new content</li>
-                    <li>Add new features</li>
-                    <li>Game balance patches</li>
-                    <li>Seasonal events</li>
-                    <li>Live-ops activities</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="preview">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 preview__container">
-            <h2 class="h2 preview__title" data-aos="fade-up">
-              recent
-              <span>projects</span>
-            </h2>
-            <div class="preview__slider" data-aos="fade-up">
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">Full-Cycle Development</h4>
-                  <h3 class="h3 preview__name">PANDA SWAP</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios developed this unique match-3 mobile game
-                    for Plug-in-Digital from concept to soft launch, including
-                    live-ops support.
-                  </p>
-                  <a href="panda-swap.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_5/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">
-                    Away: Journey To The Unexpected
-                  </h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided mobile adaptation this fun and
-                    original game. AWAY: Journey to the Unexpected is a colorful
-                    first person adventure game that combines action,
-                    RPG-elements and rogue-lite elements.
-                  </p>
-                  <a
-                    href="away-journey-to-the-unexpected.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_1/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">
-                    Co-development, Porting, <br />
-                    Localization
-                  </h4>
-                  <h3 class="h3 preview__name">UNMEMORY</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided co-development, localization &
-                    porting services for this unique game that combines
-                    narrative adventure & puzzle game, showcasing an immersive
-                    world with lots of puzzles and discoveries.
-                  </p>
-                  <a href="#" class="button preview__button">See Project</a>
-                </div>
-
-                <img
-                  src="img/works/project_2/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">BURY ME, MY LOVE</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided platform adaptation of this game
-                    with an incredible story. Bury me, my Love tells the story
-                    of Syrian refugee Nour and her husband Majd, as Nour
-                    undertakes a perilous journey to safety in Europe.
-                  </p>
-                  <a href="bury-me-my-love.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_3/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">Unannounced Mobile Port</h3>
-                  <p class="preview__text">
-                    Porting a Steam PC 3D game that was inspired by FTL
-                    roguelike strategy simulator to mobile platforms. At the
-                    moment the project is at the submission stage.
-                  </p>
-                  <a
-                    href="unannounced-mobile-port.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_4/main__page_4.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">playable Ad</h4>
-                  <h3 class="h3 preview__name">SIEGE CASTLES</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios developed Playable Ads for Plug-in-Digital
-                    for this fun and relaxing game about medieval castle siege.
-                  </p>
-                  <a href="siege-castles.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_6/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">localization</h4>
-                  <h3 class="h3 preview__name">
-                    CRYPTO: AGAINST <br />ALL ODDS
-                  </h3>
-                  <p class="preview__text">
-                    Crypto: Against all odds is a cypherpunk interactive
-                    fiction, where PlayJoy Studios provided Russian localization
-                    and LQA.
-                  </p>
-                  <a
-                    href="crypto-against-all-odds.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_7/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">
-                    Unannounced Switch <br />Port
-                  </h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided porting a global turn-based 3D
-                    strategy game to various platforms including Nintendo
-                    Switch. At the moment the project is at the submission
-                    stage.
-                  </p>
-                  <a
-                    href="unannounced-switch-port.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_8/main__image_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">co-development</h4>
-                  <h3 class="h3 preview__name">ZOMBIE NIGHT <br />TERROR</h3>
-                  <p class="preview__text">
-                    Zombie Night Terror is spooky strategy action game with
-                    puzzle elements, horror setting and pixel-art, where PlayJoy
-                    Studios provided co-development and ads integration
-                    services.
-                  </p>
-                  <a
-                    href="zombie-night-terror.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="../img/works/project_9/main__image_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="other">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 other__title" data-aos="fade-right">
-              Other services
-            </h2>
-
-            <div class="other__container" data-aos="fade-up">
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Game Porting</h4>
-                  <a
-                    href="game-porting.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_7.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Co-Development</h4>
-                  <a
-                    href="co-development.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_2.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Playable Ads</h4>
-                  <a
-                    href="html5-playable-ads.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_3.svg" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Game Design</h4>
-                  <a
-                    href="game-design.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_4.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Level Design</h4>
-                  <a
-                    href="level-design.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_5.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Game <br />Localization</h4>
-                  <a
-                    href="game-localization.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_6.png" alt="icon" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="s-form">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 s-form_flex">
-            <div class="s-form__wrap" data-aos="fade-right">
-              <h2 class="h2 s-form__title">
-                let's talk about <br />
-                <span>your</span> project
-              </h2>
-
-              <h6 class="h6 s-form__subtitle">
-                Leave us your message, we will contact you shortly!
-              </h6>
-
-              <form class="s-form__form">
-                <input
-                  class="s-form__input"
-                  type="text"
-                  name="Name"
-                  placeholder="Name"
-                  required
-                  autocomplete="off"
-                />
-
-                <input
-                  class="s-form__input"
-                  type="email"
-                  name="E-mail"
-                  placeholder="E-mail"
-                  required
-                  autocomplete="off"
-                />
-
-                <div class="s-form__input-wrap">
-                  <input
-                    class="s-form__input _file"
-                    type="file"
-                    name="Upload file"
-                    placeholder="Upload file"
-                    required
-                    autocomplete="off"
-                  />
-
-                  <input
-                    class="s-form__input"
-                    type="text"
-                    placeholder="Upload file"
-                    required
-                    autocomplete="off"
-                  />
-                </div>
-
-                <textarea
-                  name="Message"
-                  placeholder="Leave your message..."
-                  class="s-form__textarea"
-                ></textarea>
-
-                <button class="s-form__button button" type="submit">
-                  Contact Us
-                </button>
-              </form>
-            </div>
-
-            <div class="s-form__image">
-              <img
-                src="img/s-form__image.png"
-                alt="Form image"
-                data-aos="zoom-in"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 footer_flex">
-            <div class="footer__wrap">
-              <a href="index.html" class="footer__logo"
-                ><img src="img/logo.svg" alt="PlayJoy"
-              /></a>
-
-              <div class="footer__mail">
-                <img class="mail__img" src="img/footer__mail.png" alt="Mail" />
-                <div class="mail__text">
-                  <h6 class="h6">E-mail:</h6>
-                  <a href="mailto:contact@playjoystudios.com"
-                    >contact@playjoystudios.com</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <nav class="footer__menu">
-              <!-- <div class="menu__col">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>PlayJoy | Full-cycle development</title>
+
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1"
+		/>
+		<meta name="format-detection" content="telephone=no" />
+
+		<link
+			rel="icon"
+			type="image/x-icon"
+			sizes="192x192"
+			href="img/favicon.ico"
+		/>
+
+		<link rel="stylesheet" href="css/preloader.css" />
+		<link rel="stylesheet" href="libs/aos/aos.css" />
+		<link rel="stylesheet" href="libs/slick-slider/slick.css" />
+		<link rel="stylesheet" href="libs/slick-slider/slick-theme.css" />
+		<link rel="stylesheet" href="css/main.css" />
+
+		<script defer src="libs/jquery.min.js"></script>
+
+		<script defer src="js/preloader.js"></script>
+
+		<script defer src="libs/slick-slider/slick.min.js"></script>
+
+		<script defer src="js/custom.js"></script>
+
+		<script
+			async
+			defer
+			src="https://kit.fontawesome.com/55e0136003.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body class="isnohome p-full-cycle">
+		<header class="header" id="header" data-aos="fade-down">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 header_flex">
+						<div class="header__hamburger">
+							<div class="line"></div>
+							<div class="line _short"></div>
+							<div class="line"></div>
+						</div>
+
+						<a href="index.html" class="header__logo">
+							<img src="img/logo.svg" alt="PlayJoy" />
+						</a>
+
+						<div class="header__sidebar-plug"></div>
+
+						<div class="header__sidebar">
+							<div class="header__sidebar-close">
+								<img src="img/icons/sidebar__close.svg" alt="X" />
+							</div>
+
+							<nav class="header__menu">
+								<div class="header__dropdown">
+									<div class="dropdown__heading">
+										<span>Services List</span>
+										<i class="fas fa-chevron-down"></i>
+									</div>
+									<div class="dropdown__body">
+										<div class="flex-wrapper">
+											<div class="dropdown__col">
+												<a href="game-porting.html">Game Porting</a>
+												<a href="co-development.html">Co-Development</a>
+												<a href="full-cycle-development.html">
+													Full-cycle development
+												</a>
+												<a href="html5-playable-ads.html">HTML5 Playable Ads</a>
+											</div>
+
+											<div class="dropdown__col">
+												<a href="game-design.html">Game Design</a>
+												<a href="level-design.html">Level Design</a>
+												<a href="game-localization.html">Game Localization</a>
+												<a href="game-economy.html">Game Economy</a>
+											</div>
+
+											<div class="dropdown__back-btn button">Back to menu</div>
+										</div>
+									</div>
+								</div>
+
+								<a href="services.html">Services</a>
+								<a href="about-us.html">About Us</a>
+								<a href="join-us.html">Join Us</a>
+								<a href="projects.html">Projects</a>
+							</nav>
+
+							<a href=".s-form" class="header__button button link-move">
+								Contact Us
+							</a>
+
+							<div class="header__social-links">
+								<a
+									href="https://www.facebook.com/playjoystudios"
+									target="_blank"
+								>
+									<img src="img/icons/facebook.svg" alt="Facebook" />
+									<span>Facebook</span>
+								</a>
+								<a
+									href="https://www.linkedin.com/company/playjoy-studios"
+									target="_blank"
+								>
+									<img src="img/icons/linkedin.svg" alt="LinkedIn" />
+									<span>LinkedIN</span>
+								</a>
+
+								<a href="#" class="_wide">
+									<img src="img/icons/mail.svg" alt="Mail" />
+									<span>contact@playjoystudios.com</span>
+								</a>
+							</div>
+						</div>
+
+						<a href=".s-form" class="header__mail link-move">
+							<img src="img/icons/header__mail.svg" alt="Mail" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<header class="header header_sticky">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 header_flex">
+						<div class="header__hamburger">
+							<div class="line"></div>
+							<div class="line _short"></div>
+							<div class="line"></div>
+						</div>
+
+						<a href="index.html" class="header__logo">
+							<img src="img/logo.svg" alt="PlayJoy" />
+						</a>
+
+						<div class="header__sidebar-plug"></div>
+
+						<div class="header__sidebar">
+							<div class="header__sidebar-close">
+								<img src="img/icons/sidebar__close.svg" alt="X" />
+							</div>
+
+							<nav class="header__menu">
+								<div class="header__dropdown">
+									<div class="dropdown__heading">
+										<span>Services List</span>
+										<i class="fas fa-chevron-down"></i>
+									</div>
+									<div class="dropdown__body">
+										<div class="flex-wrapper">
+											<div class="dropdown__col">
+												<a href="game-porting.html">Game Porting</a>
+												<a href="co-development.html">Co-Development</a>
+												<a href="full-cycle-development.html">
+													Full-cycle development
+												</a>
+												<a href="html5-playable-ads.html">HTML5 Playable Ads</a>
+											</div>
+
+											<div class="dropdown__col">
+												<a href="game-design.html">Game Design</a>
+												<a href="level-design.html">Level Design</a>
+												<a href="game-localization.html">Game Localization</a>
+												<a href="game-economy.html">Game Economy</a>
+											</div>
+
+											<div class="dropdown__back-btn button">Back to menu</div>
+										</div>
+									</div>
+								</div>
+
+								<a href="services.html">Services</a>
+								<a href="about-us.html">About Us</a>
+								<a href="join-us.html">Join Us</a>
+								<a href="projects.html">Projects</a>
+							</nav>
+
+							<a href=".s-form" class="header__button button link-move">
+								Contact Us
+							</a>
+
+							<div class="header__social-links">
+								<a
+									href="https://www.facebook.com/playjoystudios"
+									target="_blank"
+								>
+									<img src="img/icons/facebook.svg" alt="Facebook" />
+									<span>Facebook</span>
+								</a>
+								<a
+									href="https://www.linkedin.com/company/playjoy-studios"
+									target="_blank"
+								>
+									<img src="img/icons/linkedin.svg" alt="LinkedIn" />
+									<span>LinkedIN</span>
+								</a>
+
+								<a href="#" class="_wide">
+									<img src="img/icons/mail.svg" alt="Mail" />
+									<span>contact@playjoystudios.com</span>
+								</a>
+							</div>
+						</div>
+
+						<a href=".s-form" class="header__mail link-move">
+							<img src="img/icons/header__mail.svg" alt="Mail" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="main">
+			<div class="container">
+				<div class="row flex_center">
+					<div class="col-lg-6">
+						<h1
+							class="h1 main__title"
+							data-aos="fade-down"
+							data-aos-delay="200"
+						>
+							full-cycle
+							<br />
+							development
+						</h1>
+
+						<div class="main__image_mobile">
+							<img
+								src="img/full-cycle/main.png"
+								alt="Main image"
+								data-aos="zoom-in"
+								data-aos-delay="300"
+							/>
+						</div>
+
+						<p class="main__text" data-aos="fade-down" data-aos-delay="400">
+							We are ready to turn your amazing idea or existing IP into a game.
+							Our team of passionate and highly-motivated professionals is ready
+							to bring all your ideas and desires to life. With our full-cycle
+							development services, we can handle all aspects of development,
+							lead your project through all stages up to its successful release
+							and further support.
+						</p>
+
+						<div
+							class="main__buttons"
+							data-aos="fade-down"
+							data-aos-delay="600"
+						>
+							<a href=".s-form" class="button link-move">
+								<span>Contact Us</span>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="main__image">
+							<img
+								src="img/full-cycle/main.png"
+								alt="Main image"
+								data-aos="zoom-in"
+								data-aos-delay="300"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="blocks">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="h2 blocks__title" data-aos="fade-up">
+							<span>Reasons</span>
+							to outsource
+							<br />
+							full-cycle development
+						</h2>
+
+						<div class="blocks__container">
+							<div class="blocks__box" data-aos="fade-up">
+								<span class="blocks__number">01</span>
+								<div class="blocks__img">
+									<img src="img/full-cycle/blocks__icon_1.svg" alt="Icon" />
+								</div>
+
+								<h4 class="h4">
+									Reduce Time To
+									<br />
+									Market & Risks
+								</h4>
+
+								<p class="blocks__text">
+									Produce more games and shorten the time to market for your
+									next hit game. From game design to post-release support, our
+									experts use their creativity and extensive experience to make
+									your dream game come true. Our team’s product mindset and
+									Agile process will help to implement your project fully and on
+									time and decrease administrative & overhead costs.
+								</p>
+							</div>
+
+							<div class="blocks__box" data-aos="fade-up" data-aos-delay="100">
+								<span class="blocks__number">02</span>
+								<div class="blocks__img">
+									<img src="img/full-cycle/blocks__icon_2.svg" alt="Icon" />
+								</div>
+
+								<h4 class="h4">
+									Efficient Result-
+									<br />
+									Oriented Team
+								</h4>
+
+								<p class="blocks__text">
+									Outsourcing gives you immediate access to our top-level Game
+									Development experts who don’t need additional training. Our
+									team has the expertise to do it quickly and efficiently. We
+									are focused on delivering the projects on time and providing
+									great quality, to build a long-term cooperation with our
+									partners.
+								</p>
+							</div>
+
+							<div class="blocks__box" data-aos="fade-up" data-aos-delay="200">
+								<span class="blocks__number">03</span>
+								<div class="blocks__img">
+									<img src="img/full-cycle/blocks__icon_3.svg" alt="Icon" />
+								</div>
+
+								<h4 class="h4">
+									creative approach
+									<br />
+									& versatility
+								</h4>
+
+								<p class="blocks__text">
+									Our specialists are very committed to their work and approach
+									each project with exceptional involvement, innovative ideas
+									and creativity. Our product expertise includes experience with
+									multiple tech stacks, development approaches, game design,
+									economy and level design expertise which makes our team
+									diverse and well rounded.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="approach">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="h2 approach__title" data-aos="fade-up">
+							how we approach ip?
+						</h2>
+
+						<div class="approach__container" data-aos="fade-up">
+							<span class="approach__number _left">01</span>
+
+							<img
+								class="approach__image"
+								src="img/full-cycle/approach__image_1.png"
+								alt="Image"
+							/>
+
+							<div class="approach__wrapper">
+								<h3 class="h3 approach__heading">
+									Creating
+									<span>new</span>
+									ip
+								</h3>
+
+								<p class="approach__text-full">
+									We can develop an idea from scratch or help you shape your
+									idea into complete game design based on directions and
+									information that you’ll provide. After we are aligned on the
+									vision for the game, we’ll move on to pre-production to focus
+									on creating detailed GDD & TDDs, art direction process and
+									outlining tech requirements, code architecture. The developed
+									IP will belong to you, and we can start the production stage
+									to make your dream game become reality.
+								</p>
+
+								<a href=".s-form" class="button approach__button link-move">
+									Contact Us
+								</a>
+							</div>
+						</div>
+
+						<div class="approach__container" data-aos="fade-up">
+							<span class="approach__number _right">02</span>
+
+							<div class="approach__wrapper">
+								<h3 class="h3 approach__heading">
+									working with
+									<br />
+									<span>existing</span>
+									ip
+								</h3>
+
+								<p class="approach__text-full">
+									Our team has good experience of working with external IPs. We
+									always use a careful approach and we research the IP’s
+									history, brand books, source materials to be well versed in
+									its specifics and respect both IP holders and fans. When
+									creating new content, we always cooperate closely with IP
+									holders to receive pre-approvals and make sure that we stay
+									within boundaries and are keeping the game faithful to the IP.
+								</p>
+
+								<a href=".s-form" class="button approach__button link-move">
+									Contact Us
+								</a>
+							</div>
+
+							<img
+								class="approach__image"
+								src="img/full-cycle/approach__image_2.png"
+								alt="Image"
+							/>
+						</div>
+
+						<a href=".s-form" class="button approach__button_mobile link-move">
+							Contact Us
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="expertise">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="h2 expertise__title" data-aos="fade-up">
+							team product
+							<span>expertise</span>
+						</h2>
+
+						<div class="expertise__container">
+							<div class="expertise__wrapper" data-aos="fade-right">
+								<h3 class="h3 expertise__heading">We are a team</h3>
+
+								<p class="expertise__text _restrictions">
+									of experienced game development professionals who have
+									accumulated a respectable portfolio of both studio projects
+									and personal projects we worked on as members of notorious
+									game development companies in the past.
+								</p>
+
+								<div class="expertise__image_mobile">
+									<img
+										src="img/full-cycle/expertise__image_1.svg"
+										alt="Image"
+									/>
+								</div>
+
+								<a href="about-us.html" class="button expertise__button">
+									More About Us
+								</a>
+							</div>
+							<div class="expertise__image">
+								<img
+									src="img/full-cycle/expertise__image_1.svg"
+									alt="Image"
+									data-aos="zoom-in"
+								/>
+							</div>
+						</div>
+
+						<div class="expertise__container">
+							<div class="expertise__image">
+								<img
+									src="img/full-cycle/expertise__image_2.svg"
+									alt="Image"
+									data-aos="zoom-in"
+								/>
+							</div>
+
+							<div class="expertise__wrapper" data-aos="fade-right">
+								<h3 class="h3 expertise__heading">Each member of our team</h3>
+
+								<p class="expertise__text">
+									is constantly developing in the field and monitors all changes
+									in the game industry market. We firmly believe that the
+									combination of expertise and fresh, non-standard, innovative
+									ideas makes our team extremely strong and competitive. We are
+									always ready to share our experience, knowledge and ideas in
+									order to create your product with high quality and contribute
+									to its further development.
+								</p>
+
+								<div class="expertise__image_mobile">
+									<img
+										src="img/full-cycle/expertise__image_2.svg"
+										alt="Image"
+									/>
+								</div>
+
+								<a href=".s-form" class="button expertise__button link-move">
+									Contact Us
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="tech" id="s-tech">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<h2 class="h2 tech__title" data-aos="fade-down">Technologies</h2>
+
+						<div class="tech__text" data-aos="fade-down">
+							Members of our team have 5-10+ years of experience in the game
+							development environment behind them, always improving their skills
+							and working with the latest technologies, therefore we provide our
+							services at the highest level.
+						</div>
+
+						<div class="tech__container" data-aos="fade-up">
+							<div class="tech__box">
+								<img src="img/technologies/logo_1.svg" alt="Logo" />
+								<p class="tech__caption">C#</p>
+							</div>
+
+							<div class="tech__box">
+								<img src="img/technologies/logo_2.svg" alt="Logo" />
+								<p class="tech__caption">Python</p>
+							</div>
+
+							<div class="tech__box">
+								<img src="img/technologies/logo_3.svg" alt="Logo" />
+								<p class="tech__caption">Unity</p>
+							</div>
+
+							<div class="tech__box">
+								<img src="img/technologies/logo_4.svg" alt="Logo" />
+								<p class="tech__caption">Unreal Engine</p>
+							</div>
+
+							<div class="tech__box">
+								<img src="img/technologies/logo_5.svg" alt="Logo" />
+								<p class="tech__caption">C ++</p>
+							</div>
+							<div class="tech__box">
+								<img src="img/technologies/logo_6.svg" alt="Logo" />
+								<p class="tech__caption">Objective C</p>
+							</div>
+
+							<div class="tech__box">
+								<img src="img/technologies/logo_7.svg" alt="Logo" />
+								<p class="tech__caption">HTML5</p>
+							</div>
+							<div class="tech__box">
+								<img src="img/technologies/logo_8.svg" alt="Logo" />
+								<p class="tech__caption">JavaScript</p>
+							</div>
+							<div class="tech__box">
+								<img src="img/technologies/logo_9.svg" alt="Logo" />
+								<p class="tech__caption">Cocos 2dx</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-7 tech__image">
+						<img
+							src="img/technologies/block__image.png"
+							alt="Image"
+							data-aos="zoom-in"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="platforms">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 platforms__image">
+						<img
+							src="img/platforms/block__image.png"
+							alt="Image"
+							data-aos="zoom-in"
+						/>
+					</div>
+
+					<div class="col-lg-5 offset-lg-1">
+						<h2 class="h2 platforms__title" data-aos="fade-down">platforms</h2>
+
+						<div class="platforms__container" data-aos="fade-up">
+							<div class="platforms__box">
+								<img src="img/platforms/logo_1.svg" alt="Logo" />
+								<p class="platforms__caption">iOS</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/platforms/logo_2.svg" alt="Logo" />
+								<p class="platforms__caption">Android</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/platforms/logo_3.svg" alt="Logo" />
+								<p class="platforms__caption">PC</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/platforms/logo_4.svg" alt="Logo" />
+								<p class="platforms__caption">PlayStation</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/platforms/logo_5.svg" alt="Logo" />
+								<p class="platforms__caption">Xbox</p>
+							</div>
+							<div class="platforms__box">
+								<img src="img/platforms/logo_6.svg" alt="Logo" />
+								<p class="platforms__caption">Nintendo Switch</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/platforms/logo_7.svg" alt="Logo" />
+								<p class="platforms__caption">VR/AR</p>
+							</div>
+							<div class="platforms__box">
+								<img src="img/platforms/logo_8.svg" alt="Logo" />
+								<p class="platforms__caption">Apple Arcade</p>
+							</div>
+							<div class="platforms__box">
+								<img src="img/platforms/logo_9.svg" alt="Logo" />
+								<p class="platforms__caption">Smart TV</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="roadmap">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="h2 roadmap__title" data-aos="fade-up">
+							product
+							<span>roadmap</span>
+						</h2>
+
+						<div class="roadmap__container">
+							<img
+								class="roadmap__line_center"
+								src="img/services/roadmap/line_center.svg"
+								alt="Line"
+							/>
+
+							<div class="roadmap__row">
+								<img
+									src="img/services/roadmap/image_1.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">planning</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Establish the game’s genre</li>
+										<li>Define main design direction</li>
+										<li>Identity core audience</li>
+										<li>Create high-level game identity</li>
+										<li>Highlight main player motivations</li>
+										<li>Create game vision document</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="roadmap__row">
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">pre-production</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Identify genre’s top games</li>
+										<li>Research competitors</li>
+										<li>Analyze market niche</li>
+										<li>Evaluate idea’s viability</li>
+										<li>Establish competitors’ flaws</li>
+										<li>Find possible improvements</li>
+									</ul>
+								</div>
+
+								<img
+									src="img/services/roadmap/image_2.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+							</div>
+
+							<div class="roadmap__row">
+								<img
+									src="img/services/roadmap/image_3.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">production</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Adjust the idea based on research</li>
+										<li>Select setting and story direction</li>
+										<li>Establish core loop</li>
+										<li>Create game mechanics</li>
+										<li>Identify unique selling points</li>
+										<li>Prepare GDD draft or pitch</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="roadmap__row">
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">alpha</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Create Game Design Document</li>
+										<li>Establish art direction</li>
+										<li>Create UI\UX wireframes</li>
+										<li>Plan and estimate production</li>
+										<li>Prototype new mechanics</li>
+										<li>Evaluate possible design risks</li>
+									</ul>
+								</div>
+
+								<img
+									src="img/services/roadmap/image_4.png"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+							</div>
+
+							<div class="roadmap__row">
+								<img
+									src="img/services/roadmap/image_5.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">beta</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Update documentation</li>
+										<li>Create Technical Design Docs</li>
+										<li>Support production team</li>
+										<li>Playtest early playable builds</li>
+										<li>Game balance and economy</li>
+										<li>Compose texts for the game</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="roadmap__row">
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">submission</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Game is fully optimized</li>
+										<li>Size optimizations if needed</li>
+										<li>All critical bugs are fixed</li>
+										<li>Build submitted for platform review</li>
+										<li>Compliance-related fixes if needed</li>
+									</ul>
+								</div>
+
+								<img
+									src="img/services/roadmap/image_6.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+							</div>
+
+							<div class="roadmap__row">
+								<img
+									src="img/services/roadmap/image_7.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">pre-lunch</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Playtest and adjust balance</li>
+										<li>Assist with bug fixing</li>
+										<li>Help promote of the game</li>
+										<li>User feedback analysis</li>
+										<li>Analyze game KPIs</li>
+										<li>Polish and improve the game</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="roadmap__row">
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">lunch</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Plan updates</li>
+										<li>Create new content</li>
+										<li>Add new features</li>
+										<li>Game balance patches</li>
+										<li>Seasonal events</li>
+										<li>Live-ops activities</li>
+									</ul>
+								</div>
+
+								<img
+									src="img/services/roadmap/image_8.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+							</div>
+
+							<div class="roadmap__row">
+								<img
+									src="img/services/roadmap/image_9.svg"
+									alt="Image"
+									class="roadmap__image"
+									data-aos="zoom-in"
+								/>
+
+								<div class="roadmap__box" data-aos="fade-right">
+									<h4 class="h4 roadmap__heading">post-production</h4>
+
+									<ul class="roadmap__list roadmap__dropdown">
+										<li>Plan updates</li>
+										<li>Create new content</li>
+										<li>Add new features</li>
+										<li>Game balance patches</li>
+										<li>Seasonal events</li>
+										<li>Live-ops activities</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="preview">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 preview__container">
+						<h2 class="h2 preview__title" data-aos="fade-up">
+							recent
+							<span>projects</span>
+						</h2>
+						<div class="preview__slider" data-aos="fade-up">
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">Full-Cycle Development</h4>
+									<h3 class="h3 preview__name">PANDA SWAP</h3>
+									<p class="preview__text">
+										PlayJoy Studios developed this unique match-3 mobile game
+										for Plug-in-Digital from concept to soft launch, including
+										live-ops support.
+									</p>
+									<a
+										href="projects/panda-swap.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_5/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">
+										Away: Journey To The Unexpected
+									</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided mobile adaptation this fun and
+										original game. AWAY: Journey to the Unexpected is a colorful
+										first person adventure game that combines action,
+										RPG-elements and rogue-lite elements.
+									</p>
+									<a
+										href="projects/away-journey-to-the-unexpected.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_1/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">
+										Co-development, Porting,
+										<br />
+										Localization
+									</h4>
+									<h3 class="h3 preview__name">UNMEMORY</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided co-development, localization &
+										porting services for this unique game that combines
+										narrative adventure & puzzle game, showcasing an immersive
+										world with lots of puzzles and discoveries.
+									</p>
+									<a
+										href="projects/unmemory.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_2/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">BURY ME, MY LOVE</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided platform adaptation of this game
+										with an incredible story. Bury me, my Love tells the story
+										of Syrian refugee Nour and her husband Majd, as Nour
+										undertakes a perilous journey to safety in Europe.
+									</p>
+									<a
+										href="projects/bury-me-my-love.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_3/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">Unannounced Mobile Port</h3>
+									<p class="preview__text">
+										Porting a Steam PC 3D game that was inspired by FTL
+										roguelike strategy simulator to mobile platforms. At the
+										moment the project is at the submission stage.
+									</p>
+									<a
+										href="projects/unannounced-mobile-port.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_4/main__page_4.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">playable Ad</h4>
+									<h3 class="h3 preview__name">SIEGE CASTLES</h3>
+									<p class="preview__text">
+										PlayJoy Studios developed Playable Ads for Plug-in-Digital
+										for this fun and relaxing game about medieval castle siege.
+									</p>
+									<a
+										href="projects/siege-castles.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_6/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">localization</h4>
+									<h3 class="h3 preview__name">
+										CRYPTO: AGAINST
+										<br />
+										ALL ODDS
+									</h3>
+									<p class="preview__text">
+										Crypto: Against all odds is a cypherpunk interactive
+										fiction, where PlayJoy Studios provided Russian localization
+										and LQA.
+									</p>
+									<a
+										href="projects/crypto-against-all-odds.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_7/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">
+										Unannounced Switch
+										<br />
+										Port
+									</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided porting a global turn-based 3D
+										strategy game to various platforms including Nintendo
+										Switch. At the moment the project is at the submission
+										stage.
+									</p>
+									<a
+										href="projects/unannounced-switch-port.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_8/main__image_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">co-development</h4>
+									<h3 class="h3 preview__name">
+										ZOMBIE NIGHT
+										<br />
+										TERROR
+									</h3>
+									<p class="preview__text">
+										Zombie Night Terror is spooky strategy action game with
+										puzzle elements, horror setting and pixel-art, where PlayJoy
+										Studios provided co-development and ads integration
+										services.
+									</p>
+									<a
+										href="projects/zombie-night-terror.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_9/main__image_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="other">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="h2 other__title" data-aos="fade-right">
+							Other services
+						</h2>
+
+						<div class="other__container" data-aos="fade-up">
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Game Porting</h4>
+									<a
+										href="game-porting.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_7.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Co-Development</h4>
+									<a
+										href="co-development.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_2.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Playable Ads</h4>
+									<a
+										href="html5-playable-ads.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_3.svg" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Game Design</h4>
+									<a
+										href="game-design.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_4.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Level Design</h4>
+									<a
+										href="level-design.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_5.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">
+										Game
+										<br />
+										Localization
+									</h4>
+									<a
+										href="game-localization.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_6.png" alt="icon" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-form">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 s-form_flex">
+						<div class="s-form__wrap" data-aos="fade-right">
+							<h2 class="h2 s-form__title">
+								let's talk about
+								<br />
+								<span>your</span>
+								project
+							</h2>
+
+							<h6 class="h6 s-form__subtitle">
+								Leave us your message, we will contact you shortly!
+							</h6>
+
+							<form class="s-form__form">
+								<input
+									class="s-form__input"
+									type="text"
+									name="Name"
+									placeholder="Name"
+									required
+									autocomplete="off"
+								/>
+
+								<input
+									class="s-form__input"
+									type="email"
+									name="E-mail"
+									placeholder="E-mail"
+									required
+									autocomplete="off"
+								/>
+
+								<div class="s-form__input-wrap">
+									<input
+										class="s-form__input _file"
+										type="file"
+										name="Upload file"
+										placeholder="Upload file"
+										required
+										autocomplete="off"
+									/>
+
+									<input
+										class="s-form__input"
+										type="text"
+										placeholder="Upload file"
+										required
+										autocomplete="off"
+									/>
+								</div>
+
+								<textarea
+									name="Message"
+									placeholder="Leave your message..."
+									class="s-form__textarea"
+								></textarea>
+
+								<button class="s-form__button button" type="submit">
+									Contact Us
+								</button>
+							</form>
+						</div>
+
+						<div class="s-form__image">
+							<img
+								src="img/s-form__image.png"
+								alt="Form image"
+								data-aos="zoom-in"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 footer_flex">
+						<div class="footer__wrap">
+							<a href="index.html" class="footer__logo">
+								<img src="img/logo.svg" alt="PlayJoy" />
+							</a>
+
+							<div class="footer__mail">
+								<img class="mail__img" src="img/footer__mail.png" alt="Mail" />
+								<div class="mail__text">
+									<h6 class="h6">E-mail:</h6>
+									<a href="mailto:contact@playjoystudios.com">
+										contact@playjoystudios.com
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<nav class="footer__menu">
+							<!-- <div class="menu__col">
                 <a href="#" class="h5 menu__heading">Projects</a>
 
                 <a href="game-porting.html" class="menu__link">Game Porting </a>
@@ -1291,71 +1346,84 @@
                 >
               </div> -->
 
-              <div class="menu__col">
-                <a href="services.html" class="h5 menu__heading">Services</a>
+							<div class="menu__col">
+								<a href="services.html" class="h5 menu__heading">Services</a>
 
-                <a href="game-porting.html" class="menu__link">Game Porting </a>
-                <a href="co-development.html" class="menu__link"
-                  >Co-Development</a
-                >
-                <a href="full-cycle-development.html" class="menu__link"
-                  >Full-Cycle Development</a
-                >
-                <a href="html5-playable-ads.html" class="menu__link"
-                  >HTML5 Playable Ads</a
-                >
-                <a href="game-design.html" class="menu__link">Game Design</a>
-                <a href="level-design.html" class="menu__link">Level Design</a>
-                <a href="game-localization.html" class="menu__link"
-                  >Game Localization</a
-                >
-                <a href="game-economy.html" class="menu__link">Game Economy</a>
-              </div>
+								<a href="game-porting.html" class="menu__link">Game Porting</a>
+								<a href="co-development.html" class="menu__link">
+									Co-Development
+								</a>
+								<a href="full-cycle-development.html" class="menu__link">
+									Full-Cycle Development
+								</a>
+								<a href="html5-playable-ads.html" class="menu__link">
+									HTML5 Playable Ads
+								</a>
+								<a href="game-design.html" class="menu__link">Game Design</a>
+								<a href="level-design.html" class="menu__link">Level Design</a>
+								<a href="game-localization.html" class="menu__link">
+									Game Localization
+								</a>
+								<a href="game-economy.html" class="menu__link">Game Economy</a>
+							</div>
 
-              <div class="menu__col">
-                <h5 class="h5 menu__heading">About company</h5>
+							<div class="menu__col">
+								<h5 class="h5 menu__heading">About company</h5>
 
-                <a href="about-us.html" class="menu__link">About us</a>
-                <a href="join-us.html" class="menu__link">Join us</a>
-                <a href="projects.html" class="menu__link"> Projects </a>
-                <a href="privacy-policy.html" class="menu__link" target="_blank"
-                  >Privacy Policy</a
-                >
+								<a href="about-us.html" class="menu__link">About us</a>
+								<a href="join-us.html" class="menu__link">Join us</a>
+								<a href="projects.html" class="menu__link">Projects</a>
+								<a
+									href="privacy-policy.html"
+									class="menu__link"
+									target="_blank"
+								>
+									Privacy Policy
+								</a>
 
-                <div class="footer__social-links">
-                  <h5 class="h5 social-links__heading">Follow us:</h5>
+								<div class="footer__social-links">
+									<h5 class="h5 social-links__heading">Follow us:</h5>
 
-                  <a
-                    href="https://www.facebook.com/playjoystudios"
-                    class="social-links__link"
-                    target="_blank"
-                  >
-                    <img src="img/icons/facebook.svg" alt="Facebook" />
-                  </a>
+									<a
+										href="https://www.facebook.com/playjoystudios"
+										class="social-links__link"
+										target="_blank"
+									>
+										<img src="img/icons/facebook.svg" alt="Facebook" />
+									</a>
 
-                  <a
-                    href="https://www.linkedin.com/company/playjoy-studios"
-                    class="social-links__link"
-                    target="_blank"
-                    ><img src="img/icons/linkedin.svg" alt="LinkedIn"
-                  /></a>
-                </div>
-              </div>
-            </nav>
-          </div>
+									<a
+										href="https://www.linkedin.com/company/playjoy-studios"
+										class="social-links__link"
+										target="_blank"
+									>
+										<img src="img/icons/linkedin.svg" alt="LinkedIn" />
+									</a>
+								</div>
+							</div>
+						</nav>
+					</div>
 
-          <div class="col-12 footer_bottom">
-            <p class="footer__copyrights">
-              &#169; 2021. PlayJoy. All rights reserved
-              <span> Privacy Policy</span>
-            </p>
+					<div class="col-12 footer_bottom">
+						<p class="footer__copyrights">
+							&#169; 2021. PlayJoy. All rights reserved
+						</p>
+						<a
+							href="privacy-policy.html"
+							class="footer__privacy-mobile"
+							target="_blank"
+						>
+							Privacy Policy
+						</a>
 
-            <button class="footer__to-top">
-              <i class="fas fa-chevron-up"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+						<button class="footer__to-top">
+							<i class="fas fa-chevron-up"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="libs/aos/aos.js"></script>
+	</body>
 </html>

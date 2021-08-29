@@ -195,9 +195,9 @@ body
 		@include blur($px: 4px, $brad: 5px)
 		&._active
 			.line
-				animation: hamburger__line_long .5s ease-in-out
+				animation: hamburger__line_long .3s ease-in-out
 				&._short
-					animation: hamburger__line_short .5s ease-in-out
+					animation: hamburger__line_short .3s ease-in-out
 		.line
 			height: 3px
 			width: 100%
@@ -232,7 +232,7 @@ body
 			height: 40px
 			border-radius: 5px
 			img
-				transition: .5s ease-in-out
+				transition: .3s ease-in-out
 			&._rotate
 				img
 					transform: rotate(180deg)
@@ -244,7 +244,7 @@ body
 			width: 0
 			opacity: 0
 			z-index: 4
-			transition: 1s .5s ease-in-out
+			transition: 1s .3s ease-in-out
 			&._visible
 				width: 100%
 				opacity: 1
@@ -1066,7 +1066,7 @@ body
 		font-size: 18px
 		color: $purpur
 		font-family: Poppins
-		span
+	&__privacy-mobile
 			display: none
 			font-size: 10px
 			color: rgba(255, 255, 255, 0.42)

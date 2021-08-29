@@ -1,1203 +1,1257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-
-    <title>PlayJoy | HTML5 Playable Ads</title>
-
-    <meta name="viewport" content="width=device-width" />
-    <meta name="format-detection" content="telephone=no" />
-
-    <link
-      rel="icon"
-      type="image/x-icon"
-      sizes="192x192"
-      href="img/favicon.ico"
-    />
-
-    <link rel="stylesheet" href="css/preloader.css" />
-    <link rel="stylesheet" href="libs/aos/aos.css" />
-    <link rel="stylesheet" href="libs/slick-slider/slick.css" />
-    <link rel="stylesheet" href="libs/slick-slider/slick-theme.css" />
-    <link rel="stylesheet" href="css/main.css" />
-
-    <script defer src="libs/jquery.min.js"></script>
-
-    <script defer src="js/preloader.js"></script>
-    <script defer src="libs/aos/aos.js"></script>
-    <script defer src="libs/slick-slider/slick.min.js"></script>
-
-    <script defer src="js/custom.js"></script>
-
-    <script
-      async
-      defer
-      src="https://kit.fontawesome.com/55e0136003.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-
-  <body class="isnohome p-ads">
-    <header class="header" id="header" data-aos="fade-down">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 header_flex">
-            <div class="header__hamburger">
-              <div class="line"></div>
-              <div class="line _short"></div>
-              <div class="line"></div>
-            </div>
-
-            <a href="index.html" class="header__logo">
-              <img src="img/logo.svg" alt="PlayJoy" />
-            </a>
-
-            <div class="header__sidebar-plug"></div>
-
-            <div class="header__sidebar">
-              <div class="header__sidebar-close">
-                <img src="img/icons/sidebar__close.svg" alt="X" />
-              </div>
-
-              <nav class="header__menu">
-                <div class="header__dropdown">
-                  <div class="dropdown__heading">
-                    <span>Services List</span>
-                    <i class="fas fa-chevron-down"></i>
-                  </div>
-                  <div class="dropdown__body">
-                    <div class="flex-wrapper">
-                      <div class="dropdown__col">
-                        <a href="game-porting.html">Game Porting</a>
-                        <a href="co-development.html">Co-Development</a>
-                        <a href="full-cycle-development.html"
-                          >Full-cycle development</a
-                        >
-                        <a href="html5-playable-ads.html">HTML5 Playable Ads</a>
-                      </div>
-
-                      <div class="dropdown__col">
-                        <a href="game-design.html">Game Design</a>
-                        <a href="level-design.html">Level Design</a>
-                        <a href="game-localization.html">Game Localization</a>
-                        <a href="game-economy.html">Game Economy</a>
-                      </div>
-
-                      <div class="dropdown__back-btn button">Back to menu</div>
-                    </div>
-                  </div>
-                </div>
-
-                <a href="services.html">Services</a>
-                <a href="about-us.html">About Us</a>
-                <a href="join-us.html">Join Us</a>
-                <a href="projects.html">Projects</a>
-              </nav>
-
-              <a href=".s-form" class="header__button button link-move"
-                >Contact Us</a
-              >
-
-              <div class="header__social-links">
-                <a
-                  href="https://www.facebook.com/playjoystudios"
-                  target="_blank"
-                >
-                  <img src="img/icons/facebook.svg" alt="Facebook" />
-                  <span>Facebook</span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/playjoy-studios"
-                  target="_blank"
-                >
-                  <img src="img/icons/linkedin.svg" alt="LinkedIn" />
-                  <span>LinkedIN</span>
-                </a>
-
-                <a href="#" class="_wide">
-                  <img src="img/icons/mail.svg" alt="Mail" />
-                  <span>contact@playjoystudios.com</span>
-                </a>
-              </div>
-            </div>
-
-            <a href=".s-form" class="header__mail link-move"
-              ><img src="img/icons/header__mail.svg" alt="Mail"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <header class="header header_sticky">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 header_flex">
-            <div class="header__hamburger">
-              <div class="line"></div>
-              <div class="line _short"></div>
-              <div class="line"></div>
-            </div>
-
-            <a href="index.html" class="header__logo">
-              <img src="img/logo.svg" alt="PlayJoy" />
-            </a>
-
-            <div class="header__sidebar-plug"></div>
-
-            <div class="header__sidebar">
-              <div class="header__sidebar-close">
-                <img src="img/icons/sidebar__close.svg" alt="X" />
-              </div>
-
-              <nav class="header__menu">
-                <div class="header__dropdown">
-                  <div class="dropdown__heading">
-                    <span>Services List</span>
-                    <i class="fas fa-chevron-down"></i>
-                  </div>
-                  <div class="dropdown__body">
-                    <div class="flex-wrapper">
-                      <div class="dropdown__col">
-                        <a href="game-porting.html">Game Porting</a>
-                        <a href="co-development.html">Co-Development</a>
-                        <a href="full-cycle-development.html"
-                          >Full-cycle development</a
-                        >
-                        <a href="html5-playable-ads.html">HTML5 Playable Ads</a>
-                      </div>
-
-                      <div class="dropdown__col">
-                        <a href="game-design.html">Game Design</a>
-                        <a href="level-design.html">Level Design</a>
-                        <a href="game-localization.html">Game Localization</a>
-                        <a href="game-economy.html">Game Economy</a>
-                      </div>
-
-                      <div class="dropdown__back-btn button">Back to menu</div>
-                    </div>
-                  </div>
-                </div>
-
-                <a href="services.html">Services</a>
-                <a href="about-us.html">About Us</a>
-                <a href="join-us.html">Join Us</a>
-                <a href="projects.html">Projects</a>
-              </nav>
-
-              <a href=".s-form" class="header__button button link-move"
-                >Contact Us</a
-              >
-
-              <div class="header__social-links">
-                <a
-                  href="https://www.facebook.com/playjoystudios"
-                  target="_blank"
-                >
-                  <img src="img/icons/facebook.svg" alt="Facebook" />
-                  <span>Facebook</span>
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/playjoy-studios"
-                  target="_blank"
-                >
-                  <img src="img/icons/linkedin.svg" alt="LinkedIn" />
-                  <span>LinkedIN</span>
-                </a>
-
-                <a href="#" class="_wide">
-                  <img src="img/icons/mail.svg" alt="Mail" />
-                  <span>contact@playjoystudios.com</span>
-                </a>
-              </div>
-            </div>
-
-            <a href=".s-form" class="header__mail link-move"
-              ><img src="img/icons/header__mail.svg" alt="Mail"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="main">
-      <div class="container">
-        <div class="row flex_center">
-          <div class="col-lg-6">
-            <h1
-              class="h1 main__title"
-              data-aos="fade-down"
-              data-aos-delay="200"
-            >
-              html5 <br />
-              playable <span>ads</span>
-            </h1>
-
-            <div class="main__image_mobile">
-              <img
-                src="img/playable-ads/main.png"
-                alt="Main image"
-                data-aos="zoom-in"
-                data-aos-delay="300"
-              />
-            </div>
-
-            <p class="main__text" data-aos="fade-down" data-aos-delay="400">
-              Boost your User Acquisition with HTML5 Playable Ads. This
-              interactive new way to engage the audience helps to decrease
-              uninstall rates, lower CPIs and improve retention by attracting
-              more engaged and valuable players. We design engaging interactive
-              playables that will help you reach and acquire valuable users with
-              higher LTVs.
-            </p>
-
-            <div
-              class="main__buttons"
-              data-aos="fade-down"
-              data-aos-delay="600"
-            >
-              <a href=".s-form" class="button link-move"
-                ><span>Contact Us</span></a
-              >
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="main__image">
-              <img
-                src="img/playable-ads/main.png"
-                alt="Main image"
-                data-aos="zoom-in"
-                data-aos-delay="300"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="approach">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="approach__container" data-aos="fade-up">
-              <span class="approach__number">01</span>
-
-              <img
-                class="approach__image"
-                src="img/playable-ads/approach__image_1.svg"
-                alt="Image"
-              />
-
-              <div class="approach__wrapper">
-                <h3 class="h3 approach__heading">
-                  <span>What</span> are playable ads?
-                </h3>
-
-                <p class="approach__text">
-                  Playable ads are interactive advertisements in the form of
-                  small games, that allow players to preview the app and test
-                  its gameplay before installing the main game. After beating
-                  the mini-game, players are encouraged to download the full
-                  version of the game from the app store. Also it can redirect
-                  players to a website or display any other call to action.
-                </p>
-
-                <a href=".s-form" class="button approach__button link-move"
-                  >Contact Us</a
-                >
-              </div>
-            </div>
-
-            <div class="approach__container" data-aos="fade-up">
-              <span class="approach__number">02</span>
-
-              <div class="approach__wrapper">
-                <h3 class="h3 approach__heading">
-                  <span>how</span> are they built?
-                </h3>
-
-                <p class="approach__text">
-                  As Playable Ads need to be very lightweight and load almost
-                  instantly, they are built with HTML5, on such engines as
-                  Pixi.js, Cocos, Phaser.js and others. Playable Ads for
-                  different advertising platforms like Facebook, Google Play
-                  have different build specifications, guidelines and <br />
-                  technical limitations.
-                </p>
-
-                <a href=".s-form" class="button approach__button link-move"
-                  >Contact Us</a
-                >
-              </div>
-
-              <img
-                class="approach__image"
-                src="img/playable-ads/approach__image_2.svg"
-                alt="Image"
-              />
-            </div>
-
-            <div class="approach__container" data-aos="fade-up">
-              <span class="approach__number">03</span>
-
-              <img
-                class="approach__image"
-                src="img/playable-ads/approach__image_3.svg"
-                alt="Image"
-              />
-
-              <div class="approach__wrapper">
-                <h3 class="h3 approach__heading">
-                  <span>why</span> use playable ads?
-                </h3>
-
-                <p class="approach__text">
-                  There’s nothing like instant interactive gameplay to capture
-                  the player’s attention and provide quality UA installs. Our
-                  experience and knowledge of best practices for various
-                  Playable Ads formats allows us to build high-quality Playable
-                  Ads that will help you reach and engage your target audience
-                  and bring valuable players <br />
-                  to your game.
-                </p>
-
-                <a href=".s-form" class="button approach__button link-move"
-                  >Contact Us</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="benefits">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-10 offset-xl-1">
-            <h2 class="h2 benefits__title" data-aos="fade-up">
-              <span>benefits</span> of playable ads
-            </h2>
-
-            <div class="benefits__container">
-              <img
-                class="benefits__line"
-                src="img/playable-ads/benefits__line.svg"
-                alt="------"
-                data-aos="fade-up"
-              />
-
-              <div class="benefits_flex">
-                <div class="benefits__box" data-aos="zoom-in">
-                  <img
-                    class="benefits__icon"
-                    src="img/playable-ads/benefits__icon_1.svg"
-                    alt="Icon"
-                  />
-                  <h4 class="h4 benefits__caption">
-                    Increase <br />
-                    Retention
-                  </h4>
-                </div>
-
-                <div class="benefits__box _middle" data-aos="zoom-in">
-                  <img
-                    class="benefits__icon"
-                    src="img/playable-ads/benefits__icon_2.svg"
-                    alt="Icon"
-                  />
-                  <h4 class="h4 benefits__caption">
-                    Improve <br />
-                    Conversion Rate
-                  </h4>
-                </div>
-
-                <div class="benefits__box" data-aos="zoom-in">
-                  <img
-                    class="benefits__icon"
-                    src="img/playable-ads/benefits__icon_3.svg"
-                    alt="Icon"
-                  />
-                  <h4 class="h4 benefits__caption">
-                    Decrease CPI & <br />
-                    Uninstalls
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-xl-5 col-lg-6 offset-xl-1">
-            <div class="benefits__wrapper" data-aos="fade-right">
-              <h4 class="h4 benefits__heading">
-                Increase retention, reduce uninstall rates.
-              </h4>
-              <p class="benefits__text">
-                Playable Ads create an opportunity to test drive your gameplay
-                and core mechanics, which increases brand awareness for the
-                target audience in an interactive way. Players converted with
-                playable ads have higher engagement with the main app and
-                lifetime values. By converting more high LTV users into
-                downloading the app, playable ads effectively reduce uninstalls
-                while increasing retention rates.
-              </p>
-            </div>
-
-            <div class="benefits__wrapper" data-aos="fade-right">
-              <h4 class="h4 benefits__heading">Improve the conversion rate</h4>
-              <p class="benefits__text">
-                Of your ad campaigns, lowering your CPI (Cost Per Install), CPA
-                (Cost Per Acquisition) and CPC (Cost Per Click). They drive the
-                most engaged users that enable reaching higher KPIs.
-              </p>
-            </div>
-
-            <div class="benefits__wrapper" data-aos="fade-right">
-              <h4 class="h4 benefits__heading">Analyze data</h4>
-              <p class="benefits__text">
-                You can monitor ads performance and understand player behavior.
-                Identifying and handling steps with significant player churn
-                rates, the Playable Ads can be improved and become <br />
-                even more cost-effective.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-lg-5 offset-lg-1">
-            <div
-              class="benefits__wrapper"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              <h4 class="h4 benefits__heading">
-                Take advantage of a new innovative advertising format.
-              </h4>
-              <p class="benefits__text">
-                Take advantage of new innovative advertising format that allows
-                to avoid issues with the new IDFA policy by Apple that decreases
-                effectiveness of regular ads. Playable ads are a great
-                alternative to usual ads and will help your game to stand out
-                from your competitors.
-              </p>
-            </div>
-
-            <div
-              class="benefits__wrapper"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              <h4 class="h4 benefits__heading">CTR</h4>
-              <p class="benefits__text">
-                Click-through rates of Playable Ads are up to 5-7 times higher
-                compared to usual video ads.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="image-list">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 image-list__title" data-aos="fade-up">
-              playable ads creation <span>process</span>
-            </h2>
-          </div>
-        </div>
-
-        <div class="row _flex-center">
-          <div class="col-lg-5">
-            <img
-              src="img/playable-ads/image-list__image.png"
-              data-aos="zoom-in"
-            />
-          </div>
-
-          <div class="col-lg-6 offset-lg-1">
-            <div class="image-list__list" data-aos="fade-right">
-              <div class="image-list__item">
-                <div class="image-list__number">01</div>
-                <p class="image-list__text">
-                  Concept brief created. Storyboard outlined, art and animation
-                  prepared.
-                </p>
-              </div>
-
-              <div class="image-list__item">
-                <div class="image-list__number">02</div>
-                <p class="image-list__text">
-                  First playable build assembled. QA testing and bug fixing
-                  phase.
-                </p>
-              </div>
-
-              <div class="image-list__item">
-                <div class="image-list__number">03</div>
-                <p class="image-list__text">
-                  Alpha build created, feedback received and implemented.
-                </p>
-              </div>
-
-              <div class="image-list__item">
-                <div class="image-list__number">04</div>
-                <p class="image-list__text">
-                  Ad network features implemented. Final build released.
-                </p>
-              </div>
-
-              <div class="image-list__item">
-                <div class="image-list__number">05</div>
-                <p class="image-list__text">
-                  Post launch optimizations, A/B testing.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="creature">
-      <div class="container">
-        <div class="row _flex-center">
-          <div class="col-lg-8 col-xl-7" data-aos="fade-right">
-            <h2 class="h2 creature__title">
-              how do playable ads <span>work</span>?
-            </h2>
-
-            <h4 class="h4 creature__subtitle">
-              Playable Ads are HTML5 mini-games that allow players to get a
-              taste of gameplay of the main app with a few taps.
-            </h4>
-
-            <p class="creature__text">
-              Because Playable Ads allow test-driving the game before
-              downloading it, they effectively filter out non-engaged users,
-              which leads to more high quality player installs and improved ROAS
-              (return on ad spend).
-            </p>
-
-            <a href=".s-form" class="button creature__button link-move"
-              >Contact Us</a
-            >
-          </div>
-
-          <div class="col-lg-4 offset-xl-1 creature__image">
-            <img
-              src="img/playable-ads/creature__image.png"
-              alt="Image"
-              data-aos="zoom-in"
-            />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-12">
-            <h3 class="h3 creature__heading">
-              Key components of a Playable Ad
-            </h3>
-            <div class="creature__container">
-              <div class="creature__box">
-                <div class="creature__number">01</div>
-                <img
-                  src="img/playable-ads/creature__example_1.png"
-                  alt="Image"
-                  class="creature__example"
-                />
-                <h4 class="h4 creature__caption">tutorial</h4>
-                <p class="creature__description">
-                  Super-short (3-5 seconds) introduction of how to play the
-                  game. It should explain core mechanics, be immersive, simple
-                  and intuitive. Any instructions should be clear and to the
-                  point.
-                </p>
-              </div>
-
-              <div class="creature__box">
-                <div class="creature__number">02</div>
-                <img
-                  src="img/playable-ads/creature__example_2.png"
-                  alt="Image"
-                  class="creature__example"
-                />
-                <h4 class="h4 creature__caption">gameplay</h4>
-                <p class="creature__description">
-                  Main part where potential players will try out the game, they
-                  should be persuaded in under 20-30 seconds to download your
-                  app. Creating a powerful hook like the end of an exciting
-                  level, or putting them right in the thick of a fight will
-                  help.
-                </p>
-              </div>
-
-              <div class="creature__box">
-                <div class="creature__number">03</div>
-                <img
-                  src="img/playable-ads/creature__example_3.png"
-                  alt="Image"
-                  class="creature__example"
-                />
-                <h4 class="h4 creature__caption">end card</h4>
-                <p class="creature__description">
-                  The end card (also called packshot screen) should display a
-                  clear call to action (CTA), asking the player to install the
-                  game, redirect to a particular website or perform other
-                  actions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="tech" id="s-tech">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <h2 class="h2 tech__title" data-aos="fade-down">Technologies</h2>
-
-            <div class="tech__container" data-aos="fade-up">
-              <div class="tech__box">
-                <img
-                  src="img/playable-ads/technologies/logo_1.svg"
-                  alt="Logo"
-                />
-                <p class="tech__caption">Phazer</p>
-              </div>
-
-              <div class="tech__box">
-                <img
-                  src="img/playable-ads/technologies/logo_2.svg"
-                  alt="Logo"
-                />
-                <p class="tech__caption">PixiJs</p>
-              </div>
-
-              <div class="tech__box">
-                <img
-                  src="img/playable-ads/technologies/logo_3.svg"
-                  alt="Logo"
-                />
-                <p class="tech__caption">Three.Js</p>
-              </div>
-
-              <div class="tech__box">
-                <img
-                  src="img/playable-ads/technologies/logo_4.svg"
-                  alt="Logo"
-                />
-                <p class="tech__caption">HTML5</p>
-              </div>
-
-              <div class="tech__box">
-                <img
-                  src="img/playable-ads/technologies/logo_5.svg"
-                  alt="Logo"
-                />
-                <p class="tech__caption">JavaScript</p>
-              </div>
-              <div class="tech__box">
-                <img
-                  src="img/playable-ads/technologies/logo_6.svg"
-                  alt="Logo"
-                />
-                <p class="tech__caption">Cocos 2dx</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-7 tech__image">
-            <img
-              src="img/technologies/block__image.png"
-              alt="Image"
-              data-aos="zoom-in"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="platforms">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-10 offset-xl-1">
-            <h2 class="h2 platforms__title" data-aos="fade-down">platforms</h2>
-
-            <div class="platforms__container" data-aos="fade-up">
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_1.svg" alt="Logo" />
-                <p class="platforms__caption">Facebook Ads</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_2.svg" alt="Logo" />
-                <p class="platforms__caption">Google Play Instant</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_3.svg" alt="Logo" />
-                <p class="platforms__caption">Google AdWords</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_4.svg" alt="Logo" />
-                <p class="platforms__caption">Unity Ads</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_5.svg" alt="Logo" />
-                <p class="platforms__caption">Vungle</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_6.svg" alt="Logo" />
-                <p class="platforms__caption">Mobup</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_7.svg" alt="Logo" />
-                <p class="platforms__caption">Chartboost</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_8.svg" alt="Logo" />
-                <p class="platforms__caption">IronSource</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_9.svg" alt="Logo" />
-                <p class="platforms__caption">AdMob</p>
-              </div>
-
-              <div class="platforms__box">
-                <img src="img/playable-ads/platforms/logo_10.svg" alt="Logo" />
-                <p class="platforms__caption">Smaato</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="preview">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 preview__container">
-            <h2 class="h2 preview__title" data-aos="fade-up">
-              recent
-              <span>projects</span>
-            </h2>
-            <div class="preview__slider" data-aos="fade-up">
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">
-                    Away: Journey To The Unexpected
-                  </h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided mobile adaptation this fun and
-                    original game. AWAY: Journey to the Unexpected is a colorful
-                    first person adventure game that combines action,
-                    RPG-elements and rogue-lite elements.
-                  </p>
-                  <a
-                    href="away-journey-to-the-unexpected.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_1/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">
-                    Co-development, Porting, <br />
-                    Localization
-                  </h4>
-                  <h3 class="h3 preview__name">UNMEMORY</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided co-development, localization &
-                    porting services for this unique game that combines
-                    narrative adventure & puzzle game, showcasing an immersive
-                    world with lots of puzzles and discoveries.
-                  </p>
-                  <a href="#" class="button preview__button">See Project</a>
-                </div>
-
-                <img
-                  src="img/works/project_2/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">BURY ME, MY LOVE</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided platform adaptation of this game
-                    with an incredible story. Bury me, my Love tells the story
-                    of Syrian refugee Nour and her husband Majd, as Nour
-                    undertakes a perilous journey to safety in Europe.
-                  </p>
-                  <a href="bury-me-my-love.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_3/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">Unannounced Mobile Port</h3>
-                  <p class="preview__text">
-                    Porting a Steam PC 3D game that was inspired by FTL
-                    roguelike strategy simulator to mobile platforms. At the
-                    moment the project is at the submission stage.
-                  </p>
-                  <a
-                    href="unannounced-mobile-port.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_4/main__page_4.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">Full-Cycle Development</h4>
-                  <h3 class="h3 preview__name">PANDA SWAP</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios developed this unique match-3 mobile game
-                    for Plug-in-Digital from concept to soft launch, including
-                    live-ops support.
-                  </p>
-                  <a href="panda-swap.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_5/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">playable Ad</h4>
-                  <h3 class="h3 preview__name">SIEGE CASTLES</h3>
-                  <p class="preview__text">
-                    PlayJoy Studios developed Playable Ads for Plug-in-Digital
-                    for this fun and relaxing game about medieval castle siege.
-                  </p>
-                  <a href="siege-castles.html" class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_6/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">localization</h4>
-                  <h3 class="h3 preview__name">
-                    CRYPTO: AGAINST <br />ALL ODDS
-                  </h3>
-                  <p class="preview__text">
-                    Crypto: Against all odds is a cypherpunk interactive
-                    fiction, where PlayJoy Studios provided Russian localization
-                    and LQA.
-                  </p>
-                  <a
-                    href="crypto-against-all-odds.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_7/main__page_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">turnkey porting</h4>
-                  <h3 class="h3 preview__name">
-                    Unannounced Switch <br />Port
-                  </h3>
-                  <p class="preview__text">
-                    PlayJoy Studios provided porting a global turn-based 3D
-                    strategy game to various platforms including Nintendo
-                    Switch. At the moment the project is at the submission
-                    stage.
-                  </p>
-                  <a
-                    href="unannounced-switch-port.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="img/works/project_8/main__image_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-              <div class="preview__slide">
-                <div class="preview__wrapper">
-                  <h4 class="preview__category">co-development</h4>
-                  <h3 class="h3 preview__name">ZOMBIE NIGHT <br />TERROR</h3>
-                  <p class="preview__text">
-                    Zombie Night Terror is spooky strategy action game with
-                    puzzle elements, horror setting and pixel-art, where PlayJoy
-                    Studios provided co-development and ads integration
-                    services.
-                  </p>
-                  <a
-                    href="zombie-night-terror.html"
-                    class="button preview__button"
-                    >See Project</a
-                  >
-                </div>
-
-                <img
-                  src="../img/works/project_9/main__image_recent.png"
-                  alt="Game preview"
-                  class="preview__image"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="other">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h2 class="h2 other__title" data-aos="fade-right">
-              Other services
-            </h2>
-
-            <div class="other__container" data-aos="fade-up">
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Game Porting</h4>
-                  <a
-                    href="game-porting.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_7.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Co-Development</h4>
-                  <a
-                    href="co-development.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_2.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Full-cycle Development</h4>
-                  <a href="#" class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_1.svg" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Game Design</h4>
-                  <a
-                    href="game-design.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_4.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">Level Design</h4>
-                  <a
-                    href="level-design.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_5.png" alt="icon" />
-                </div>
-              </div>
-
-              <div class="other__box">
-                <div class="other__wrapper">
-                  <h4 class="h4 h4 other__heading">
-                    Game <br />
-                    Localization
-                  </h4>
-                  <a
-                    href="game-localization.html"
-                    class="button other__button _transparent"
-                    >More Details</a
-                  >
-                </div>
-                <div class="other__icon">
-                  <img src="img/other/icon_6.png" alt="icon" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="s-form">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 s-form_flex">
-            <div class="s-form__wrap" data-aos="fade-right">
-              <h2 class="h2 s-form__title">
-                let's talk about <br />
-                <span>your</span> project
-              </h2>
-
-              <h6 class="h6 s-form__subtitle">
-                Leave us your message, we will contact you shortly!
-              </h6>
-
-              <form class="s-form__form">
-                <input
-                  class="s-form__input"
-                  type="text"
-                  name="Name"
-                  placeholder="Name"
-                  required
-                  autocomplete="off"
-                />
-
-                <input
-                  class="s-form__input"
-                  type="email"
-                  name="E-mail"
-                  placeholder="E-mail"
-                  required
-                  autocomplete="off"
-                />
-
-                <div class="s-form__input-wrap">
-                  <input
-                    class="s-form__input _file"
-                    type="file"
-                    name="Upload file"
-                    placeholder="Upload file"
-                    required
-                    autocomplete="off"
-                  />
-
-                  <input
-                    class="s-form__input"
-                    type="text"
-                    placeholder="Upload file"
-                    required
-                    autocomplete="off"
-                  />
-                </div>
-
-                <textarea
-                  name="Message"
-                  placeholder="Leave your message..."
-                  class="s-form__textarea"
-                ></textarea>
-
-                <button class="s-form__button button" type="submit">
-                  Contact Us
-                </button>
-              </form>
-            </div>
-
-            <div class="s-form__image">
-              <img
-                src="img/s-form__image.png"
-                alt="Form image"
-                data-aos="zoom-in"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 footer_flex">
-            <div class="footer__wrap">
-              <a href="index.html" class="footer__logo"
-                ><img src="img/logo.svg" alt="PlayJoy"
-              /></a>
-
-              <div class="footer__mail">
-                <img class="mail__img" src="img/footer__mail.png" alt="Mail" />
-                <div class="mail__text">
-                  <h6 class="h6">E-mail:</h6>
-                  <a href="mailto:contact@playjoystudios.com"
-                    >contact@playjoystudios.com</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <nav class="footer__menu">
-              <!-- <div class="menu__col">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>PlayJoy | HTML5 Playable Ads</title>
+
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1"
+		/>
+		<meta name="format-detection" content="telephone=no" />
+
+		<link
+			rel="icon"
+			type="image/x-icon"
+			sizes="192x192"
+			href="img/favicon.ico"
+		/>
+
+		<link rel="stylesheet" href="css/preloader.css" />
+		<link rel="stylesheet" href="libs/aos/aos.css" />
+		<link rel="stylesheet" href="libs/slick-slider/slick.css" />
+		<link rel="stylesheet" href="libs/slick-slider/slick-theme.css" />
+		<link rel="stylesheet" href="css/main.css" />
+
+		<script defer src="libs/jquery.min.js"></script>
+
+		<script defer src="js/preloader.js"></script>
+
+		<script defer src="libs/slick-slider/slick.min.js"></script>
+
+		<script defer src="js/custom.js"></script>
+
+		<script
+			async
+			defer
+			src="https://kit.fontawesome.com/55e0136003.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body class="isnohome p-ads">
+		<header class="header" id="header" data-aos="fade-down">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 header_flex">
+						<div class="header__hamburger">
+							<div class="line"></div>
+							<div class="line _short"></div>
+							<div class="line"></div>
+						</div>
+
+						<a href="index.html" class="header__logo">
+							<img src="img/logo.svg" alt="PlayJoy" />
+						</a>
+
+						<div class="header__sidebar-plug"></div>
+
+						<div class="header__sidebar">
+							<div class="header__sidebar-close">
+								<img src="img/icons/sidebar__close.svg" alt="X" />
+							</div>
+
+							<nav class="header__menu">
+								<div class="header__dropdown">
+									<div class="dropdown__heading">
+										<span>Services List</span>
+										<i class="fas fa-chevron-down"></i>
+									</div>
+									<div class="dropdown__body">
+										<div class="flex-wrapper">
+											<div class="dropdown__col">
+												<a href="game-porting.html">Game Porting</a>
+												<a href="co-development.html">Co-Development</a>
+												<a href="full-cycle-development.html">
+													Full-cycle development
+												</a>
+												<a href="html5-playable-ads.html">HTML5 Playable Ads</a>
+											</div>
+
+											<div class="dropdown__col">
+												<a href="game-design.html">Game Design</a>
+												<a href="level-design.html">Level Design</a>
+												<a href="game-localization.html">Game Localization</a>
+												<a href="game-economy.html">Game Economy</a>
+											</div>
+
+											<div class="dropdown__back-btn button">Back to menu</div>
+										</div>
+									</div>
+								</div>
+
+								<a href="services.html">Services</a>
+								<a href="about-us.html">About Us</a>
+								<a href="join-us.html">Join Us</a>
+								<a href="projects.html">Projects</a>
+							</nav>
+
+							<a href=".s-form" class="header__button button link-move">
+								Contact Us
+							</a>
+
+							<div class="header__social-links">
+								<a
+									href="https://www.facebook.com/playjoystudios"
+									target="_blank"
+								>
+									<img src="img/icons/facebook.svg" alt="Facebook" />
+									<span>Facebook</span>
+								</a>
+								<a
+									href="https://www.linkedin.com/company/playjoy-studios"
+									target="_blank"
+								>
+									<img src="img/icons/linkedin.svg" alt="LinkedIn" />
+									<span>LinkedIN</span>
+								</a>
+
+								<a href="#" class="_wide">
+									<img src="img/icons/mail.svg" alt="Mail" />
+									<span>contact@playjoystudios.com</span>
+								</a>
+							</div>
+						</div>
+
+						<a href=".s-form" class="header__mail link-move">
+							<img src="img/icons/header__mail.svg" alt="Mail" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<header class="header header_sticky">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 header_flex">
+						<div class="header__hamburger">
+							<div class="line"></div>
+							<div class="line _short"></div>
+							<div class="line"></div>
+						</div>
+
+						<a href="index.html" class="header__logo">
+							<img src="img/logo.svg" alt="PlayJoy" />
+						</a>
+
+						<div class="header__sidebar-plug"></div>
+
+						<div class="header__sidebar">
+							<div class="header__sidebar-close">
+								<img src="img/icons/sidebar__close.svg" alt="X" />
+							</div>
+
+							<nav class="header__menu">
+								<div class="header__dropdown">
+									<div class="dropdown__heading">
+										<span>Services List</span>
+										<i class="fas fa-chevron-down"></i>
+									</div>
+									<div class="dropdown__body">
+										<div class="flex-wrapper">
+											<div class="dropdown__col">
+												<a href="game-porting.html">Game Porting</a>
+												<a href="co-development.html">Co-Development</a>
+												<a href="full-cycle-development.html">
+													Full-cycle development
+												</a>
+												<a href="html5-playable-ads.html">HTML5 Playable Ads</a>
+											</div>
+
+											<div class="dropdown__col">
+												<a href="game-design.html">Game Design</a>
+												<a href="level-design.html">Level Design</a>
+												<a href="game-localization.html">Game Localization</a>
+												<a href="game-economy.html">Game Economy</a>
+											</div>
+
+											<div class="dropdown__back-btn button">Back to menu</div>
+										</div>
+									</div>
+								</div>
+
+								<a href="services.html">Services</a>
+								<a href="about-us.html">About Us</a>
+								<a href="join-us.html">Join Us</a>
+								<a href="projects.html">Projects</a>
+							</nav>
+
+							<a href=".s-form" class="header__button button link-move">
+								Contact Us
+							</a>
+
+							<div class="header__social-links">
+								<a
+									href="https://www.facebook.com/playjoystudios"
+									target="_blank"
+								>
+									<img src="img/icons/facebook.svg" alt="Facebook" />
+									<span>Facebook</span>
+								</a>
+								<a
+									href="https://www.linkedin.com/company/playjoy-studios"
+									target="_blank"
+								>
+									<img src="img/icons/linkedin.svg" alt="LinkedIn" />
+									<span>LinkedIN</span>
+								</a>
+
+								<a href="#" class="_wide">
+									<img src="img/icons/mail.svg" alt="Mail" />
+									<span>contact@playjoystudios.com</span>
+								</a>
+							</div>
+						</div>
+
+						<a href=".s-form" class="header__mail link-move">
+							<img src="img/icons/header__mail.svg" alt="Mail" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="main">
+			<div class="container">
+				<div class="row flex_center">
+					<div class="col-lg-6">
+						<h1
+							class="h1 main__title"
+							data-aos="fade-down"
+							data-aos-delay="200"
+						>
+							html5
+							<br />
+							playable
+							<span>ads</span>
+						</h1>
+
+						<div class="main__image_mobile">
+							<img
+								src="img/playable-ads/main.png"
+								alt="Main image"
+								data-aos="zoom-in"
+								data-aos-delay="300"
+							/>
+						</div>
+
+						<p class="main__text" data-aos="fade-down" data-aos-delay="400">
+							Boost your User Acquisition with HTML5 Playable Ads. This
+							interactive new way to engage the audience helps to decrease
+							uninstall rates, lower CPIs and improve retention by attracting
+							more engaged and valuable players. We design engaging interactive
+							playables that will help you reach and acquire valuable users with
+							higher LTVs.
+						</p>
+
+						<div
+							class="main__buttons"
+							data-aos="fade-down"
+							data-aos-delay="600"
+						>
+							<a href=".s-form" class="button link-move">
+								<span>Contact Us</span>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="main__image">
+							<img
+								src="img/playable-ads/main.png"
+								alt="Main image"
+								data-aos="zoom-in"
+								data-aos-delay="300"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="approach">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="approach__container" data-aos="fade-up">
+							<span class="approach__number">01</span>
+
+							<img
+								class="approach__image"
+								src="img/playable-ads/approach__image_1.svg"
+								alt="Image"
+							/>
+
+							<div class="approach__wrapper">
+								<h3 class="h3 approach__heading">
+									<span>What</span>
+									are playable ads?
+								</h3>
+
+								<p class="approach__text">
+									Playable ads are interactive advertisements in the form of
+									small games, that allow players to preview the app and test
+									its gameplay before installing the main game. After beating
+									the mini-game, players are encouraged to download the full
+									version of the game from the app store. Also it can redirect
+									players to a website or display any other call to action.
+								</p>
+
+								<a href=".s-form" class="button approach__button link-move">
+									Contact Us
+								</a>
+							</div>
+						</div>
+
+						<div class="approach__container" data-aos="fade-up">
+							<span class="approach__number">02</span>
+
+							<div class="approach__wrapper">
+								<h3 class="h3 approach__heading">
+									<span>how</span>
+									are they built?
+								</h3>
+
+								<p class="approach__text">
+									As Playable Ads need to be very lightweight and load almost
+									instantly, they are built with HTML5, on such engines as
+									Pixi.js, Cocos, Phaser.js and others. Playable Ads for
+									different advertising platforms like Facebook, Google Play
+									have different build specifications, guidelines and
+									<br />
+									technical limitations.
+								</p>
+
+								<a href=".s-form" class="button approach__button link-move">
+									Contact Us
+								</a>
+							</div>
+
+							<img
+								class="approach__image"
+								src="img/playable-ads/approach__image_2.svg"
+								alt="Image"
+							/>
+						</div>
+
+						<div class="approach__container" data-aos="fade-up">
+							<span class="approach__number">03</span>
+
+							<img
+								class="approach__image"
+								src="img/playable-ads/approach__image_3.svg"
+								alt="Image"
+							/>
+
+							<div class="approach__wrapper">
+								<h3 class="h3 approach__heading">
+									<span>why</span>
+									use playable ads?
+								</h3>
+
+								<p class="approach__text">
+									There’s nothing like instant interactive gameplay to capture
+									the player’s attention and provide quality UA installs. Our
+									experience and knowledge of best practices for various
+									Playable Ads formats allows us to build high-quality Playable
+									Ads that will help you reach and engage your target audience
+									and bring valuable players
+									<br />
+									to your game.
+								</p>
+
+								<a href=".s-form" class="button approach__button link-move">
+									Contact Us
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="benefits">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-10 offset-xl-1">
+						<h2 class="h2 benefits__title" data-aos="fade-up">
+							<span>benefits</span>
+							of playable ads
+						</h2>
+
+						<div class="benefits__container">
+							<img
+								class="benefits__line"
+								src="img/playable-ads/benefits__line.svg"
+								alt="------"
+								data-aos="fade-up"
+							/>
+
+							<div class="benefits_flex">
+								<div class="benefits__box" data-aos="zoom-in">
+									<img
+										class="benefits__icon"
+										src="img/playable-ads/benefits__icon_1.svg"
+										alt="Icon"
+									/>
+									<h4 class="h4 benefits__caption">
+										Increase
+										<br />
+										Retention
+									</h4>
+								</div>
+
+								<div class="benefits__box _middle" data-aos="zoom-in">
+									<img
+										class="benefits__icon"
+										src="img/playable-ads/benefits__icon_2.svg"
+										alt="Icon"
+									/>
+									<h4 class="h4 benefits__caption">
+										Improve
+										<br />
+										Conversion Rate
+									</h4>
+								</div>
+
+								<div class="benefits__box" data-aos="zoom-in">
+									<img
+										class="benefits__icon"
+										src="img/playable-ads/benefits__icon_3.svg"
+										alt="Icon"
+									/>
+									<h4 class="h4 benefits__caption">
+										Decrease CPI &
+										<br />
+										Uninstalls
+									</h4>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-5 col-lg-6 offset-xl-1">
+						<div class="benefits__wrapper" data-aos="fade-right">
+							<h4 class="h4 benefits__heading">
+								Increase retention, reduce uninstall rates.
+							</h4>
+							<p class="benefits__text">
+								Playable Ads create an opportunity to test drive your gameplay
+								and core mechanics, which increases brand awareness for the
+								target audience in an interactive way. Players converted with
+								playable ads have higher engagement with the main app and
+								lifetime values. By converting more high LTV users into
+								downloading the app, playable ads effectively reduce uninstalls
+								while increasing retention rates.
+							</p>
+						</div>
+
+						<div class="benefits__wrapper" data-aos="fade-right">
+							<h4 class="h4 benefits__heading">Improve the conversion rate</h4>
+							<p class="benefits__text">
+								Of your ad campaigns, lowering your CPI (Cost Per Install), CPA
+								(Cost Per Acquisition) and CPC (Cost Per Click). They drive the
+								most engaged users that enable reaching higher KPIs.
+							</p>
+						</div>
+
+						<div class="benefits__wrapper" data-aos="fade-right">
+							<h4 class="h4 benefits__heading">Analyze data</h4>
+							<p class="benefits__text">
+								You can monitor ads performance and understand player behavior.
+								Identifying and handling steps with significant player churn
+								rates, the Playable Ads can be improved and become
+								<br />
+								even more cost-effective.
+							</p>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-lg-5 offset-lg-1">
+						<div
+							class="benefits__wrapper"
+							data-aos="fade-right"
+							data-aos-delay="200"
+						>
+							<h4 class="h4 benefits__heading">
+								Take advantage of a new innovative advertising format.
+							</h4>
+							<p class="benefits__text">
+								Take advantage of new innovative advertising format that allows
+								to avoid issues with the new IDFA policy by Apple that decreases
+								effectiveness of regular ads. Playable ads are a great
+								alternative to usual ads and will help your game to stand out
+								from your competitors.
+							</p>
+						</div>
+
+						<div
+							class="benefits__wrapper"
+							data-aos="fade-right"
+							data-aos-delay="200"
+						>
+							<h4 class="h4 benefits__heading">CTR</h4>
+							<p class="benefits__text">
+								Click-through rates of Playable Ads are up to 5-7 times higher
+								compared to usual video ads.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="image-list">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="h2 image-list__title" data-aos="fade-up">
+							playable ads creation
+							<span>process</span>
+						</h2>
+					</div>
+				</div>
+
+				<div class="row _flex-center">
+					<div class="col-lg-5">
+						<img
+							src="img/playable-ads/image-list__image.png"
+							data-aos="zoom-in"
+						/>
+					</div>
+
+					<div class="col-lg-6 offset-lg-1">
+						<div class="image-list__list" data-aos="fade-right">
+							<div class="image-list__item">
+								<div class="image-list__number">01</div>
+								<p class="image-list__text">
+									Concept brief created. Storyboard outlined, art and animation
+									prepared.
+								</p>
+							</div>
+
+							<div class="image-list__item">
+								<div class="image-list__number">02</div>
+								<p class="image-list__text">
+									First playable build assembled. QA testing and bug fixing
+									phase.
+								</p>
+							</div>
+
+							<div class="image-list__item">
+								<div class="image-list__number">03</div>
+								<p class="image-list__text">
+									Alpha build created, feedback received and implemented.
+								</p>
+							</div>
+
+							<div class="image-list__item">
+								<div class="image-list__number">04</div>
+								<p class="image-list__text">
+									Ad network features implemented. Final build released.
+								</p>
+							</div>
+
+							<div class="image-list__item">
+								<div class="image-list__number">05</div>
+								<p class="image-list__text">
+									Post launch optimizations, A/B testing.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="creature">
+			<div class="container">
+				<div class="row _flex-center">
+					<div class="col-lg-8 col-xl-7" data-aos="fade-right">
+						<h2 class="h2 creature__title">
+							how do playable ads
+							<span>work</span>
+							?
+						</h2>
+
+						<h4 class="h4 creature__subtitle">
+							Playable Ads are HTML5 mini-games that allow players to get a
+							taste of gameplay of the main app with a few taps.
+						</h4>
+
+						<p class="creature__text">
+							Because Playable Ads allow test-driving the game before
+							downloading it, they effectively filter out non-engaged users,
+							which leads to more high quality player installs and improved ROAS
+							(return on ad spend).
+						</p>
+
+						<a href=".s-form" class="button creature__button link-move">
+							Contact Us
+						</a>
+					</div>
+
+					<div class="col-lg-4 offset-xl-1 creature__image">
+						<img
+							src="img/playable-ads/creature__image.png"
+							alt="Image"
+							data-aos="zoom-in"
+						/>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12">
+						<h3 class="h3 creature__heading">
+							Key components of a Playable Ad
+						</h3>
+						<div class="creature__container">
+							<div class="creature__box">
+								<div class="creature__number">01</div>
+								<img
+									src="img/playable-ads/creature__example_1.png"
+									alt="Image"
+									class="creature__example"
+								/>
+								<h4 class="h4 creature__caption">tutorial</h4>
+								<p class="creature__description">
+									Super-short (3-5 seconds) introduction of how to play the
+									game. It should explain core mechanics, be immersive, simple
+									and intuitive. Any instructions should be clear and to the
+									point.
+								</p>
+							</div>
+
+							<div class="creature__box">
+								<div class="creature__number">02</div>
+								<img
+									src="img/playable-ads/creature__example_2.png"
+									alt="Image"
+									class="creature__example"
+								/>
+								<h4 class="h4 creature__caption">gameplay</h4>
+								<p class="creature__description">
+									Main part where potential players will try out the game, they
+									should be persuaded in under 20-30 seconds to download your
+									app. Creating a powerful hook like the end of an exciting
+									level, or putting them right in the thick of a fight will
+									help.
+								</p>
+							</div>
+
+							<div class="creature__box">
+								<div class="creature__number">03</div>
+								<img
+									src="img/playable-ads/creature__example_3.png"
+									alt="Image"
+									class="creature__example"
+								/>
+								<h4 class="h4 creature__caption">end card</h4>
+								<p class="creature__description">
+									The end card (also called packshot screen) should display a
+									clear call to action (CTA), asking the player to install the
+									game, redirect to a particular website or perform other
+									actions.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="tech" id="s-tech">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<h2 class="h2 tech__title" data-aos="fade-down">Technologies</h2>
+
+						<div class="tech__container" data-aos="fade-up">
+							<div class="tech__box">
+								<img
+									src="img/playable-ads/technologies/logo_1.svg"
+									alt="Logo"
+								/>
+								<p class="tech__caption">Phazer</p>
+							</div>
+
+							<div class="tech__box">
+								<img
+									src="img/playable-ads/technologies/logo_2.svg"
+									alt="Logo"
+								/>
+								<p class="tech__caption">PixiJs</p>
+							</div>
+
+							<div class="tech__box">
+								<img
+									src="img/playable-ads/technologies/logo_3.svg"
+									alt="Logo"
+								/>
+								<p class="tech__caption">Three.Js</p>
+							</div>
+
+							<div class="tech__box">
+								<img
+									src="img/playable-ads/technologies/logo_4.svg"
+									alt="Logo"
+								/>
+								<p class="tech__caption">HTML5</p>
+							</div>
+
+							<div class="tech__box">
+								<img
+									src="img/playable-ads/technologies/logo_5.svg"
+									alt="Logo"
+								/>
+								<p class="tech__caption">JavaScript</p>
+							</div>
+							<div class="tech__box">
+								<img
+									src="img/playable-ads/technologies/logo_6.svg"
+									alt="Logo"
+								/>
+								<p class="tech__caption">Cocos 2dx</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-7 tech__image">
+						<img
+							src="img/technologies/block__image.png"
+							alt="Image"
+							data-aos="zoom-in"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="platforms">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-10 offset-xl-1">
+						<h2 class="h2 platforms__title" data-aos="fade-down">platforms</h2>
+
+						<div class="platforms__container" data-aos="fade-up">
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_1.svg" alt="Logo" />
+								<p class="platforms__caption">Facebook Ads</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_2.svg" alt="Logo" />
+								<p class="platforms__caption">Google Play Instant</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_3.svg" alt="Logo" />
+								<p class="platforms__caption">Google AdWords</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_4.svg" alt="Logo" />
+								<p class="platforms__caption">Unity Ads</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_5.svg" alt="Logo" />
+								<p class="platforms__caption">Vungle</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_6.svg" alt="Logo" />
+								<p class="platforms__caption">Mobup</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_7.svg" alt="Logo" />
+								<p class="platforms__caption">Chartboost</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_8.svg" alt="Logo" />
+								<p class="platforms__caption">IronSource</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_9.svg" alt="Logo" />
+								<p class="platforms__caption">AdMob</p>
+							</div>
+
+							<div class="platforms__box">
+								<img src="img/playable-ads/platforms/logo_10.svg" alt="Logo" />
+								<p class="platforms__caption">Smaato</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="preview">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 preview__container">
+						<h2 class="h2 preview__title" data-aos="fade-up">
+							recent
+							<span>projects</span>
+						</h2>
+						<div class="preview__slider" data-aos="fade-up">
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">
+										Away: Journey To The Unexpected
+									</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided mobile adaptation this fun and
+										original game. AWAY: Journey to the Unexpected is a colorful
+										first person adventure game that combines action,
+										RPG-elements and rogue-lite elements.
+									</p>
+									<a
+										href="projects/away-journey-to-the-unexpected.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_1/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">
+										Co-development, Porting,
+										<br />
+										Localization
+									</h4>
+									<h3 class="h3 preview__name">UNMEMORY</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided co-development, localization &
+										porting services for this unique game that combines
+										narrative adventure & puzzle game, showcasing an immersive
+										world with lots of puzzles and discoveries.
+									</p>
+									<a
+										href="projects/unmemory.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_2/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">BURY ME, MY LOVE</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided platform adaptation of this game
+										with an incredible story. Bury me, my Love tells the story
+										of Syrian refugee Nour and her husband Majd, as Nour
+										undertakes a perilous journey to safety in Europe.
+									</p>
+									<a
+										href="projects/bury-me-my-love.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_3/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">Unannounced Mobile Port</h3>
+									<p class="preview__text">
+										Porting a Steam PC 3D game that was inspired by FTL
+										roguelike strategy simulator to mobile platforms. At the
+										moment the project is at the submission stage.
+									</p>
+									<a
+										href="projects/unannounced-mobile-port.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_4/main__page_4.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">Full-Cycle Development</h4>
+									<h3 class="h3 preview__name">PANDA SWAP</h3>
+									<p class="preview__text">
+										PlayJoy Studios developed this unique match-3 mobile game
+										for Plug-in-Digital from concept to soft launch, including
+										live-ops support.
+									</p>
+									<a
+										href="projects/panda-swap.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_5/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">playable Ad</h4>
+									<h3 class="h3 preview__name">SIEGE CASTLES</h3>
+									<p class="preview__text">
+										PlayJoy Studios developed Playable Ads for Plug-in-Digital
+										for this fun and relaxing game about medieval castle siege.
+									</p>
+									<a
+										href="projects/siege-castles.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_6/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">localization</h4>
+									<h3 class="h3 preview__name">
+										CRYPTO: AGAINST
+										<br />
+										ALL ODDS
+									</h3>
+									<p class="preview__text">
+										Crypto: Against all odds is a cypherpunk interactive
+										fiction, where PlayJoy Studios provided Russian localization
+										and LQA.
+									</p>
+									<a
+										href="projects/crypto-against-all-odds.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_7/main__page_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">turnkey porting</h4>
+									<h3 class="h3 preview__name">
+										Unannounced Switch
+										<br />
+										Port
+									</h3>
+									<p class="preview__text">
+										PlayJoy Studios provided porting a global turn-based 3D
+										strategy game to various platforms including Nintendo
+										Switch. At the moment the project is at the submission
+										stage.
+									</p>
+									<a
+										href="projects/unannounced-switch-port.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_8/main__image_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+							<div class="preview__slide">
+								<div class="preview__wrapper">
+									<h4 class="preview__category">co-development</h4>
+									<h3 class="h3 preview__name">
+										ZOMBIE NIGHT
+										<br />
+										TERROR
+									</h3>
+									<p class="preview__text">
+										Zombie Night Terror is spooky strategy action game with
+										puzzle elements, horror setting and pixel-art, where PlayJoy
+										Studios provided co-development and ads integration
+										services.
+									</p>
+									<a
+										href="projects/zombie-night-terror.html"
+										class="button preview__button"
+									>
+										See Project
+									</a>
+								</div>
+
+								<img
+									src="img/works/project_9/main__image_recent.png"
+									alt="Game preview"
+									class="preview__image"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="other">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="h2 other__title" data-aos="fade-right">
+							Other services
+						</h2>
+
+						<div class="other__container" data-aos="fade-up">
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Game Porting</h4>
+									<a
+										href="game-porting.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_7.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Co-Development</h4>
+									<a
+										href="co-development.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_2.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Full-cycle Development</h4>
+									<a href="#" class="button other__button _transparent">
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_1.svg" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Game Design</h4>
+									<a
+										href="game-design.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_4.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">Level Design</h4>
+									<a
+										href="level-design.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_5.png" alt="icon" />
+								</div>
+							</div>
+
+							<div class="other__box">
+								<div class="other__wrapper">
+									<h4 class="h4 h4 other__heading">
+										Game
+										<br />
+										Localization
+									</h4>
+									<a
+										href="game-localization.html"
+										class="button other__button _transparent"
+									>
+										More Details
+									</a>
+								</div>
+								<div class="other__icon">
+									<img src="img/other/icon_6.png" alt="icon" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-form">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 s-form_flex">
+						<div class="s-form__wrap" data-aos="fade-right">
+							<h2 class="h2 s-form__title">
+								let's talk about
+								<br />
+								<span>your</span>
+								project
+							</h2>
+
+							<h6 class="h6 s-form__subtitle">
+								Leave us your message, we will contact you shortly!
+							</h6>
+
+							<form class="s-form__form">
+								<input
+									class="s-form__input"
+									type="text"
+									name="Name"
+									placeholder="Name"
+									required
+									autocomplete="off"
+								/>
+
+								<input
+									class="s-form__input"
+									type="email"
+									name="E-mail"
+									placeholder="E-mail"
+									required
+									autocomplete="off"
+								/>
+
+								<div class="s-form__input-wrap">
+									<input
+										class="s-form__input _file"
+										type="file"
+										name="Upload file"
+										placeholder="Upload file"
+										required
+										autocomplete="off"
+									/>
+
+									<input
+										class="s-form__input"
+										type="text"
+										placeholder="Upload file"
+										required
+										autocomplete="off"
+									/>
+								</div>
+
+								<textarea
+									name="Message"
+									placeholder="Leave your message..."
+									class="s-form__textarea"
+								></textarea>
+
+								<button class="s-form__button button" type="submit">
+									Contact Us
+								</button>
+							</form>
+						</div>
+
+						<div class="s-form__image">
+							<img
+								src="img/s-form__image.png"
+								alt="Form image"
+								data-aos="zoom-in"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 footer_flex">
+						<div class="footer__wrap">
+							<a href="index.html" class="footer__logo">
+								<img src="img/logo.svg" alt="PlayJoy" />
+							</a>
+
+							<div class="footer__mail">
+								<img class="mail__img" src="img/footer__mail.png" alt="Mail" />
+								<div class="mail__text">
+									<h6 class="h6">E-mail:</h6>
+									<a href="mailto:contact@playjoystudios.com">
+										contact@playjoystudios.com
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<nav class="footer__menu">
+							<!-- <div class="menu__col">
                 <a href="#" class="h5 menu__heading">Projects</a>
 
                 <a href="game-porting.html" class="menu__link">Game Porting </a>
@@ -1216,71 +1270,84 @@
                 >
               </div> -->
 
-              <div class="menu__col">
-                <a href="services.html" class="h5 menu__heading">Services</a>
+							<div class="menu__col">
+								<a href="services.html" class="h5 menu__heading">Services</a>
 
-                <a href="game-porting.html" class="menu__link">Game Porting </a>
-                <a href="co-development.html" class="menu__link"
-                  >Co-Development</a
-                >
-                <a href="full-cycle-development.html" class="menu__link"
-                  >Full-Cycle Development</a
-                >
-                <a href="html5-playable-ads.html" class="menu__link"
-                  >HTML5 Playable Ads</a
-                >
-                <a href="game-design.html" class="menu__link">Game Design</a>
-                <a href="level-design.html" class="menu__link">Level Design</a>
-                <a href="game-localization.html" class="menu__link"
-                  >Game Localization</a
-                >
-                <a href="game-economy.html" class="menu__link">Game Economy</a>
-              </div>
+								<a href="game-porting.html" class="menu__link">Game Porting</a>
+								<a href="co-development.html" class="menu__link">
+									Co-Development
+								</a>
+								<a href="full-cycle-development.html" class="menu__link">
+									Full-Cycle Development
+								</a>
+								<a href="html5-playable-ads.html" class="menu__link">
+									HTML5 Playable Ads
+								</a>
+								<a href="game-design.html" class="menu__link">Game Design</a>
+								<a href="level-design.html" class="menu__link">Level Design</a>
+								<a href="game-localization.html" class="menu__link">
+									Game Localization
+								</a>
+								<a href="game-economy.html" class="menu__link">Game Economy</a>
+							</div>
 
-              <div class="menu__col">
-                <h5 class="h5 menu__heading">About company</h5>
+							<div class="menu__col">
+								<h5 class="h5 menu__heading">About company</h5>
 
-                <a href="about-us.html" class="menu__link">About us</a>
-                <a href="join-us.html" class="menu__link">Join us</a>
-                <a href="projects.html" class="menu__link"> Projects </a>
-                <a href="privacy-policy.html" class="menu__link" target="_blank"
-                  >Privacy Policy</a
-                >
+								<a href="about-us.html" class="menu__link">About us</a>
+								<a href="join-us.html" class="menu__link">Join us</a>
+								<a href="projects.html" class="menu__link">Projects</a>
+								<a
+									href="privacy-policy.html"
+									class="menu__link"
+									target="_blank"
+								>
+									Privacy Policy
+								</a>
 
-                <div class="footer__social-links">
-                  <h5 class="h5 social-links__heading">Follow us:</h5>
+								<div class="footer__social-links">
+									<h5 class="h5 social-links__heading">Follow us:</h5>
 
-                  <a
-                    href="https://www.facebook.com/playjoystudios"
-                    class="social-links__link"
-                    target="_blank"
-                  >
-                    <img src="img/icons/facebook.svg" alt="Facebook" />
-                  </a>
+									<a
+										href="https://www.facebook.com/playjoystudios"
+										class="social-links__link"
+										target="_blank"
+									>
+										<img src="img/icons/facebook.svg" alt="Facebook" />
+									</a>
 
-                  <a
-                    href="https://www.linkedin.com/company/playjoy-studios"
-                    class="social-links__link"
-                    target="_blank"
-                    ><img src="img/icons/linkedin.svg" alt="LinkedIn"
-                  /></a>
-                </div>
-              </div>
-            </nav>
-          </div>
+									<a
+										href="https://www.linkedin.com/company/playjoy-studios"
+										class="social-links__link"
+										target="_blank"
+									>
+										<img src="img/icons/linkedin.svg" alt="LinkedIn" />
+									</a>
+								</div>
+							</div>
+						</nav>
+					</div>
 
-          <div class="col-12 footer_bottom">
-            <p class="footer__copyrights">
-              &#169; 2021. PlayJoy. All rights reserved
-              <span> Privacy Policy</span>
-            </p>
+					<div class="col-12 footer_bottom">
+						<p class="footer__copyrights">
+							&#169; 2021. PlayJoy. All rights reserved
+						</p>
+						<a
+							href="privacy-policy.html"
+							class="footer__privacy-mobile"
+							target="_blank"
+						>
+							Privacy Policy
+						</a>
 
-            <button class="footer__to-top">
-              <i class="fas fa-chevron-up"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+						<button class="footer__to-top">
+							<i class="fas fa-chevron-up"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="libs/aos/aos.js"></script>
+	</body>
 </html>
