@@ -244,7 +244,7 @@ body
 			width: 0
 			opacity: 0
 			z-index: 4
-			transition: 1s .3s ease-in-out
+			transition: .3s .3s ease-in-out
 			&._visible
 				width: 100%
 				opacity: 1
@@ -435,7 +435,6 @@ body
 		color: $accent
 		span
 			color: #fff
-			margin-left: -10px
 	&__subtitle
 		display: none
 		text-align: center
@@ -482,6 +481,10 @@ body
 				color: $light
 				font-size: 16px
 
+
+.ishome
+	.main__title span
+		margin-left: -10px
 
 
 .about
@@ -1822,6 +1825,8 @@ body
 		font-size: 20px
 		letter-spacing: 0.05em
 		line-height: 1.3
+		&-full
+			margin-bottom: 50px
 	&__image
 		max-width: 50%
 	&__button_mobile

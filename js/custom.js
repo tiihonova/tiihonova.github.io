@@ -39,13 +39,13 @@ jQuery(function () {
 		})
 
 		$('.solutions__container').slick({
-			infinite: true,
+			infinite: false,
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			dots: true,
 			arrows: false,
 			variableWidth: true,
-			speed: 300,
+			speed: 700,
 			touchMove: false,
 		})
 
