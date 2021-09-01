@@ -121,10 +121,10 @@
 										<span>LinkedIN</span>
 									</a>
 
-									<a href="mailto:contact@playjoystudios.com" class="_wide">
+									<p class="_wide">
 										<img src="../img/icons/mail.svg" alt="Mail" />
 										<span>contact@playjoystudios.com</span>
-									</a>
+									</p>
 								</div>
 							</div>
 
@@ -212,10 +212,10 @@
 										<span>LinkedIN</span>
 									</a>
 
-									<a href="mailto:contact@playjoystudios.com" class="_wide">
+									<p class="_wide">
 										<img src="../img/icons/mail.svg" alt="Mail" />
 										<span>contact@playjoystudios.com</span>
-									</a>
+									</p>
 								</div>
 							</div>
 
@@ -351,10 +351,13 @@
 									<h5 class="project__heading">Partners:</h5>
 
 									<div class="project__flex-box">
-										<img
-											src="../img/works/project_1/partners_1.png"
-											alt="Logo"
-										/>
+										<div class="project__info _half-width">
+											<img
+												src="../img/works/partners/plug-in.png"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+										</div>
 									</div>
 								</div>
 
@@ -362,18 +365,27 @@
 									<h5 class="project__heading">Platforms:</h5>
 
 									<div class="project__flex-box">
-										<img
-											src="../img/works/project_1/platforms_1.svg"
-											alt="Logo"
-										/>
-										<img
-											src="../img/works/project_3/platforms_2.svg"
-											alt="Logo"
-										/>
-										<img
-											src="../img/works/project_3/platforms_3.svg"
-											alt="Logo"
-										/>
+										<div class="project__info">
+											<img
+												src="../img/works/platforms/facebook-ads.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">Facebook Ads</p>
+										</div>
+
+										<div class="project__info">
+											<img
+												src="../img/works/platforms/google-play.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">
+												Google Play
+												<br />
+												Instant
+											</p>
+										</div>
 									</div>
 								</div>
 
@@ -381,8 +393,23 @@
 									<h5 class="project__heading">Technologies:</h5>
 
 									<div class="project__flex-box">
-										<img src="../img/works/project_2/tech-2.svg" alt="Logo" />
-										<img src="../img/works/project_2/tech-3.svg" alt="Logo" />
+										<div class="project__info">
+											<img
+												src="../img/works/tech/cocos.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">Cocos 2dx</p>
+										</div>
+
+										<div class="project__info">
+											<img
+												src="../img/works/tech/html5.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">HTML5</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -665,17 +692,20 @@
 										type="file"
 										name="Upload file"
 										placeholder="Upload file"
-										required
 										autocomplete="off"
 									/>
 
 									<input
-										class="s-form__input"
+										class="s-form__input file-upload"
 										type="text"
 										placeholder="Upload file"
-										required
 										autocomplete="off"
 									/>
+
+									<p class="file-selected">
+										<i class="fas fa-check"></i>
+										File selected
+									</p>
 								</div>
 
 								<textarea
@@ -832,6 +862,6 @@
 			</div>
 		</footer>
 
-		<script src="libs/aos/aos.js"></script>
+		<script src="../libs/aos/aos.js"></script>
 	</body>
 </html>

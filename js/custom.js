@@ -1,4 +1,25 @@
 jQuery(function () {
+	$('form.s-form__form').on('submit', function () {
+		var th = $(this)
+		$.ajax({
+			type: 'POST',
+			url: 'mail.php',
+			data: th.serialize(),
+		}).done(function () {
+			alert('Message sent')
+			th.trigger('reset')
+		})
+		return false
+	})
+
+	$('.s-form__input._file').on('change', function () {
+		if (this.value) {
+			$('.s-form__input-wrap').addClass('active')
+		} else {
+			console.log('Файл не выбран')
+		}
+	})
+
 	$(window).on('scroll', function () {
 		var headerHeight = $('#header').height() - 1
 

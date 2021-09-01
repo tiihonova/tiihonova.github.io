@@ -121,10 +121,10 @@
 										<span>LinkedIN</span>
 									</a>
 
-									<a href="mailto:contact@playjoystudios.com" class="_wide">
+									<p class="_wide">
 										<img src="../img/icons/mail.svg" alt="Mail" />
 										<span>contact@playjoystudios.com</span>
-									</a>
+									</p>
 								</div>
 							</div>
 
@@ -212,10 +212,10 @@
 										<span>LinkedIN</span>
 									</a>
 
-									<a href="mailto:contact@playjoystudios.com" class="_wide">
+									<p class="_wide">
 										<img src="../img/icons/mail.svg" alt="Mail" />
 										<span>contact@playjoystudios.com</span>
-									</a>
+									</p>
 								</div>
 							</div>
 
@@ -363,10 +363,13 @@
 									<h5 class="project__heading">Partners:</h5>
 
 									<div class="project__flex-box">
-										<img
-											src="../img/works/project_1/partners_1.png"
-											alt="Logo"
-										/>
+										<div class="project__info _half-width">
+											<img
+												src="../img/works/partners/plug-in.png"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+										</div>
 									</div>
 								</div>
 
@@ -374,14 +377,23 @@
 									<h5 class="project__heading">Platforms:</h5>
 
 									<div class="project__flex-box">
-										<img
-											src="../img/works/project_1/platforms_1.svg"
-											alt="Logo"
-										/>
-										<img
-											src="../img/works/project_1/platforms_2.svg"
-											alt="Logo"
-										/>
+										<div class="project__info">
+											<img
+												src="../img/works/platforms/apple.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">iOS</p>
+										</div>
+
+										<div class="project__info">
+											<img
+												src="../img/works/platforms/android.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">Android</p>
+										</div>
 									</div>
 								</div>
 
@@ -389,8 +401,23 @@
 									<h5 class="project__heading">Technologies:</h5>
 
 									<div class="project__flex-box">
-										<img src="../img/works/project_1/tech.svg" alt="Logo" />
-										<img src="../img/works/project_9/tech-2.svg" alt="Logo" />
+										<div class="project__info">
+											<img
+												src="../img/works/tech/uniity.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">Unity</p>
+										</div>
+
+										<div class="project__info">
+											<img
+												src="../img/works/tech/iron-source.svg"
+												alt="Logo"
+												class="project__info-icon"
+											/>
+											<p class="project__info-title">IronSource</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -673,17 +700,20 @@
 										type="file"
 										name="Upload file"
 										placeholder="Upload file"
-										required
 										autocomplete="off"
 									/>
 
 									<input
-										class="s-form__input"
+										class="s-form__input file-upload"
 										type="text"
 										placeholder="Upload file"
-										required
 										autocomplete="off"
 									/>
+
+									<p class="file-selected">
+										<i class="fas fa-check"></i>
+										File selected
+									</p>
 								</div>
 
 								<textarea
@@ -840,6 +870,6 @@
 			</div>
 		</footer>
 
-		<script src="libs/aos/aos.js"></script>
+		<script src="../libs/aos/aos.js"></script>
 	</body>
 </html>
