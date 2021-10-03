@@ -1,1304 +1,664 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-
-		<title>PlayJoy | Home</title>
-
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1"
-		/>
-		<meta name="format-detection" content="telephone=no" />
-
-		<link
-			rel="icon"
-			type="image/x-icon"
-			sizes="192x192"
-			href="img/favicon.ico"
-		/>
-
-		<link rel="stylesheet" href="css/preloader.css" />
-		<link rel="stylesheet" href="libs/aos/aos.css" />
-		<link rel="stylesheet" href="libs/slick-slider/slick.css" />
-		<link rel="stylesheet" href="libs/slick-slider/slick-theme.css" />
-		<link rel="stylesheet" href="css/main.css" />
-
-		<script defer src="libs/jquery.min.js"></script>
-
-		<script defer src="js/preloader.js"></script>
-
-		<script defer src="libs/slick-slider/slick.min.js"></script>
-
-		<script defer src="js/custom.js"></script>
-
-		<script
-			async
-			defer
-			src="https://kit.fontawesome.com/55e0136003.js"
-			crossorigin="anonymous"
-		></script>
-	</head>
-
-	<body class="ishome">
-		<div class="preloader">
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				viewBox="-8 -8 64 84"
-				shape-rendering="crispEdges"
-			>
-				<defs>
-					<pattern
-						id="pattern"
-						width="8"
-						height="8"
-						patternUnits="userSpaceOnUse"
-						x="-4"
-						y="-4"
-					>
-						<path d="M 0 0 L8 0 8 8 0 8 z" fill="none"></path>
-					</pattern>
-				</defs>
-
-				<g
-					class="snake-group"
-					stroke-linejoin="miter"
-					stroke-linecap="square"
-					stroke-width="8"
-					fill="none"
-				>
-					<path class="dot dot-1" d="M28,48 l8,0z" />
-					<path class="dot dot-2" d="M-4,48 l8,0z" />
-					<path class="dot dot-3" d="M4,16 l8,0z" />
-
-					<path class="snake" d="M0 16 h48 v16 H32 v32 H0 V48 h16 V0 H0 v16" />
-				</g>
-
-				<rect
-					x="-4.5"
-					y="-4.5"
-					width="57"
-					height="73"
-					fill="url(#pattern)"
-				></rect>
-			</svg>
-		</div>
-
-		<header
-			class="header"
-			id="header"
-			data-aos="fade-down"
-			data-aos-delay="2000"
-		>
-			<div class="container">
-				<div class="row">
-					<div class="col-12 header_flex">
-						<div class="header__hamburger">
-							<div class="line"></div>
-							<div class="line _short"></div>
-							<div class="line"></div>
-						</div>
-
-						<a href="index.html" class="header__logo">
-							<img src="img/logo.svg" alt="PlayJoy" />
-						</a>
-
-						<div class="header__sidebar-plug"></div>
-
-						<div class="header__sidebar">
-							<div class="header__sidebar-close">
-								<img src="img/icons/sidebar__close.svg" alt="X" />
-							</div>
-
-							<nav class="header__menu">
-								<div class="header__dropdown">
-									<div class="dropdown__heading">
-										<span>Services List</span>
-										<i class="fas fa-chevron-down"></i>
-									</div>
-									<div class="dropdown__body">
-										<div class="flex-wrapper">
-											<div class="dropdown__col">
-												<a href="game-porting.html">Game Porting</a>
-												<a href="co-development.html">Co-Development</a>
-												<a href="full-cycle-development.html">
-													Full-cycle development
-												</a>
-												<a href="html5-playable-ads.html">HTML5 Playable Ads</a>
-											</div>
-
-											<div class="dropdown__col">
-												<a href="game-design.html">Game Design</a>
-												<a href="level-design.html">Level Design</a>
-												<a href="game-localization.html">Game Localization</a>
-												<a href="game-economy.html">Game Economy</a>
-											</div>
-
-											<div class="dropdown__back-btn button">Back to menu</div>
-										</div>
-									</div>
-								</div>
-
-								<a href="services.html">Services</a>
-								<a href="about-us.html">About Us</a>
-								<a href="join-us.html">Join Us</a>
-								<a href="projects.html">Projects</a>
-							</nav>
-
-							<a href=".s-form" class="header__button button link-move">
-								Contact Us
-							</a>
-
-							<div class="header__social-links">
-								<a
-									href="https://www.facebook.com/playjoystudios"
-									target="_blank"
-								>
-									<img src="img/icons/facebook.svg" alt="Facebook" />
-									<span>Facebook</span>
-								</a>
-								<a
-									href="https://www.linkedin.com/company/playjoy-studios"
-									target="_blank"
-								>
-									<img src="img/icons/linkedin.svg" alt="LinkedIn" />
-									<span>LinkedIN</span>
-								</a>
-
-								<p class="_wide">
-									<img src="img/icons/mail.svg" alt="Mail" />
-									<span>contact@playjoystudios.com</span>
-								</p>
-							</div>
-						</div>
-
-						<a href=".s-form" class="header__mail link-move">
-							<img src="img/icons/header__mail.svg" alt="Mail" />
-						</a>
-					</div>
-				</div>
-			</div>
-		</header>
-
-		<header class="header header_sticky">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 header_flex">
-						<div class="header__hamburger">
-							<div class="line"></div>
-							<div class="line _short"></div>
-							<div class="line"></div>
-						</div>
-
-						<a href="index.html" class="header__logo">
-							<img src="img/logo.svg" alt="PlayJoy" />
-						</a>
-
-						<div class="header__sidebar-plug"></div>
-
-						<div class="header__sidebar">
-							<div class="header__sidebar-close">
-								<img src="img/icons/sidebar__close.svg" alt="X" />
-							</div>
-
-							<nav class="header__menu">
-								<div class="header__dropdown">
-									<div class="dropdown__heading">
-										<span>Services List</span>
-										<i class="fas fa-chevron-down"></i>
-									</div>
-									<div class="dropdown__body">
-										<div class="flex-wrapper">
-											<div class="dropdown__col">
-												<a href="game-porting.html">Game Porting</a>
-												<a href="co-development.html">Co-Development</a>
-												<a href="full-cycle-development.html">
-													Full-cycle development
-												</a>
-												<a href="html5-playable-ads.html">HTML5 Playable Ads</a>
-											</div>
-
-											<div class="dropdown__col">
-												<a href="game-design.html">Game Design</a>
-												<a href="level-design.html">Level Design</a>
-												<a href="game-localization.html">Game Localization</a>
-												<a href="game-economy.html">Game Economy</a>
-											</div>
-
-											<div class="dropdown__back-btn button">Back to menu</div>
-										</div>
-									</div>
-								</div>
-
-								<a href="services.html">Services</a>
-								<a href="about-us.html">About Us</a>
-								<a href="join-us.html">Join Us</a>
-								<a href="projects.html">Projects</a>
-							</nav>
-
-							<a href=".s-form" class="header__button button link-move">
-								Contact Us
-							</a>
-
-							<div class="header__social-links">
-								<a
-									href="https://www.facebook.com/playjoystudios"
-									target="_blank"
-								>
-									<img src="img/icons/facebook.svg" alt="Facebook" />
-									<span>Facebook</span>
-								</a>
-								<a
-									href="https://www.linkedin.com/company/playjoy-studios"
-									target="_blank"
-								>
-									<img src="img/icons/linkedin.svg" alt="LinkedIn" />
-									<span>LinkedIN</span>
-								</a>
-
-								<p class="_wide">
-									<img src="img/icons/mail.svg" alt="Mail" />
-									<span>contact@playjoystudios.com</span>
-								</p>
-							</div>
-						</div>
-
-						<a href=".s-form" class="header__mail link-move">
-							<img src="img/icons/header__mail.svg" alt="Mail" />
-						</a>
-					</div>
-				</div>
-			</div>
-		</header>
-
-		<section class="main">
-			<div class="main__image">
-				<img
-					src="img/main/joystick.png"
-					alt="Joystick"
-					data-aos="fade-left"
-					data-aos-delay="3000"
-				/>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-12 main_flex">
-						<div class="main__heading">
-							<h1
-								class="h1 main__title"
-								data-aos="fade-down"
-								data-aos-delay="2200"
-							>
-								Creating game
-								<span>play</span>
-								<br />
-								You En
-								<span>joy</span>
-							</h1>
-
-							<h5
-								class="h5 main__subtitle"
-								data-aos="fade-down"
-								data-aos-delay="2400"
-							>
-								<span>PlayJoy Studios</span>
-								is a rapidly growing software and game development company based
-								in Kyiv.
-							</h5>
-
-							<div class="main__image_mobile">
-								<img
-									src="img/main/joystick_mobile.png"
-									alt="Joystick"
-									data-aos="zoom-in"
-									data-aos-delay="2600"
-								/>
-							</div>
-
-							<div
-								class="main__buttons"
-								data-aos="fade-down"
-								data-aos-delay="2600"
-							>
-								<a href=".s-form" class="button link-move">
-									<span>Contact Us</span>
-								</a>
-								<a href="projects.html" class="button _transparent">
-									See Projects
-									<img src="img/icons/main__eye.svg" alt="Eye" />
-								</a>
-							</div>
-						</div>
-
-						<div
-							class="main__benefits"
-							data-aos="fade-down"
-							data-aos-delay="2800"
-						>
-							<div class="benefit">
-								<img
-									src="img/icons/main__rocket.svg"
-									alt="Rocket"
-									class="benefit__image"
-								/>
-								<div>
-									<h5 class="h5 benefit__title">innovative ideas</h5>
-									<p class="benefit__text">
-										We come up with ideas for any genre and platform, with a
-										development team ready to jump onboard and develop the game
-										from scratch.
-									</p>
-								</div>
-							</div>
-
-							<div class="benefit">
-								<img
-									src="img/icons/main__tech.svg"
-									alt="Tech support"
-									class="benefit__image"
-								/>
-								<div>
-									<h5 class="h5 benefit__title">diversity & versatility</h5>
-									<p class="benefit__text">
-										Engage our experience across tech stacks and development
-										approaches, as well as game design and
-										<br />
-										economy expertise.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="about">
-			<div id="about__line" class="about__line">
-				<svg
-					width="100%"
-					height="100%"
-					viewBox="0 0 1920 1300"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<g filter="url(#filter0_d)">
-						<path
-							d="M1946 62C1901 205 1744.9 525.2 1448.5 676C1320.5 747 1124.16 798 775 798C321.5 798 42.5 1076 -12 1238"
-							stroke="#A100FF"
-							stroke-width="10"
-						/>
-					</g>
-					<defs>
-						<filter
-							id="filter0_d"
-							x="-76.7383"
-							y="0.499023"
-							width="2087.51"
-							height="1299.1"
-							filterUnits="userSpaceOnUse"
-							color-interpolation-filters="sRGB"
-						>
-							<feFlood flood-opacity="0" result="BackgroundImageFix" />
-							<feColorMatrix
-								in="SourceAlpha"
-								type="matrix"
-								values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-							/>
-							<feOffset />
-							<feGaussianBlur stdDeviation="30" />
-							<feColorMatrix
-								type="matrix"
-								values="0 0 0 0 0.835654 0 0 0 0 0.554167 0 0 0 0 1 0 0 0 1 0"
-							/>
-							<feBlend
-								mode="normal"
-								in2="BackgroundImageFix"
-								result="effect1_dropShadow"
-							/>
-							<feBlend
-								mode="normal"
-								in="SourceGraphic"
-								in2="effect1_dropShadow"
-								result="shape"
-							/>
-						</filter>
-					</defs>
-				</svg>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h2 class="h2 about__title" data-aos="fade-right">
-							Who
-							<span>we</span>
-							are
-						</h2>
-
-						<p class="about__text" data-aos="fade-right" data-aos-delay="200">
-							<span class="mobile_hidden">
-								<span class="_white">PlayJoy Studios</span>
-								is a rapidly growing software and game development company based
-								in Kyiv.
-							</span>
-							Our team of experienced specialists excels at providing high
-							quality game development services to publishers and game
-							developers across the globe. We are always focused on delivering
-							incredible products strictly on time. Our goal is making your
-							vision a reality and building a strong long-term partnership.
-						</p>
-
-						<img
-							src="img/main/about__image_mobile.png"
-							alt="Guys playing"
-							class="about__image"
-							data-aos="fade-right"
-						/>
-
-						<a
-							href="about-us.html"
-							class="about__button button"
-							data-aos="zoom-in"
-						>
-							Learn more
-						</a>
-
-						<div class="about__container">
-							<div class="about__box _first" data-aos="zoom-in">
-								<img src="img/main/about__publish.svg" alt="Publish" />
-								<h5 class="h5">publish more games</h5>
-								<p>
-									Product mindset of our team combined with Agile processes is a
-									perfect fit for swift kick-off & successful launch of new
-									games in time
-								</p>
-							</div>
-
-							<div class="about__box _second" data-aos="zoom-in">
-								<img src="img/main/about__risks.svg" alt="Risks" />
-								<h5 class="h5">risks mitigation</h5>
-								<p>
-									No worries: we’ll deliver a working game in time for you to
-									test out the idea & mechanics live
-								</p>
-							</div>
-
-							<div class="about__box _third" data-aos="zoom-in">
-								<img src="img/main/about__team.svg" alt="Team" />
-								<h5 class="h5">creative team</h5>
-								<p>
-									We are the team of experienced designers and developers,
-									working to be in trend with latests
-									<br />
-									updates and upgrades
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="advantages">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h2 class="h2 advantages__title" data-aos="zoom-in">
-							our
-							<span>advantages</span>
-						</h2>
-
-						<div class="advantages__item _1" data-aos="zoom-in">
-							<h5 class="h5 advantages__title-item">publish more games</h5>
-							<p class="advantages__text">
-								Product mindset of our team combined with Agile processes.
-							</p>
-						</div>
-
-						<div class="advantages__item _2" data-aos="zoom-in">
-							<h5 class="h5 advantages__title-item">risks mitigation</h5>
-							<p class="advantages__text">
-								No worries: we’ll deliver a working game in time for you to test
-								out the idea & mechanics live.
-							</p>
-						</div>
-
-						<div class="advantages__item _3" data-aos="zoom-in">
-							<h5 class="h5 advantages__title-item">creative team</h5>
-							<p class="advantages__text">
-								We are the team of experienced designers and developers, working
-								to be in trend with latests updates and upgrades.
-							</p>
-						</div>
-
-						<div class="advantages__item _4" data-aos="zoom-in">
-							<h5 class="h5 advantages__title-item">innovative ideas</h5>
-							<p class="advantages__text">
-								We come up with ideas for any genre and platform,with a
-								development team ready to jump onboard and develop the game from
-								scratch.
-							</p>
-						</div>
-
-						<div class="advantages__item _5" data-aos="zoom-in">
-							<h5 class="h5 advantages__title-item">diversity & versatility</h5>
-							<p class="advantages__text">
-								Engage our experience across tech stacks and development
-								approaches, as well as game design and economy expertise.
-							</p>
-						</div>
-
-						<a
-							href=".s-form"
-							class="button advantages__button link-move"
-							data-aos="zoom-in"
-						>
-							Contact Us
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="tabs-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="tabs" data-aos="fade-up">
-							<ul class="tabs__caption">
-								<li>Capacities</li>
-								<li class="active">Work models</li>
-								<li>Services</li>
-							</ul>
-
-							<div class="tabs__content capacities">
-								<div class="capacities__container">
-									<div class="capacities__box">
-										<div class="capacities__row">
-											<div class="capacities__number">15+</div>
-											<div class="capacities__caption">
-												development
-												<br />
-												team
-											</div>
-										</div>
-
-										<div class="capacities__row">
-											<div class="capacities__number">5+</div>
-											<div class="capacities__caption">
-												art and animation
-												<br />
-												team
-											</div>
-										</div>
-
-										<div class="capacities__row">
-											<div class="capacities__number">5+</div>
-											<div class="capacities__caption">
-												game design
-												<br />
-												team
-											</div>
-										</div>
-									</div>
-
-									<div class="capacities__box">
-										<p class="capacities__text">
-											Our product expertise includes experience with multiple
-											tech stacks, development approaches, game design, economy
-											and level design expertise which makes our team diverse
-											and well rounded.
-										</p>
-
-										<p class="capacities__text">
-											Working with us, you will receive additional resources and
-											expertise to tackle even the most difficult project. Our
-											team’s product mindset and Agile process will help to
-											implement your project fully and on time.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="tabs__content active">
-								<div class="tabs-section__container">
-									<div class="tabs-section__box">
-										<div class="tabs-section__img">
-											<img src="img/main/tabs__pig.svg" alt="Pig" />
-										</div>
-
-										<h4 class="h4 tabs-section__title">Fixed price</h4>
-
-										<p class="tabs-section__text">
-											Projects are planned and delivered over multiple
-											milestones, taking advantage of all our time-tested proven
-											development, communication &amp; management methods, tools
-											and experience from 10+ years.
-										</p>
-									</div>
-
-									<div class="tabs-section__box">
-										<div class="tabs-section__img">
-											<img src="img/main/tabs__team.svg" alt="Team" />
-										</div>
-
-										<h4 class="h4 tabs-section__title">Dedicated team</h4>
-
-										<p class="tabs-section__text">
-											Setup and manage the remote
-											<br />
-											team that will fully cover your needs within game
-											development. We guarantee best talents that match your
-											business needs.
-										</p>
-									</div>
-
-									<div class="tabs-section__box">
-										<div class="tabs-section__img">
-											<img src="img/main/tabs__time.svg" alt="Time" />
-										</div>
-
-										<h4 class="h4 tabs-section__title">Revenue share</h4>
-
-										<p class="tabs-section__text">
-											Want to save time and cost?
-											<br />
-											Select the Revenue Share option to share the possible
-											risks and gains with our team. This could be a good option
-											for developing.
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="tabs__content services">
-								<div class="tabs-section__container">
-									<div class="tabs-section__box">
-										<div class="tabs-section__img">
-											<img src="img/services/tabs__image_1.png" alt="Image" />
-										</div>
-
-										<h4 class="h4 tabs-section__title">Game Porting</h4>
-
-										<p class="tabs-section__text">
-											Our team has profound experience with various platforms.
-										</p>
-
-										<a
-											href="game-porting.html"
-											class="button tabs-section__button"
-										>
-											More Details
-										</a>
-									</div>
-
-									<div class="tabs-section__box">
-										<div class="tabs-section__img">
-											<img src="img/services/tabs__image_2.png" alt="Image" />
-										</div>
-
-										<h4 class="h4 tabs-section__title">
-											Full-Cycle Development
-										</h4>
-
-										<p class="tabs-section__text">
-											We are ready to turn your amazing idea or existing IP into
-											a game.
-										</p>
-
-										<a
-											href="full-cycle-development.html"
-											class="button tabs-section__button"
-										>
-											More Details
-										</a>
-									</div>
-
-									<div class="tabs-section__box">
-										<div class="tabs-section__img">
-											<img src="img/services/tabs__image_3.png" alt="Image" />
-										</div>
-
-										<h4 class="h4 tabs-section__title">Co-Development</h4>
-
-										<p class="tabs-section__text">
-											Improve your current team by extending it with our
-											talented specialists.
-										</p>
-
-										<a
-											href="co-development.html"
-											class="button tabs-section__button"
-										>
-											More Details
-										</a>
-									</div>
-
-									<div class="tabs-section__box">
-										<div class="tabs-section__img">
-											<img src="img/services/tabs__image_4.png" alt="Image" />
-										</div>
-
-										<h4 class="h4 tabs-section__title">
-											Playable Ads & Web Games
-										</h4>
-
-										<p class="tabs-section__text">
-											Boost your User Acquisition with HTML5 Playable Ads.
-										</p>
-
-										<a
-											href="html5-playable-ads.html"
-											class="button tabs-section__button"
-										>
-											More Details
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="tabs-section__buttons" data-aos="fade-up">
-							<a href=".s-form" class="button link-move">
-								<span>Contacts Us</span>
-							</a>
-							<a href="services.html" class="button _transparent">
-								<span>Other Services</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="works">
-			<div id="works__line" class="works__line">
-				<svg
-					viewBox="0 0 1920 1311"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<g filter="url(#filter0_d)">
-						<path
-							d="M-8 63C86.3333 266.833 361.5 672.457 695.5 751C768.5 768.167 949.9 799.2 1083.5 800C1203 800 1399.39 807.972 1459 826.5C1570 861 1788 938.5 2001 1247.5"
-							stroke="#A100FF"
-							stroke-width="10"
-						/>
-					</g>
-					<defs>
-						<filter
-							id="filter0_d"
-							x="-72.5371"
-							y="0.899902"
-							width="2137.65"
-							height="1309.44"
-							filterUnits="userSpaceOnUse"
-							color-interpolation-filters="sRGB"
-						>
-							<feFlood flood-opacity="0" result="BackgroundImageFix" />
-							<feColorMatrix
-								in="SourceAlpha"
-								type="matrix"
-								values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-							/>
-							<feOffset />
-							<feGaussianBlur stdDeviation="30" />
-							<feColorMatrix
-								type="matrix"
-								values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
-							/>
-							<feBlend
-								mode="normal"
-								in2="BackgroundImageFix"
-								result="effect1_dropShadow"
-							/>
-							<feBlend
-								mode="normal"
-								in="SourceGraphic"
-								in2="effect1_dropShadow"
-								result="shape"
-							/>
-						</filter>
-					</defs>
-				</svg>
-			</div>
-
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="works__title">
-							<h2 class="h2" data-aos="zoom-in">
-								Works
-								<span>Check out our portfolio made with love and cookies</span>
-							</h2>
-						</div>
-
-						<div class="works__wrapper">
-							<a href="projects/panda-swap.html" class="works__box _1">
-								<img
-									src="img/main/works__game_1.png"
-									alt="Game cover"
-									data-aos="fade-up"
-								/>
-							</a>
-
-							<a href="projects/unmemory.html" class="works__box _2">
-								<img
-									src="img/main/works__game_2.png"
-									alt="Game cover"
-									data-aos="fade-up"
-								/>
-							</a>
-
-							<a href="projects/bury-me-my-love.html" class="works__box _3">
-								<img
-									src="img/main/works__game_3.png"
-									alt="Game cover"
-									data-aos="fade-up"
-								/>
-							</a>
-
-							<a
-								href="projects/away-journey-to-the-unexpected.html"
-								class="works__box _4"
-							>
-								<img
-									src="img/main/works__game_4.png"
-									alt="Game cover"
-									data-aos="fade-up"
-								/>
-							</a>
-						</div>
-
-						<a href="projects.html" class="works__button button _transparent">
-							<span>
-								See Projects
-								<img src="img/icons/main__eye.svg" alt="Eye" />
-							</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="our-clients" style="display: none">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h2 class="h2 our-clients__title" data-aos="zoom-in">
-							Our clients
-						</h2>
-
-						<div
-							class="our-clients__container our-clients__slider"
-							data-aos="zoom-in"
-						>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_1.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_2.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_3.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_4.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_5.svg" alt="Logo" />
-							</div>
-
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_1.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_2.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_3.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_4.svg" alt="Logo" />
-							</div>
-							<div class="our-clients__box our-clients__slide">
-								<img src="img/our_clients/logo_5.svg" alt="Logo" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="reviews" data-aos="fade-up" style="display: none">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="review__slider">
-							<div class="review">
-								<div class="review__top">
-									<img
-										src="img/our_clients/review__avatar_1.png"
-										alt="Avatar"
-										class="review__image"
-									/>
-
-									<p class="review__name">Pier Gameman</p>
-
-									<p class="review__position">
-										CEO of Game Design studio Brasil
-									</p>
-								</div>
-
-								<blockquote class="review__text">
-									Guys did a great job in developing a website for my studio!
-									Everything was delivered according to the deadines.
-									Communication went smoothly , me and my team were impressed by
-									the energy and hign proffesionalism of the team. Highly
-									reccomending PlayJoy studio for your project!
-								</blockquote>
-							</div>
-
-							<div class="review">
-								<div class="review__top">
-									<img
-										src="img/our_clients/review__avatar_2.png"
-										alt="Avatar"
-										class="review__image"
-									/>
-
-									<p class="review__name">Pier Gameman</p>
-
-									<p class="review__position">
-										CEO of Game Design studio Brasil
-									</p>
-								</div>
-
-								<blockquote class="review__text">
-									Guys did a great job in developing a website for my studio!
-									Everything was delivered according to the deadines.
-									Communication went smoothly , me and my team were impressed by
-									the energy and hign proffesionalism of the team. Highly
-									reccomending PlayJoy studio for your project!
-								</blockquote>
-							</div>
-
-							<div class="review">
-								<div class="review__top">
-									<img
-										src="img/our_clients/review__avatar_1.png"
-										alt="Avatar"
-										class="review__image"
-									/>
-
-									<p class="review__name">Pier Gameman</p>
-
-									<p class="review__position">
-										CEO of Game Design studio Brasil
-									</p>
-								</div>
-
-								<blockquote class="review__text">
-									Guys did a great job in developing a website for my studio!
-									Everything was delivered according to the deadines.
-									Communication went smoothly , me and my team were impressed by
-									the energy and hign proffesionalism of the team. Highly
-									reccomending PlayJoy studio for your project!
-								</blockquote>
-							</div>
-
-							<div class="review">
-								<div class="review__top">
-									<img
-										src="img/our_clients/review__avatar_3.png"
-										alt="Avatar"
-										class="review__image"
-									/>
-
-									<p class="review__name">Pier Gameman</p>
-
-									<p class="review__position">
-										CEO of Game Design studio Brasil
-									</p>
-								</div>
-
-								<blockquote class="review__text">
-									Guys did a great job in developing a website for my studio!
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="tech">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h2 class="h2 tech__title" data-aos="zoom-in">Technologies</h2>
-
-						<div class="tech__container tech__slider" data-aos="zoom-in">
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_1.svg" alt="Logo" />
-								<p class="tech__caption">C#</p>
-							</div>
-
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_2.svg" alt="Logo" />
-								<p class="tech__caption">Python</p>
-							</div>
-
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_3.svg" alt="Logo" />
-								<p class="tech__caption">Unity</p>
-							</div>
-
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_4.svg" alt="Logo" />
-								<p class="tech__caption">Unreal Engine</p>
-							</div>
-
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_5.svg" alt="Logo" />
-								<p class="tech__caption">C ++</p>
-							</div>
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_6.svg" alt="Logo" />
-								<p class="tech__caption">Objective C</p>
-							</div>
-
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_7.svg" alt="Logo" />
-								<p class="tech__caption">HTML5</p>
-							</div>
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_8.svg" alt="Logo" />
-								<p class="tech__caption">JavaScript</p>
-							</div>
-							<div class="tech__box tech__slide">
-								<img src="img/technologies/logo_9.svg" alt="Logo" />
-								<p class="tech__caption">Cocos 2dx</p>
-							</div>
-						</div>
-
-						<img
-							class="tech__image_mobile"
-							src="img/main/tech__image_mobile.png"
-							alt="Laptop"
-							data-aos="zoom-in"
-						/>
-
-						<a
-							href="about-us.html#s-tech"
-							class="tech__button button _transparent"
-						>
-							All Technologies
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="s-form">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 s-form_flex">
-						<div class="s-form__wrap" data-aos="fade-right">
-							<h2 class="h2 s-form__title">
-								let's talk about
-								<br />
-								<span>your</span>
-								project
-							</h2>
-
-							<h6 class="h6 s-form__subtitle">
-								Leave us your message, we will contact you shortly!
-							</h6>
-
-							<form class="s-form__form">
-								<input
-									class="s-form__input"
-									type="text"
-									name="Name"
-									placeholder="Name"
-									required
-									autocomplete="off"
-								/>
-
-								<input
-									class="s-form__input"
-									type="email"
-									name="E-mail"
-									placeholder="E-mail"
-									required
-									autocomplete="off"
-								/>
-
-								<div class="s-form__input-wrap">
-									<input
-										class="s-form__input _file"
-										type="file"
-										name="Upload file"
-										placeholder="Upload file"
-										autocomplete="off"
-									/>
-
-									<input
-										class="s-form__input file-upload"
-										type="text"
-										placeholder="Upload file"
-										autocomplete="off"
-									/>
-
-									<p class="file-selected">
-										<i class="fas fa-check"></i>
-										File selected
-									</p>
-								</div>
-
-								<textarea
-									name="Message"
-									placeholder="Leave your message..."
-									class="s-form__textarea"
-								></textarea>
-
-								<button class="s-form__button button" type="submit">
-									Contact Us
-								</button>
-							</form>
-						</div>
-
-						<div class="s-form__image">
-							<img
-								src="img/s-form__image.png"
-								alt="Form image"
-								data-aos="zoom-in"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<footer class="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-12 footer_flex">
-						<div class="footer__wrap">
-							<a href="index.html" class="footer__logo">
-								<img src="img/logo.svg" alt="PlayJoy" />
-							</a>
-
-							<div class="footer__mail">
-								<img class="mail__img" src="img/footer__mail.png" alt="Mail" />
-								<div class="mail__text">
-									<h6 class="h6">E-mail:</h6>
-									<a href="mailto:contact@playjoystudios.com">
-										contact@playjoystudios.com
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<nav class="footer__menu">
-							<!-- <div class="menu__col">
-                <a href="#" class="h5 menu__heading">Projects</a>
-
-                <a href="game-porting.html" class="menu__link">Game Porting</a>
-                <a href="co-development.html" class="menu__link">Co-Development</a>
-                <a href="full-cycle-development.html" class="menu__link">
-                  Full-Cycle Development
-                </a>
-                <a href="html5-playable-ads.html" class="menu__link">
-                  HTML5 Playable Ads
-                </a>
-                <a href="level-design.html" class="menu__link">Level Design</a>
-                <a href="game-localization.html" class="menu__link">
-                  Game Localization
-                </a>
-              </div> -->
-
-							<div class="menu__col">
-								<a href="services.html" class="h5 menu__heading">Services</a>
-
-								<a href="game-porting.html" class="menu__link">Game Porting</a>
-								<a href="co-development.html" class="menu__link">
-									Co-Development
-								</a>
-								<a href="full-cycle-development.html" class="menu__link">
-									Full-Cycle Development
-								</a>
-								<a href="html5-playable-ads.html" class="menu__link">
-									HTML5 Playable Ads
-								</a>
-								<a href="game-design.html" class="menu__link">Game Design</a>
-								<a href="level-design.html" class="menu__link">Level Design</a>
-								<a href="game-localization.html" class="menu__link">
-									Game Localization
-								</a>
-								<a href="game-economy.html" class="menu__link">Game Economy</a>
-							</div>
-
-							<div class="menu__col">
-								<h5 class="h5 menu__heading">About company</h5>
-
-								<a href="about-us.html" class="menu__link">About us</a>
-								<a href="join-us.html" class="menu__link">Join us</a>
-								<a href="projects.html" class="menu__link">Projects</a>
-								<a
-									href="privacy-policy.html"
-									class="menu__link"
-									target="_blank"
-								>
-									Privacy Policy
-								</a>
-
-								<div class="footer__social-links">
-									<h5 class="h5 social-links__heading">Follow us:</h5>
-
-									<a
-										href="https://www.facebook.com/playjoystudios"
-										class="social-links__link"
-										target="_blank"
-									>
-										<img src="img/icons/facebook.svg" alt="Facebook" />
-									</a>
-
-									<a
-										href="https://www.linkedin.com/company/playjoy-studios"
-										class="social-links__link"
-										target="_blank"
-									>
-										<img src="img/icons/linkedin.svg" alt="LinkedIn" />
-									</a>
-								</div>
-							</div>
-						</nav>
-					</div>
-
-					<div class="col-12 footer_bottom">
-						<p class="footer__copyrights">
-							&#169; 2021. PlayJoy. All rights reserved
-						</p>
-						<a
-							href="privacy-policy.html"
-							class="footer__privacy-mobile"
-							target="_blank"
-						>
-							Privacy Policy
-						</a>
-						<button class="footer__to-top">
-							<i class="fas fa-chevron-up"></i>
-						</button>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-		<script src="libs/aos/aos.js"></script>
-	</body>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ergo</title>
+    <script
+      type="text/javascript"
+      nonce="515b27bbf0f342b9bc714a80c0b"
+      src="//local.adguard.org?ts=1633273002100&amp;type=content-script&amp;dmn=dima34.github.io&amp;app=com.google.Chrome.helper&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0"
+    ></script>
+    <script
+      type="text/javascript"
+      nonce="515b27bbf0f342b9bc714a80c0b"
+      src="//local.adguard.org?ts=1633273002100&amp;name=AdGuard%20Extra&amp;type=user-script"
+    ></script>
+    <link rel="icon" href="./img/favicon.ico" type="image/ico" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper intro-wrapper">
+      <section class="intro">
+        <div class="intro__header">
+          <h2 class="intro__header-description">смарт<br />телевізори</h2>
+          <a href="./index.html"
+            ><img
+              class="intro__header-logo"
+              width="287.59"
+              height="107.21"
+              src="./img/logo.svg"
+              alt="ergo logo"
+              width="109"
+              height="41"
+          /></a>
+        </div>
+        <h1 class="intro__title">
+          РОЗКІШ —<br />
+          <span>це твоє!</span>
+        </h1>
+      </section>
+    </div>
+
+    <div class="wrapper characteristic-wrapper">
+      <section class="characteristic">
+        <div class="characteristic__content">
+          <ul class="characteristic__content-left">
+            <li>Neo Vision</li>
+            <li>Smart TV</li>
+            <li>WEB OS</li>
+            <li>4K</li>
+          </ul>
+          <ul class="characteristic__content-right">
+            <li>HDR</li>
+            <li>Потужний звук</li>
+            <li>
+              Безрамковий <br />
+              дизайн
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapper vision-wrapper">
+      <section class="vision">
+        <video
+          src="./video/neo-video.mp4"
+          class="vision__video"
+          loop
+          muted
+          autoplay
+        ></video>
+
+        <h2 class="vision__title">Neo Vision</h2>
+        <h3 class="vision__subtitle">новий формат зображення</h3>
+        <p class="vision__description">
+          функція покращення зображення телевізора на процесорному рівні. яка
+          поэднує алгоритми інтелектуальної обробки відеопотоку і робить
+          зображення розкішним
+        </p>
+      </section>
+    </div>
+
+    <div class="wrapper royality-wrapper">
+      <section class="royality">
+        <h2 class="royality__title">розкішний</h2>
+        <h3 class="royality__subtitle">безрамковий дизайн</h3>
+      </section>
+    </div>
+
+    <div class="video-wrapper">
+      <section class="video">
+        <iframe
+          src="https://www.youtube.com/embed/B0U9Wlvg9dU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </div>
+
+    <div class="wrapper controls-wrapper">
+      <section class="controls">
+        <h2 class="controls__title">
+          magic <br />
+          remote <br class="br-mob" />
+          control
+        </h2>
+        <h3 class="controls__subtitle">
+          Багатофункціональний<br class="br-mob" />
+          Smart-пульт
+        </h3>
+        <p class="controls__description">
+          Завдяки зручному колесу прокрутки, голосовому управлінню та проcтій
+          навігації magic remote перетворює користування в чисте задоволення.
+        </p>
+
+        <ul class="controls__benefits">
+          <li class="benefits_item">
+            <svg
+              class="benefit__thumb"
+              width="174"
+              height="177"
+              viewBox="0 0 174 177"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_f)">
+                <path
+                  d="M96.4577 20.0247C79.5987 19.5987 63.0609 24.6835 49.3534 34.5076C35.646 44.3318 25.5171 58.359 20.5037 74.4609L29.812 77.3591C34.1947 63.2826 43.0494 51.02 55.0326 42.4317C67.0157 33.8434 81.4732 29.3982 96.2115 29.7706L96.4577 20.0247Z"
+                  fill="#019BF4"
+                />
+              </g>
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint0_linear)"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint1_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint2_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <mask id="path-3-inside-1" fill="white">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M116.235 123.597C116.562 123.885 117.075 123.645 117.064 123.209L115.538 60.6449C115.527 60.22 115.025 60.001 114.707 60.2826L68.0345 101.559C67.7202 101.837 67.8674 102.355 68.2808 102.426L84.4986 105.219C84.8194 105.274 85.0027 105.616 84.8709 105.914L72.9384 132.872C72.8266 133.124 72.9407 133.419 73.1932 133.531L91.2019 141.503C91.4544 141.614 91.7497 141.5 91.8615 141.248L104.035 113.745C104.172 113.436 104.569 113.349 104.823 113.571L116.235 123.597Z"
+                />
+              </mask>
+              <path
+                d="M91.2019 141.503L92.0114 139.674L91.2019 141.503ZM91.8615 141.248L90.0326 140.438L91.8615 141.248ZM72.9384 132.872L74.7672 133.681L72.9384 132.872ZM73.1932 133.531L74.0027 131.702L73.1932 133.531ZM84.4986 105.219L84.838 103.248L84.4986 105.219ZM84.8709 105.914L83.0421 105.104L84.8709 105.914ZM68.0345 101.559L69.3594 103.057L68.0345 101.559ZM68.2808 102.426L67.9414 104.397L68.2808 102.426ZM117.064 123.209L115.065 123.258L117.064 123.209ZM116.235 123.597L114.915 125.1L116.235 123.597ZM115.538 60.6449L113.538 60.6937L115.538 60.6449ZM114.707 60.2826L116.032 61.7808L114.707 60.2826ZM113.538 60.6937L115.065 123.258L119.064 123.161L117.537 60.5962L113.538 60.6937ZM69.3594 103.057L116.032 61.7808L113.382 58.7844L66.7095 100.061L69.3594 103.057ZM84.838 103.248L68.6203 100.455L67.9414 104.397L84.1592 107.19L84.838 103.248ZM74.7672 133.681L86.6998 106.723L83.0421 105.104L71.1095 132.062L74.7672 133.681ZM92.0114 139.674L74.0027 131.702L72.3837 135.36L90.3924 143.331L92.0114 139.674ZM102.207 112.935L90.0326 140.438L93.6903 142.057L105.864 114.554L102.207 112.935ZM117.555 122.095L106.143 112.069L103.503 115.074L114.915 125.1L117.555 122.095ZM105.864 114.554C105.454 115.48 104.263 115.742 103.503 115.074L106.143 112.069C104.875 110.955 102.89 111.392 102.207 112.935L105.864 114.554ZM90.3924 143.331C91.6549 143.89 93.1315 143.32 93.6903 142.057L90.0326 140.438C90.368 139.681 91.2539 139.338 92.0114 139.674L90.3924 143.331ZM71.1095 132.062C70.5507 133.325 71.1211 134.801 72.3837 135.36L74.0027 131.702C74.7603 132.038 75.1025 132.924 74.7672 133.681L71.1095 132.062ZM84.1592 107.19C83.1967 107.024 82.6468 105.997 83.0421 105.104L86.6998 106.723C87.3586 105.235 86.4421 103.524 84.838 103.248L84.1592 107.19ZM66.7095 100.061C65.138 101.45 65.874 104.041 67.9414 104.397L68.6203 100.455C69.8607 100.669 70.3023 102.223 69.3594 103.057L66.7095 100.061ZM115.065 123.258C115.033 121.951 116.572 121.232 117.555 122.095L114.915 125.1C116.552 126.538 119.117 125.339 119.064 123.161L115.065 123.258ZM117.537 60.5962C117.485 58.4713 114.974 57.3764 113.382 58.7844L116.032 61.7808C115.076 62.6256 113.569 61.9686 113.538 60.6937L117.537 60.5962Z"
+                fill="white"
+                mask="url(#path-3-inside-1)"
+              />
+              <defs>
+                <filter
+                  id="filter0_f"
+                  x="0.503906"
+                  y="0"
+                  width="115.953"
+                  height="97.3594"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="10"
+                    result="effect1_foregroundBlur"
+                  />
+                </filter>
+                <linearGradient
+                  id="paint0_linear"
+                  x1="55.2393"
+                  y1="35.0269"
+                  x2="143.717"
+                  y2="167.758"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="0.435881" stop-color="#003759" />
+                  <stop offset="0.777003" stop-color="#0075D0" />
+                  <stop offset="0.895432" stop-color="#00B0FF" />
+                  <stop offset="1" stop-color="#00FFFF" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear"
+                  x1="115.553"
+                  y1="85.8039"
+                  x2="162.31"
+                  y2="43.0393"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#082E47" />
+                  <stop offset="1" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear"
+                  x1="57.3305"
+                  y1="36.5865"
+                  x2="179.835"
+                  y2="99.1611"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop
+                    offset="0.645831"
+                    stop-color="white"
+                    stop-opacity="0.0350791"
+                  />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <p class="benefit__description">
+              Режим <br />
+              указки
+            </p>
+          </li>
+
+          <li class="benefits_item">
+            <svg
+              class="benefit__thumb"
+              width="174"
+              height="177"
+              viewBox="0 0 174 177"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_f)">
+                <path
+                  d="M96.4577 20.0247C79.5987 19.5987 63.0609 24.6835 49.3534 34.5076C35.646 44.3318 25.5171 58.359 20.5037 74.4609L29.812 77.3591C34.1947 63.2826 43.0494 51.02 55.0326 42.4317C67.0157 33.8434 81.4732 29.3982 96.2115 29.7706L96.4577 20.0247Z"
+                  fill="#019BF4"
+                />
+              </g>
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint0_linear)"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint1_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint2_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <path
+                d="M81.2344 62.8604L94.1857 54.2249C94.5175 54.0036 94.9492 54.0007 95.284 54.2176L108.629 62.8604"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M108.629 136.386L95.6776 145.021C95.3457 145.242 94.9141 145.245 94.5793 145.029L81.2339 136.386"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <rect
+                x="78.5527"
+                y="73.0996"
+                width="33.1273"
+                height="53.0473"
+                rx="16"
+                stroke="white"
+                stroke-width="2"
+              />
+              <defs>
+                <filter
+                  id="filter0_f"
+                  x="0.503906"
+                  y="0"
+                  width="115.953"
+                  height="97.3594"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="10"
+                    result="effect1_foregroundBlur"
+                  />
+                </filter>
+                <linearGradient
+                  id="paint0_linear"
+                  x1="55.2393"
+                  y1="35.0269"
+                  x2="143.717"
+                  y2="167.758"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="0.435881" stop-color="#003759" />
+                  <stop offset="0.777003" stop-color="#0075D0" />
+                  <stop offset="0.895432" stop-color="#00B0FF" />
+                  <stop offset="1" stop-color="#00FFFF" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear"
+                  x1="115.553"
+                  y1="85.8039"
+                  x2="162.31"
+                  y2="43.0393"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#082E47" />
+                  <stop offset="1" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear"
+                  x1="57.3305"
+                  y1="36.5865"
+                  x2="179.835"
+                  y2="99.1611"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop
+                    offset="0.645831"
+                    stop-color="white"
+                    stop-opacity="0.0350791"
+                  />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <p class="benefit__description">
+              Колесо <br />
+              прокрутки
+            </p>
+          </li>
+
+          <li class="benefits_item">
+            <svg
+              class="benefit__thumb"
+              width="174"
+              height="177"
+              viewBox="0 0 174 177"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_f)">
+                <path
+                  d="M96.4577 20.0247C79.5987 19.5987 63.0609 24.6835 49.3534 34.5076C35.646 44.3318 25.5171 58.359 20.5037 74.4609L29.812 77.3591C34.1947 63.2826 43.0494 51.02 55.0326 42.4317C67.0157 33.8434 81.4732 29.3982 96.2115 29.7706L96.4577 20.0247Z"
+                  fill="#019BF4"
+                />
+              </g>
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint0_linear)"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint1_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint2_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <path
+                d="M81.957 142.627H107.984"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <rect
+                x="77.9355"
+                y="58.2549"
+                width="33.1273"
+                height="61.2006"
+                rx="16"
+                stroke="white"
+                stroke-width="2"
+              />
+              <path
+                d="M121.269 104.445C120.668 113.282 114.525 130.954 94.7615 130.954C74.9982 130.954 68.9631 113.282 68.416 104.445"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <defs>
+                <filter
+                  id="filter0_f"
+                  x="0.503906"
+                  y="0"
+                  width="115.953"
+                  height="97.3594"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="10"
+                    result="effect1_foregroundBlur"
+                  />
+                </filter>
+                <linearGradient
+                  id="paint0_linear"
+                  x1="55.2393"
+                  y1="35.0269"
+                  x2="143.717"
+                  y2="167.758"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="0.435881" stop-color="#003759" />
+                  <stop offset="0.777003" stop-color="#0075D0" />
+                  <stop offset="0.895432" stop-color="#00B0FF" />
+                  <stop offset="1" stop-color="#00FFFF" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear"
+                  x1="115.553"
+                  y1="85.8039"
+                  x2="162.31"
+                  y2="43.0393"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#082E47" />
+                  <stop offset="1" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear"
+                  x1="57.3305"
+                  y1="36.5865"
+                  x2="179.835"
+                  y2="99.1611"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop
+                    offset="0.645831"
+                    stop-color="white"
+                    stop-opacity="0.0350791"
+                  />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <p class="benefit__description">
+              Голосове <br />
+              керування
+            </p>
+          </li>
+
+          <li class="benefits_item">
+            <svg
+              class="benefit__thumb"
+              width="174"
+              height="177"
+              viewBox="0 0 174 177"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_f)">
+                <path
+                  d="M96.4577 20.0247C79.5987 19.5987 63.0609 24.6835 49.3534 34.5076C35.646 44.3318 25.5171 58.359 20.5037 74.4609L29.812 77.3591C34.1947 63.2826 43.0494 51.02 55.0326 42.4317C67.0157 33.8434 81.4732 29.3982 96.2115 29.7706L96.4577 20.0247Z"
+                  fill="#019BF4"
+                />
+              </g>
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint0_linear)"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint1_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <circle
+                cx="95.75"
+                cy="99.1611"
+                r="75.5"
+                stroke="url(#paint2_linear)"
+                stroke-opacity="0.2"
+                stroke-width="4"
+              />
+              <path
+                d="M74.6602 82.8314L115.165 117.795C115.584 118.158 115.629 118.792 115.265 119.21L97.6303 139.412C97.0227 140.108 95.8769 139.678 95.8769 138.754V61.1163C95.8769 60.1986 97.0096 59.7655 97.6218 60.4491L115.264 80.1461C115.63 80.5551 115.598 81.183 115.192 81.5527L74.6602 118.453"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <defs>
+                <filter
+                  id="filter0_f"
+                  x="0.503906"
+                  y="0"
+                  width="115.953"
+                  height="97.3594"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="10"
+                    result="effect1_foregroundBlur"
+                  />
+                </filter>
+                <linearGradient
+                  id="paint0_linear"
+                  x1="55.2393"
+                  y1="35.0269"
+                  x2="143.717"
+                  y2="167.758"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop offset="0.435881" stop-color="#003759" />
+                  <stop offset="0.777003" stop-color="#0075D0" />
+                  <stop offset="0.895432" stop-color="#00B0FF" />
+                  <stop offset="1" stop-color="#00FFFF" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear"
+                  x1="115.553"
+                  y1="85.8039"
+                  x2="162.31"
+                  y2="43.0393"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#082E47" />
+                  <stop offset="1" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear"
+                  x1="57.3305"
+                  y1="36.5865"
+                  x2="179.835"
+                  y2="99.1611"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" />
+                  <stop
+                    offset="0.645831"
+                    stop-color="white"
+                    stop-opacity="0.0350791"
+                  />
+                  <stop offset="1" stop-color="white" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <p class="benefit__description">Bluetooth</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="wrapper sound-wrapper">
+      <section class="sound">
+        <h2 class="sound__title">20 Вт</h2>
+        <h3 class="sound__subtitle">power sound</h3>
+
+        <div class="sound__characteristics">
+          <p>
+            підтримка<br class="br-mob" />
+            аудіо кодеків <br class="br-ds" /><br class="br-mob" />
+            DOLBY DIGITAL, AAC
+          </p>
+          <p>
+            виразні<br class="br-mob" /><br class="br-ds" />
+            низькі частоти
+          </p>
+          <p>
+            підключення<br class="br-mob" />
+            HI-FI акустики<br class="br-ds" />
+            <br class="br-mob" />
+            HDMI ARC, COAXIAL
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <footer id="footer">
+      <a
+        href="https://ergo-ua.com/ua/products/tvs/?filter=77765&amp;utm_source=site&amp;utm_medium=click&amp;utm_campaign=newtv2"
+        >Переглянути моделi</a
+      >
+    </footer>
+
+    <script>
+      const footer = document.querySelector("footer");
+
+      window.addEventListener("scroll", () => {
+        window.scrollY > 250
+          ? footer.classList.add("active")
+          : footer.classList.remove("active");
+      });
+    </script>
+  </body>
 </html>
