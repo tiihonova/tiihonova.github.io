@@ -179,7 +179,7 @@ body {
 .vision__description {
   font-size: 1.2vw;
   letter-spacing: 0.068em;
-  line-height: 1.9vw;
+  line-height: 2vw;
   margin-top: 1.7vw;
   text-shadow: black 1px 1px 15px;
   color: white;
@@ -361,7 +361,7 @@ body {
 }
 
 .sound__characteristics {
-  margin-top: 17.3vw;
+  margin-top: 16vw;
   display: flex;
   font-size: 1.2vw;
   line-height: 1.5vw;
