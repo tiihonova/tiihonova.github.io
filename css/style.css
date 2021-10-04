@@ -184,7 +184,7 @@ body {
   text-shadow: black 1px 1px 15px;
   color: white;
   margin-left: 28.2vw;
-  max-width: 59vw;
+  max-width: 56.5vw;
   font-weight: 300;
 }
 
@@ -565,10 +565,15 @@ footer a:hover {
     margin-top: 3.4vw;
     text-shadow: black 1px 1px 15px;
     color: white;
-    max-width: 87vw;
+    max-width: 86vw;
     font-weight: unset;
-    line-height: unset;
+    line-height: 1.1;
     margin-left: 0;
+    text-align: justify;
+    letter-spacing: 0;
+  }
+  .mobile-decs {
+    margin-left: 25%;
   }
   .royality {
     position: absolute;
@@ -719,6 +724,7 @@ footer a:hover {
     padding-left: 5vw;
     padding-right: 6vw;
   }
+  .mobile-footer {
+    height: 65px;
+  }
 }
-
-/*# sourceMappingURL=style.css.map */
