@@ -565,16 +565,12 @@ footer a:hover {
     margin-top: 3.4vw;
     text-shadow: black 1px 1px 15px;
     color: white;
-    max-width: 86vw;
+    max-width: 87vw;
     font-weight: unset;
     line-height: 1.1;
     margin-left: 0;
-    text-align: justify;
-    letter-spacing: 0;
   }
-  .mobile-decs {
-    margin-left: 25%;
-  }
+
   .royality {
     position: absolute;
     left: 0;
