@@ -12,6 +12,19 @@
   src: url("../fonts/GothamPro.woff2");
 }
 
+.background_part1 {
+  width: 100vw;
+  background: url(../img/bg-1.webp);
+  background-size: cover;
+  height: 197.92vw;
+}
+
+.background_part2 {
+  width: 100vw;
+  background: url(../img/bg-2.webp);
+  background-size: cover;
+}
+
 .br-mob {
   display: none;
 }
@@ -40,14 +53,13 @@ body {
 }
 
 .intro-wrapper {
-  padding-bottom: calc(11 / 24 * 100%);
+  padding-bottom: calc(800 / 1920 * 100%);
 }
 
 .intro {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../img/1-mob.png) center;
   background-size: cover;
   margin: 0 auto;
   width: 100%;
@@ -58,8 +70,8 @@ body {
 
 .intro__header {
   margin-left: auto;
-  margin-right: 8.2vw;
-  margin-top: 12.75vw;
+  margin-right: 8.4vw;
+  margin-top: 12.9vw;
   display: flex;
 }
 
@@ -82,7 +94,7 @@ body {
   margin-left: auto;
   font-size: 5vw;
   line-height: 4vw;
-  margin-bottom: 7vw;
+  margin-bottom: 3.19vw;
   margin-right: 8.1vw;
   text-align: right;
   color: #a9ebff;
@@ -96,7 +108,7 @@ body {
 }
 
 .characteristic-wrapper {
-  padding-bottom: calc(3 / 8 * 100%);
+  padding-bottom: calc(800 / 1920 * 100%);
 }
 
 .characteristic {
@@ -104,7 +116,6 @@ body {
   left: 0;
   top: 0;
   height: 100%;
-  background: url(../img/2-mob.png) center;
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
@@ -115,9 +126,8 @@ body {
   flex-direction: column;
   width: fit-content;
   width: -moz-fit-content;
-  /* margin: 0 auto; */
   margin-bottom: 11.5vw;
-  margin-top: 5.8vw;
+  margin-top: 9.6vw;
   padding-left: 7vw;
   color: white;
   font-size: 2vw;
@@ -142,7 +152,6 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../img/3-mob.png) center;
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
@@ -155,14 +164,13 @@ body {
   aspect-ratio: 16/9;
   margin-top: 6.2vw;
   width: 70vw;
-  margin-left: 0.3vw;
   align-self: center;
 }
 
 .vision__title {
   color: #a9ebff;
   font-size: 4.6vw;
-  margin-top: 8.11vw;
+  margin-top: 7.05vw;
   text-shadow: black 1px 1px 15px;
   margin-left: 15vw;
 }
@@ -178,13 +186,12 @@ body {
 
 .vision__description {
   font-size: 1.2vw;
-  letter-spacing: 0.068em;
-  line-height: 2vw;
+  line-height: 1.9vw;
   margin-top: 1.7vw;
   text-shadow: black 1px 1px 15px;
   color: white;
   margin-left: 28.2vw;
-  max-width: 56.5vw;
+  max-width: 58vw;
   font-weight: 300;
 }
 
@@ -196,7 +203,6 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../img/4-mob.png) center;
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
@@ -218,10 +224,10 @@ body {
 
 .royality__subtitle {
   font-size: 2.2vw;
-  margin-top: 1.35vw;
+  margin-top: 1.26vw;
   text-shadow: black 1px 1px 15px;
   color: white;
-  margin-bottom: 7vw;
+  margin-bottom: 9.7vw;
   margin-right: 8.1vw;
   letter-spacing: 0.134vw;
 }
@@ -252,7 +258,6 @@ body {
   left: 0;
   top: 0;
   height: 100%;
-  background: url(../img/6-mob.png) center;
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
@@ -297,9 +302,9 @@ body {
   width: fit-content;
   width: -moz-fit-content;
   justify-content: space-between;
-  margin-top: 1.3vw;
   margin-left: 6.8vw;
   gap: 2.8vw;
+  margin-top: 1.6vw;
 }
 
 .benefits_item {
@@ -318,11 +323,11 @@ body {
 }
 
 .benefit__description {
-  font-size: 1.5vw;
-  margin-top: 0.8vw;
+  font-size: 1.3vw;
+  margin-top: 1.6vw;
   color: white;
   text-align: center;
-  line-height: 2vw;
+  line-height: 1.55vw;
 }
 
 .sound-wrapper {
@@ -330,7 +335,6 @@ body {
 }
 
 .sound {
-  background: url(../img/7-mob.png) center;
   background-size: cover;
   margin: 0 auto;
   width: 100vw;
@@ -346,7 +350,7 @@ body {
 .sound__title {
   color: #a9ebff;
   font-size: 4.7vw;
-  margin-top: 4.95vw;
+  margin-top: 4.5vw;
   line-height: 6.4vw;
   text-shadow: black 1px 1px 15px;
 }
@@ -361,7 +365,7 @@ body {
 }
 
 .sound__characteristics {
-  margin-top: 16vw;
+  margin-top: 16.5vw;
   display: flex;
   font-size: 1.2vw;
   line-height: 1.5vw;
@@ -412,6 +416,11 @@ footer a:hover {
 }
 
 @media screen and (max-width: 501px) {
+  .background_part1,
+  .background_part2 {
+    background: 0;
+    height: unset;
+  }
   .br-mob {
     display: block;
   }
@@ -437,7 +446,7 @@ footer a:hover {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(../img/1.png) center;
+    background: url(../img/1.webp) center;
     background-size: cover;
     margin: 0 auto;
     width: 100%;
@@ -486,7 +495,7 @@ footer a:hover {
     left: 0;
     top: 0;
     height: 100%;
-    background: url(../img/2.png) center;
+    background: url(../img/2.webp) center;
     background-size: cover;
     margin: 0 auto;
     width: 100vw;
@@ -526,11 +535,15 @@ footer a:hover {
   .characteristic__content-right li {
     text-align: left;
   }
+  .characteristic__content-right li:last-child {
+    line-height: 3.5vw;
+    margin-top: 0.5vw;
+  }
   .vision {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(../img/3.png) center;
+    background: url(../img/3.webp) center;
     background-size: cover;
     margin: 0 auto;
     width: 100vw;
@@ -561,21 +574,25 @@ footer a:hover {
     margin-left: 0;
   }
   .vision__description {
+    letter-spacing: 0;
     font-size: 2.8vw;
     margin-top: 3.4vw;
     text-shadow: black 1px 1px 15px;
     color: white;
     max-width: 87vw;
-    font-weight: unset;
     line-height: 1.1;
+    text-align: justify;
     margin-left: 0;
+  }
+  .vision__mobile {
+    margin-left: 25%;
   }
 
   .royality {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(../img/4.png) center;
+    background: url(../img/4.webp) center;
     background-size: cover;
     margin: 0 auto;
     width: 100vw;
@@ -618,6 +635,7 @@ footer a:hover {
     height: 100%;
   }
   .controls-wrapper {
+    z-index: 2;
     padding-bottom: calc(120 / 128 * 100%);
   }
   .controls {
@@ -625,7 +643,7 @@ footer a:hover {
     left: 0;
     top: 0;
     height: 100%;
-    background: url(../img/6.png) center;
+    background: url(../img/6.webp) center;
     background-size: cover;
     margin: 0 auto;
     width: 100vw;
@@ -676,13 +694,14 @@ footer a:hover {
   }
   .benefit__description {
     font-size: 2.8vw;
-    margin-top: 1.8vw;
+    line-height: 3.2vw;
+    margin-top: 1.7vw;
     color: white;
     text-align: center;
-    line-height: unset;
+    font-weight: 400;
   }
   .sound {
-    background: url(../img/7.png) center;
+    background: url(../img/7.webp) center;
     background-size: cover;
     margin: 0 auto;
     width: 100vw;
@@ -720,7 +739,7 @@ footer a:hover {
     padding-left: 5vw;
     padding-right: 6vw;
   }
-  .mobile-footer {
-    height: 65px;
+  .footer__mobile {
+    height: 75px;
   }
 }
