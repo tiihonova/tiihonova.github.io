@@ -585,7 +585,11 @@ footer a:hover {
     margin-left: 0;
   }
   .vision__mobile {
-    margin-left: 25%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    transform: translate(-50%, 0);
   }
 
   .royality {
